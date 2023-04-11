@@ -34,6 +34,7 @@
   * [Convex](core-concepts/supported-strategies/convex.md)
   * [Curve AMO](core-concepts/supported-strategies/curve-metapools.md)
   * [Morpho](core-concepts/supported-strategies/morpho.md)
+* [The Dripper](core-concepts/the-dripper.md)
 * [Fund Management](core-concepts/fund-management.md)
 * [Price Oracles](core-concepts/price-oracles.md)
 

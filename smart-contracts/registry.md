@@ -3,7 +3,7 @@
 Here is the full registry of OUSD smart contracts that have been deployed to the Ethereum mainnet.
 
 {% hint style="success" %}
-The main ERC20 address for Origin Dollar (OUSD) is: \
+The main ERC20 address for Origin Dollar (OUSD) is:\
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
@@ -11,21 +11,21 @@ The main ERC20 address for Origin Dollar (OUSD) is: \
 
 Most of our contracts are upgradable via a well-known proxy wrapper and an implementation contract. The Vault is split into VaultAdmin and VaultCore to work around the maximum contract size limit on Ethereum
 
-| Contract             | Address                                                                                                                    | ENS                                                                                                                                                     |
-| -------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| OUSD                 | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)      | <p><a href="https://etherscan.io/address/ousd.eth">ousd.eth</a> </p><p><a href="https://etherscan.io/address/origindollar.eth">origindollar.eth</a></p> |
-| OUSD Implementation  | [0x33db8d52d65F75E4cdDA1b02463760c9561A2aa1](https://etherscan.io/address/0x33db8d52d65F75E4cdDA1b02463760c9561A2aa1)      |                                                                                                                                                         |
-| wOUSD                | [0xD2af830E8CBdFed6CC11Bab697bB25496ed6FA62](https://etherscan.io/address/0xD2af830E8CBdFed6CC11Bab697bB25496ed6FA62)      | [wousd.eth](https://etherscan.io/address/wousd.eth)                                                                                                     |
-| wOUSD Implementation | [0xbf3b9b141cb3629f5bb8f721cba9265c92494539](https://etherscan.io/address/0xbf3b9b141cb3629f5bb8f721cba9265c92494539)      |                                                                                                                                                         |
-| Vault                | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70)      | [originvault.eth](https://etherscan.io/address/originvault.eth)                                                                                         |
-| VaultAdmin           | [0x6a16335a203d4151892ca1260cca9d500fe82298](https://etherscan.io/address/0x6a16335a203d4151892ca1260cca9d500fe82298#code) |                                                                                                                                                         |
-| VaultCore            | [0x48cf14dea2f5dd31c57218877195913412d3278a](https://etherscan.io/address/0x48cf14dea2f5dd31c57218877195913412d3278a)      |                                                                                                                                                         |
+| Contract             | Address                                                                                                                    | ENS                                                                                                                                                    |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| OUSD                 | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)      | <p><a href="https://etherscan.io/address/ousd.eth">ousd.eth</a></p><p><a href="https://etherscan.io/address/origindollar.eth">origindollar.eth</a></p> |
+| OUSD Implementation  | [0x33db8d52d65F75E4cdDA1b02463760c9561A2aa1](https://etherscan.io/address/0x33db8d52d65F75E4cdDA1b02463760c9561A2aa1)      |                                                                                                                                                        |
+| wOUSD                | [0xD2af830E8CBdFed6CC11Bab697bB25496ed6FA62](https://etherscan.io/address/0xD2af830E8CBdFed6CC11Bab697bB25496ed6FA62)      | [wousd.eth](https://etherscan.io/address/wousd.eth)                                                                                                    |
+| wOUSD Implementation | [0xbf3b9b141cb3629f5bb8f721cba9265c92494539](https://etherscan.io/address/0xbf3b9b141cb3629f5bb8f721cba9265c92494539)      |                                                                                                                                                        |
+| Vault                | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70)      | [originvault.eth](https://etherscan.io/address/originvault.eth)                                                                                        |
+| VaultAdmin           | [0x6a16335a203d4151892ca1260cca9d500fe82298](https://etherscan.io/address/0x6a16335a203d4151892ca1260cca9d500fe82298#code) |                                                                                                                                                        |
+| VaultCore            | [0x48cf14dea2f5dd31c57218877195913412d3278a](https://etherscan.io/address/0x48cf14dea2f5dd31c57218877195913412d3278a)      |                                                                                                                                                        |
 
-****
+***
 
 **OGV Governance & Staking**
 
-OGV **** can be locked in exchange for veOGV to get economic and governance rights over OUSD.&#x20;
+OGV can be locked in exchange for veOGV to get economic and governance rights over OUSD.
 
 | Contract      | Address                                                                                                               | ENS                                                                                                                                               |
 | ------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -33,21 +33,21 @@ OGV **** can be locked in exchange for veOGV to get economic and governance righ
 | veOGV         | [0x0c4576ca1c365868e162554af8e385dc3e7c66d9](https://etherscan.io/address/0x0c4576ca1c365868e162554af8e385dc3e7c66d9) | <p><a href="https://etherscan.io/address/veogv.eth">veogv.eth</a><br><a href="https://etherscan.io/address/ogvstaking.eth">ogvstaking.eth</a></p> |
 | RewardsSource | [0x7d82e86cf1496f9485a8ea04012afeb3c7489397](https://etherscan.io/address/0x7d82e86cf1496f9485a8ea04012afeb3c7489397) |                                                                                                                                                   |
 
-****
+***
 
 **Strategies**
 
-| Contract             | Address                                                                                                                    |
-| -------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Aave                 | [0x5e3646A1Db86993f73E6b74A57D8640B69F7e259](https://etherscan.io/address/0x5e3646A1Db86993f73E6b74A57D8640B69F7e259)      |
-| Compound             | [0x9c459eeb3FA179a40329b81C1635525e9A0Ef094](https://etherscan.io/address/0x9c459eeb3FA179a40329b81C1635525e9A0Ef094)      |
-| Convex DAI+USDC+USDT | [0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3](https://etherscan.io/address/0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3#code) |
-| Convex LUSD+3Crv     | [0x7A192DD9Cc4Ea9bdEdeC9992df74F1DA55e60a19](https://etherscan.io/address/0x7A192DD9Cc4Ea9bdEdeC9992df74F1DA55e60a19)      |
-| Convex OUSD+3Crv     | [0x89eb88fedc50fc77ae8a18aad1ca0ac27f777a90](https://etherscan.io/address/0x89eb88fedc50fc77ae8a18aad1ca0ac27f777a90#code) |
-| Morpho Compound      | [0x5A4eEe58744D1430876d5cA93cAB5CcB763C037D](https://etherscan.io/address/0x5A4eEe58744D1430876d5cA93cAB5CcB763C037D)      |
-| Morpho Aave          | [0x79F2188EF9350A1dC11A062cca0abE90684b0197](https://etherscan.io/address/0x79f2188ef9350a1dc11a062cca0abe90684b0197)      |
+| Contract               | Address                                                                                                                    |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Aave                   | [0x5e3646A1Db86993f73E6b74A57D8640B69F7e259](https://etherscan.io/address/0x5e3646A1Db86993f73E6b74A57D8640B69F7e259)      |
+| Compound               | [0x9c459eeb3FA179a40329b81C1635525e9A0Ef094](https://etherscan.io/address/0x9c459eeb3FA179a40329b81C1635525e9A0Ef094)      |
+| Convex DAI+USDC+USDT   | [0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3](https://etherscan.io/address/0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3#code) |
+| Convex LUSD+3Crv       | [0x7A192DD9Cc4Ea9bdEdeC9992df74F1DA55e60a19](https://etherscan.io/address/0x7A192DD9Cc4Ea9bdEdeC9992df74F1DA55e60a19)      |
+| Convex OUSD+3Crv (AMO) | [0x89eb88fedc50fc77ae8a18aad1ca0ac27f777a90](https://etherscan.io/address/0x89eb88fedc50fc77ae8a18aad1ca0ac27f777a90#code) |
+| Morpho Compound        | [0x5A4eEe58744D1430876d5cA93cAB5CcB763C037D](https://etherscan.io/address/0x5A4eEe58744D1430876d5cA93cAB5CcB763C037D)      |
+| Morpho Aave            | [0x79F2188EF9350A1dC11A062cca0abE90684b0197](https://etherscan.io/address/0x79f2188ef9350a1dc11a062cca0abe90684b0197)      |
 
-****
+***
 
 **Yield Harvesting & Collection**
 
@@ -57,7 +57,7 @@ OGV **** can be locked in exchange for veOGV to get economic and governance righ
 | Dripper       | [0x80c898ae5e56f888365e235ceb8cea3eb726cb58](https://etherscan.io/address/0x80c898ae5e56f888365e235ceb8cea3eb726cb58#code) | [origindripper.eth](https://etherscan.io/address/origindripper.eth)     |
 | Token Buyback | [0x6C5cdfB47150EFc52072cB93Eea1e0F123529748](https://etherscan.io/address/0x6c5cdfb47150efc52072cb93eea1e0f123529748)      | [originbuyback.eth](https://etherscan.io/address/originbuyback.eth)     |
 
-****
+***
 
 **Swapping**
 
@@ -67,7 +67,7 @@ Flipper is a gas-optimized way for users to swap in and out of OUSD at a fixed 1
 | -------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | Flipper  | [0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70](https://etherscan.io/address/0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70) | [originflipper.eth](https://etherscan.io/address/originflipper.eth) |
 
-****
+***
 
 **Timelock & Multisigs**
 
@@ -85,18 +85,18 @@ Chainlink Keepers are an automated and decentralized way for OUSD to perform reg
 | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------ |
 | [OUSD Keeper 3](https://automation.chain.link/mainnet/71) | [0x321e130c0a9cadb0f1ff07f024d6adb290788efb](https://etherscan.io/address/0x321e130c0a9cadb0f1ff07f024d6adb290788efb) | Executing a daily rebase |
 
-****
+***
 
 **Stablecoins**
 
-OUSD **** is backed by the following stablecoins:
+OUSD \*\*\*\* is backed by the following stablecoins:
 
 | [USDT](https://etherscan.io/address/0xdac17f958d2ee523a2206206994597c13d831ec7) | [0xdac17f958d2ee523a2206206994597c13d831ec7](https://etherscan.io/address/0xdac17f958d2ee523a2206206994597c13d831ec7) |
 | ------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | [USDC](https://etherscan.io/address/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48) | [0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48](https://etherscan.io/address/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48) |
 | [DAI](https://etherscan.io/address/0x6b175474e89094c44da98b954eedeac495271d0f)  | [0x6b175474e89094c44da98b954eedeac495271d0f](https://etherscan.io/address/0x6b175474e89094c44da98b954eedeac495271d0f) |
 
-****
+***
 
 **Oracles**
 
@@ -114,7 +114,7 @@ The following Chainlink oracles are used to protect the vault in case a backing 
 
 **Deprecated**
 
-These **** contacts are **** no longer actively used but are included here for historical purposes.
+These \*\*\*\* contacts are \*\*\*\* no longer actively used but are included here for historical purposes.
 
 | Contract                            | Address                                                                                                               |
 | ----------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
@@ -123,5 +123,3 @@ These **** contacts are **** no longer actively used but are included here for h
 | OUSD Compensation                   | [0x9C94df9d594BA1eb94430C006c269C314B1A8281](https://etherscan.io/address/0x9C94df9d594BA1eb94430C006c269C314B1A8281) |
 | Old OUSD Vault                      | [0x277e80f3E14E7fB3fc40A9d6184088e0241034bD](https://etherscan.io/address/0x277e80f3E14E7fB3fc40A9d6184088e0241034bD) |
 | Old Buyback Contract                | [0x77314EB392b2be47C014cde0706908b3307Ad6a9](https://etherscan.io/address/0x77314EB392b2be47C014cde0706908b3307Ad6a9) |
-
-&#x20;
