@@ -2,33 +2,46 @@
 
 Here is the full registry of OUSD smart contracts that have been deployed to the Ethereum mainnet.
 
-{% hint style="info" %}
-The main ERC20 address for Origin Dollar (OUSD) is:\
-**0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
-{% endhint %}
+**ERC20 Tokens**
 
-{% hint style="info" %}
-The main ERC20 address for Origin Ether (OETH) is:\
-**0x856c4Efb76C1D1AE02e20CEB03A2A6a08b0b8dC3**
-{% endhint %}
+| Contract | Address                                                                                                                                                                                                                                      |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| OUSD     | <p><a href="https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86"><img src="../.gitbook/assets/image (16).png" alt="" data-size="line"></a> 0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86<br>ousd.eth | origindollar.eth</p> |
+| OETH     | <p><a href="https://etherscan.io/address/0x856c4Efb76C1D1AE02e20CEB03A2A6a08b0b8dC3"><img src="../.gitbook/assets/image (2).png" alt="" data-size="line"></a> 0x856c4Efb76C1D1AE02e20CEB03A2A6a08b0b8dC3<br>origineth.eth</p>                |
+| wOUSD    | <p><a href="https://etherscan.io/address/0xD2af830E8CBdFed6CC11Bab697bB25496ed6FA62"><img src="../.gitbook/assets/image (24).png" alt="" data-size="line"></a> 0xD2af830E8CBdFed6CC11Bab697bB25496ed6FA62<br>wousd.eth</p>                   |
+| wOETH    | <p><a href="https://etherscan.io/address/0xDcEe70654261AF21C44c093C300eD3Bb97b78192"><img src="../.gitbook/assets/image (8).png" alt="" data-size="line"></a> 0xDcEe70654261AF21C44c093C300eD3Bb97b78192<br>woeth.eth</p>                    |
+| OGV      | <p><a href="https://etherscan.io/address/0x9c354503C38481a7A7a51629142963F98eCC12D0"><img src="../.gitbook/assets/image (25).png" alt="" data-size="line"></a> 0x9c354503C38481a7A7a51629142963F98eCC12D0<br>ogv.eth</p>                     |
+| veOGV    | <p><a href="https://etherscan.io/address/0x0C4576Ca1c365868E162554AF8e385dc3e7C66D9"><img src="../.gitbook/assets/image (10).png" alt="" data-size="line"></a> 0x0C4576Ca1c365868E162554AF8e385dc3e7C66D9<br>veogv.eth</p>                   |
 
 **OUSD Core**
 
 Most of our contracts are upgradable via a well-known proxy wrapper and an implementation contract. The Vault is split into VaultAdmin and VaultCore to work around the maximum contract size limit on Ethereum
 
-| Contract             | Address                                                                                                                                                                                                                                     |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| OUSD                 | <p><a href="https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86"><img src="../.gitbook/assets/image (3).png" alt="" data-size="line"></a> 0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86<br>ousd.eth | origindollar.eth</p> |
-| OUSD Implementation  | [<img src="../.gitbook/assets/image (2).png" alt="" data-size="line">](https://etherscan.io/address/0x33db8d52d65F75E4cdDA1b02463760c9561A2aa1) 0x33db8d52d65F75E4cdDA1b02463760c9561A2aa1                                                  |
-| wOUSD                | <p><a href="https://etherscan.io/address/0xD2af830E8CBdFed6CC11Bab697bB25496ed6FA62"><img src="../.gitbook/assets/image (5).png" alt="" data-size="line"></a> 0xD2af830E8CBdFed6CC11Bab697bB25496ed6FA62<br>wousd.eth</p>                   |
-| wOUSD Implementation | [<img src="../.gitbook/assets/image (8).png" alt="" data-size="line">](https://etherscan.io/address/0xbf3b9b141cb3629f5bb8f721cba9265c92494539) 0xbf3b9b141cb3629f5bb8f721cba9265c92494539                                                  |
-| Vault                | <p><a href="https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70"><img src="../.gitbook/assets/image (20).png" alt="" data-size="line"></a> 0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70<br>originvault.eth</p>            |
-| VaultAdmin           | [<img src="../.gitbook/assets/image (19).png" alt="" data-size="line">](https://etherscan.io/address/0x6a16335a203d4151892ca1260cca9d500fe82298#code) 0x6a16335a203d4151892ca1260cca9d500fe82298                                            |
-| VaultCore            | [<img src="../.gitbook/assets/image (21).png" alt="" data-size="line">](https://etherscan.io/address/0x48cf14dea2f5dd31c57218877195913412d3278a) 0x48cf14dea2f5dd31c57218877195913412d3278a                                                 |
+| Contract             | Address                                                                                                                                                                                                                          |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| OUSD Implementation  | [<img src="../.gitbook/assets/image (26).png" alt="" data-size="line">](https://etherscan.io/address/0x33db8d52d65F75E4cdDA1b02463760c9561A2aa1) 0x33db8d52d65F75E4cdDA1b02463760c9561A2aa1                                      |
+| wOUSD Implementation | [<img src="../.gitbook/assets/image (7).png" alt="" data-size="line">](https://etherscan.io/address/0xbf3b9b141cb3629f5bb8f721cba9265c92494539) 0xbf3b9b141cb3629f5bb8f721cba9265c92494539                                       |
+| Vault                | <p><a href="https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70"><img src="../.gitbook/assets/image (23).png" alt="" data-size="line"></a> 0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70<br>originvault.eth</p> |
+| VaultAdmin           | [<img src="../.gitbook/assets/image (19).png" alt="" data-size="line">](https://etherscan.io/address/0x6a16335a203d4151892ca1260cca9d500fe82298#code) 0x6a16335a203d4151892ca1260cca9d500fe82298                                 |
+| VaultCore            | [<img src="../.gitbook/assets/image (21).png" alt="" data-size="line">](https://etherscan.io/address/0x48cf14dea2f5dd31c57218877195913412d3278a) 0x48cf14dea2f5dd31c57218877195913412d3278a                                      |
 
 
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+**OUSD Core**
+
+Most of our contracts are upgradable via a well-known proxy wrapper and an implementation contract. The Vault is split into VaultAdmin and VaultCore to work around the maximum contract size limit on Ethereum
+
+| Contract             | Address                                                                                                                                                                                                                                      |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| OUSD                 | <p><a href="https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86"><img src="../.gitbook/assets/image (16).png" alt="" data-size="line"></a> 0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86<br>ousd.eth | origindollar.eth</p> |
+| OUSD Implementation  | [<img src="../.gitbook/assets/image (26).png" alt="" data-size="line">](https://etherscan.io/address/0x33db8d52d65F75E4cdDA1b02463760c9561A2aa1) 0x33db8d52d65F75E4cdDA1b02463760c9561A2aa1                                                  |
+| wOUSD                | <p><a href="https://etherscan.io/address/0xD2af830E8CBdFed6CC11Bab697bB25496ed6FA62"><img src="../.gitbook/assets/image (24).png" alt="" data-size="line"></a> 0xD2af830E8CBdFed6CC11Bab697bB25496ed6FA62<br>wousd.eth</p>                   |
+| wOUSD Implementation | [<img src="../.gitbook/assets/image (7).png" alt="" data-size="line">](https://etherscan.io/address/0xbf3b9b141cb3629f5bb8f721cba9265c92494539) 0xbf3b9b141cb3629f5bb8f721cba9265c92494539                                                   |
+| Vault                | <p><a href="https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70"><img src="../.gitbook/assets/image (23).png" alt="" data-size="line"></a> 0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70<br>originvault.eth</p>             |
+| VaultAdmin           | [<img src="../.gitbook/assets/image (19).png" alt="" data-size="line">](https://etherscan.io/address/0x6a16335a203d4151892ca1260cca9d500fe82298#code) 0x6a16335a203d4151892ca1260cca9d500fe82298                                             |
+| VaultCore            | [<img src="../.gitbook/assets/image (21).png" alt="" data-size="line">](https://etherscan.io/address/0x48cf14dea2f5dd31c57218877195913412d3278a) 0x48cf14dea2f5dd31c57218877195913412d3278a                                                  |
+
+
 
 ***
 
