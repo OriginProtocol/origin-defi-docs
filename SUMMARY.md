@@ -49,7 +49,9 @@
 ## Smart Contracts
 
 * [Architecture](smart-contracts/architecture.md)
-* [Registry](smart-contracts/registry.md)
+* [Registry](smart-contracts/registry/README.md)
+  * [OUSD Registry](smart-contracts/registry/registry.md)
+  * [OETH Registry](smart-contracts/registry/registry-1.md)
 * [API](smart-contracts/api/README.md)
   * [Vault](smart-contracts/api/vault.md)
   * [ERC-20](smart-contracts/api/erc-20-1.md)

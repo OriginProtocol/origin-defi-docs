@@ -4,9 +4,9 @@ Centralized exchanges will play an important role in helping us reach our goal o
 
 These docs are a great starting point for understanding how OUSD works. Here are some important questions for exchanges that wish to integrate OUSD to consider:
 
-**Do you want to participate in the yield that is generated?**&#x20;
+**Do you want to participate in the yield that is generated?**
 
-We're assuming the answer will be yes and we highly encourage this as well! However, there may be some instances where you would prefer to move fast and list OUSD without participating in the [rebasing nature of OUSD](../core-concepts/elastic-supply/rebasing-and-smart-contracts.md) since it's the fastest and simplest integration. For exchanges that want to list OUSD, but are strapped for engineering resources, you may want to launch the non-rebasing version first while your engineers make whatever changes are necessary. To make OUSD non-rebasing you can call `rebaseOptOut()` from each EOA wallet that holds OUSD, or do nothing if you are storing OUSD on smart contracts. Non-rebasing OUSD behaves just like any other ERC-20 token.&#x20;
+We're assuming the answer will be yes and we highly encourage this as well! However, there may be some instances where you would prefer to move fast and list OUSD without participating in the [rebasing nature of OUSD](../core-concepts/elastic-supply/rebasing-and-smart-contracts.md) since it's the fastest and simplest integration. For exchanges that want to list OUSD, but are strapped for engineering resources, you may want to launch the non-rebasing version first while your engineers make whatever changes are necessary. To make OUSD non-rebasing you can call `rebaseOptOut()` from each EOA wallet that holds OUSD, or do nothing if you are storing OUSD on smart contracts. Non-rebasing OUSD behaves just like any other ERC-20 token.
 
 Another option is to list [wrapped OUSD](../core-concepts/wrapped-ousd.md) (wOUSD) which is a non-rebasing version of OUSD that still earns yield. wOUSD can be wrapped or unwrapped anytime for native OUSD.
 
@@ -26,11 +26,10 @@ If you are comingling funds, you'll want to be sure that each user gets their pr
 
 **Are you planning to provide liquidity?**
 
-The Origin team is often willing to provide a market maker and initial liquidity for exchanges that wish to integrate OUSD. There are also 9 figures worth of liquidity available on decentralized exchanges like [Curve](https://curve.fi/factory/9).&#x20;
+The Origin team is often willing to provide a market maker and initial liquidity for exchanges that wish to integrate OUSD. There are also 9 figures worth of liquidity available on decentralized exchanges like [Curve](https://curve.fi/factory/9).
 
-If you are interested in using OUSD to power your own staking or earning program, you will probably want to be able to access OUSD on demand. OUSD can always be minted or redeemed  using the [Origin Dollar DApp](https://www.ousd.com), or directly from the OUSD [smart contracts](../smart-contracts/registry.md). If you are planning on providing liquidity yourself, you should be aware that the exact amount of OUSD you will receive in exchange for your USDT, USDC, or DAI depends on the current exchange rates as determined by the [oracles.](../core-concepts/price-oracles.md) If you are planning on redeeming OUSD for the underlying stablecoins, you should know there is a 0.25% exit fee and OUSD will return a basket of stable coins in proportion to the backing stablecoins in the pool. We encourage exchanges to leverage existing pools of liquidity to avoid those fees. If possible, mints or redeems should be done in large batches for maximum efficiency.&#x20;
+If you are interested in using OUSD to power your own staking or earning program, you will probably want to be able to access OUSD on demand. OUSD can always be minted or redeemed using the [Origin Dollar DApp](https://www.ousd.com), or directly from the OUSD [smart contracts](../smart-contracts/registry/). If you are planning on providing liquidity yourself, you should be aware that the exact amount of OUSD you will receive in exchange for your USDT, USDC, or DAI depends on the current exchange rates as determined by the [oracles.](../core-concepts/price-oracles.md) If you are planning on redeeming OUSD for the underlying stablecoins, you should know there is a 0.25% exit fee and OUSD will return a basket of stable coins in proportion to the backing stablecoins in the pool. We encourage exchanges to leverage existing pools of liquidity to avoid those fees. If possible, mints or redeems should be done in large batches for maximum efficiency.
 
 #### Do you have other questions?
 
-The best way to get help from both our engineering and business teams is usually on [Discord](https://www.originprotocol.com/discord). &#x20;
-
+The best way to get help from both our engineering and business teams is usually on [Discord](https://www.originprotocol.com/discord).

@@ -17,9 +17,9 @@ OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying s
 | USDT | <p>$0.849809</p><p>Feb 02, 2017</p> | <p>$1.21</p><p>May 27, 2017</p> | $0.360191 | [CoinGecko](https://www.coingecko.com/en/coins/tether)                      |
 | USDT | <p>$0.572521</p><p>Mar 02, 2015</p> | <p>$1.32</p><p>Jul 24, 2018</p> | $0.747479 | [CoinMarketCap](https://coinmarketcap.com/currencies/tether/)               |
 
-The rebasing function treats 1 stablecoin as 1 OUSD for simplicity and to protect OUSD balances from being affected by the daily fluctuations in the price of the underlying stablecoins. Since the rebase function only counts coins, OUSD balances should only increase.&#x20;
+The rebasing function treats 1 stablecoin as 1 OUSD for simplicity and to protect OUSD balances from being affected by the daily fluctuations in the price of the underlying stablecoins. Since the rebase function only counts coins, OUSD balances should only increase.
 
-In order to mint and redeem the appropriate number of OUSD on entry and exit, the smart contracts need to accurately price the USDT, USDC, and DAI that is entering and exiting the system.&#x20;
+In order to mint and redeem the appropriate number of OUSD on entry and exit, the smart contracts need to accurately price the USDT, USDC, and DAI that is entering and exiting the system.
 
 As an added precaution, OUSD never pays more than a dollar for a stablecoin, nor sells a stablecoin for less than a dollar. In situations where DAI, USDC or USDT fall below the $1 peg, [OIP-4 disables minting](https://github.com/OriginProtocol/origin-dollar/issues/1000) of additional OUSD tokens using the de-pegged asset. Oracles giving wrong prices will not result in a reduction of the number of stablecoins held. Gains that are collected as a result of stablecoins slipping from their peg are redistributed to the remaining holders of OUSD in the form of additional yield.
 
@@ -33,7 +33,7 @@ As a decentralized protocol, OUSD must rely on non-centralized sources for these
 
 ### Reward Token Oracles & Front Running Protection
 
-When reward tokens from OUSD strategies are sold for additional yield, Chainlink oracles are checked to ensure that the sale price slippage has not exceeded normal bounds. These oracles are listed on our [registry](../smart-contracts/registry.md) page under the "Oracles" tab.
+When reward tokens from OUSD strategies are sold for additional yield, Chainlink oracles are checked to ensure that the sale price slippage has not exceeded normal bounds. These oracles are listed on our [registry](../smart-contracts/registry/) page under the "Oracles" tab.
 
 The same is also true for OGN buybacks from OUSD yield.\
 \
