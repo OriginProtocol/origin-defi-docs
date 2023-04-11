@@ -1,6 +1,6 @@
 # USDT
 
-![](<../../.gitbook/assets/image (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1).png>)
 
 Tether (USDT) is a fiat-pegged stablecoin that was initially built on top of Bitcoin via the Omni Layer Protocol. In September 2017, Tether announced they would be launching additional ERC-20 tokens for United States dollars on the Ethereum blockchain.
 
