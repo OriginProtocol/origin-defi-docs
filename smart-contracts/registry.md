@@ -27,14 +27,6 @@ Here is the list of OUSD, OETH, and OGV smart contracts that have been deployed 
 | ------------------ | ------------------------------------------ |
 | OGV Rewards Source | 0x7d82e86cf1496f9485a8ea04012afeb3c7489397 |
 
-**Timelock & Multisigs**
-
-| Contract            | Address                                     |
-| ------------------- | ------------------------------------------- |
-| Governor / Timelock | 0x72426BA137DEC62657306b12B1E869d43FeC6eC7  |
-| 5 of 8              | 0xbe2AB3d3d8F6a32b96414ebbd865dBD276d3d899  |
-| 2 of 9              | 0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC  |
-
 
 
 {% content-ref url="registry/registry.md" %}
