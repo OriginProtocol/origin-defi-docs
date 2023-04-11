@@ -1,12 +1,12 @@
 ---
-description: The first stablecoin that earns a yield while it's still in your wallet
+description: The easiest way to stack ETH or USD
 ---
 
-# Introducing OUSD
+# Introduction
 
-## **A Better Form of Money**
+This documentation explains the technical design of both **Origin Dollar (OUSD)** and **Origin Ether (OETH)**. Both products are designed to deliver superior DeFi yields directly to your Ethereum wallet. Both products use the same codebase but accept different collateral. OUSD is designed to help you accumulate more dollars, whereas OETH helps you accumulate more ETH. Both OUSD and OETH are stablecoins that track the price of their respective currencies. 1 OUSD is worth 1 USD and 1 OETH is worth 1 ETH.
 
-Origin Dollar (OUSD) is a new stablecoin that was initially launched in September 2020 on the Ethereum network. Its design is superior to existing stablecoins because OUSD captures competitive yields while being passively held in wallets.
+OUSD was originally launched in September 2020 and has been battle-tested over time with hundreds of millions of dollars in circulating supply. OETH is launching in May 2022 using the same core contracts as OUSD. The main difference is that OETH uses ETH and liquid staking derivates (LSDs) as collateral instead of dollar-backed stablecoins.
 
 ![](.gitbook/assets/origin-dollar-summary.jpeg)
 
