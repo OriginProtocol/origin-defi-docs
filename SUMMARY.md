@@ -16,7 +16,6 @@
   * [Lending](core-concepts/yield-generation/lending.md)
   * [Market Making](core-concepts/yield-generation/market-making.md)
   * [Rewards](core-concepts/yield-generation/rewards.md)
-* [Wrapping](core-concepts/wrapped-ousd.md)
 * [Supported Stablecoins](core-concepts/supported-stablecoins/README.md)
   * [Stablecoin Evaluation Framework](core-concepts/supported-stablecoins/stablecoin-evaluation-framework.md)
   * [Stablecoin Scorecard](core-concepts/supported-stablecoins/stablecoin-scorecard.md)
@@ -36,6 +35,7 @@
   * [Morpho](core-concepts/supported-strategies/morpho.md)
 * [The Dripper](core-concepts/the-dripper.md)
 * [Fund Management](core-concepts/fund-management.md)
+* [Wrapping](core-concepts/wrapped-ousd.md)
 * [Price Oracles](core-concepts/price-oracles.md)
 
 ## Governance
@@ -81,4 +81,6 @@
 
 * [Github](https://www.github.com/originprotocol/origin-dollar)
 * [Discord](https://www.originprotocol.com/discord)
+* [ousd.com](https://www.ousd.com)
+* [oeth.com](https://www.oeth.com)
 * [originprotocol.com](https://www.originprotocol.com)

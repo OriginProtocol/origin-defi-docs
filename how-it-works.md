@@ -2,7 +2,7 @@
 
 **100% Backed and Stable**
 
-Origin Dollar (OUSD) and Origin Ether (OETH) are both ERC-20 compliant tokens for the Ethereum network.
+Origin Dollar (OUSD) and Origin Ether (OETH) are ERC-20 tokens for the Ethereum network.
 
 OUSD is a stable currency that is backed 1:1 by USDT, USDC and DAI. As a result, 1 OUSD should always be very close to 1 USD in value.
 
