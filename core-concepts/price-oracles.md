@@ -33,7 +33,7 @@ As a decentralized protocol, OUSD must rely on non-centralized sources for these
 
 ### Reward Token Oracles & Front Running Protection
 
-When reward tokens from OUSD strategies are sold for additional yield, Chainlink oracles are checked to ensure that the sale price slippage has not exceeded normal bounds. These oracles are listed on our [registry](../smart-contracts/registry/) page under the "Oracles" tab.
+When reward tokens from OUSD strategies are sold for additional yield, Chainlink oracles are checked to ensure that the sale price slippage has not exceeded normal bounds. These oracles are listed on our [registry](../smart-contracts/registry.md) page under the "Oracles" tab.
 
 The same is also true for OGN buybacks from OUSD yield.\
 \

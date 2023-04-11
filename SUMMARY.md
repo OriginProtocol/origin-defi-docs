@@ -49,7 +49,7 @@
 ## Smart Contracts
 
 * [Architecture](smart-contracts/architecture.md)
-* [Registry](smart-contracts/registry/README.md)
+* [Registry](smart-contracts/registry.md)
   * [OUSD Registry](smart-contracts/registry/registry.md)
   * [OETH Registry](smart-contracts/registry/registry-1.md)
 * [API](smart-contracts/api/README.md)
