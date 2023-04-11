@@ -24,7 +24,7 @@ The Origin DApps will intelligently route users' transactions to give them the b
 
 **Selling OUSD**
 
-Users can redeem their OUSD/OETH for the underlying collateral at any time. The Origin DApp will intelligently route users' transactions to give them the best available price while taking slippage, gas costs, and the vault's exit fee into consideration. This means that the DApp will often help users sell their OUSD on AMMs instead of redeeming with the vault and incurring the protocol's exit fee.
+Users can redeem their OUSD or OETH for the underlying collateral at any time. The Origin DApp will intelligently route users' transactions to give them the best available price while taking slippage, gas costs, and the vault's exit fee into consideration. This means that the DApp will often help users sell their OUSD on AMMs instead of redeeming with the vault and incurring the protocol's exit fee.
 
 A 0.25% exit fee is charged upon redemption with the vault. This fee is distributed as additional yield to the remaining participants in the vault (ie. other OUSD or OETH holders). The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from siphoning stablecoins from the vault in the event of mispriced underlying assets. The fee exists to incentivize long-term holders over short-term speculators.
 
@@ -40,6 +40,6 @@ The smart contracts generate yield by deploying the deposited coins into trusted
 
 #### **Elastic Supply**
 
-The generated returns are passed on to the holders of OUSD and OETH via constant rebasing of the money supply. Both coins constantly adjust the money supply in response to the yield the protocol has generated. This allows the price of OUSD to stay pegged at $1 and OETH to stay pegged at 1 ETH while the balances in token holders' wallets adjust in real-time to reflect yields that have been earned by the protocol.
+The generated returns are passed on to the holders of OUSD and OETH via constant rebasing of the money supply. Both coins constantly adjust the money supply in response to the yield the protocol has generated. This allows the price of OUSD to stay pegged at 1 USD and OETH to stay pegged at 1 ETH while the balances in token holders' wallets adjust in real-time to reflect yields that have been earned by the protocol.
 
 The end result is two stablecoins that are easy to spend, earn outsized yields automatically, and are more desirable to hold than existing stablecoins.
