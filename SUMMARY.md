@@ -5,7 +5,6 @@
 * [Origin Ether (OETH)](origin-ether-oeth.md)
 * [How It Works](how-it-works.md)
 * [Getting Started](getting-started.md)
-* [Analytics Dashboard](analytics-dashboard.md)
 * [FAQ](faq.md)
 
 ## Core Concepts
@@ -72,6 +71,7 @@
   * [OUSD Strategy Proposal](guides/governance-templates/ousd-strategy-proposal.md)
   * [Integration Proposal](guides/governance-templates/integration-proposal.md)
   * [General Proposal](guides/governance-templates/general-proposal.md)
+* [Analytics Terminology](guides/analytics-dashboard.md)
 
 ## Data
 
