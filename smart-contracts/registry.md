@@ -13,6 +13,14 @@ Here is the list of OUSD, OETH, and OGV smart contracts that have been deployed 
 | OGV      | <p><a href="https://etherscan.io/address/0x9c354503C38481a7A7a51629142963F98eCC12D0"><img src="../.gitbook/assets/image (25).png" alt="" data-size="line"></a> 0x9c354503C38481a7A7a51629142963F98eCC12D0<br>ogv.eth</p>                     |
 | veOGV    | <p><a href="https://etherscan.io/address/0x0C4576Ca1c365868E162554AF8e385dc3e7C66D9"><img src="../.gitbook/assets/image (10).png" alt="" data-size="line"></a> 0x0C4576Ca1c365868E162554AF8e385dc3e7C66D9<br>veogv.eth</p>                   |
 
+{% content-ref url="registry/registry.md" %}
+[registry.md](registry/registry.md)
+{% endcontent-ref %}
+
+{% content-ref url="registry/registry-1.md" %}
+[registry-1.md](registry/registry-1.md)
+{% endcontent-ref %}
+
 **Timelock & Multisigs**
 
 | Contract            | Address                                     |
@@ -27,12 +35,3 @@ Here is the list of OUSD, OETH, and OGV smart contracts that have been deployed 
 | ------------------ | ------------------------------------------ |
 | OGV Rewards Source | 0x7d82e86cf1496f9485a8ea04012afeb3c7489397 |
 
-
-
-{% content-ref url="registry/registry.md" %}
-[registry.md](registry/registry.md)
-{% endcontent-ref %}
-
-{% content-ref url="registry/registry-1.md" %}
-[registry-1.md](registry/registry-1.md)
-{% endcontent-ref %}
