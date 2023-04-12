@@ -50,8 +50,10 @@ OETH is backed by WETH and the following liquid staking derivates:
 
 The following Chainlink oracles are used to protect the vault in case a backing asset loses value. They also offer slippage protection when harvesting rewards tokens.
 
-| Pair                                                                                  | Contract                                   | Deviation |
-| ------------------------------------------------------------------------------------- | ------------------------------------------ | --------- |
-| [stETH/ETH](https://data.chain.link/ethereum/mainnet/crypto-eth/steth-eth)            | 0x86392dc19c0b719886221c78ab11eb8cf5c52812 | 2%        |
-| [rETH/ETH](https://data.chain.link/ethereum/mainnet/crypto-eth/reth-eth)              | 0x536218f9e9eb48863970252233c8f271f554c2d0 | 2%        |
-| [cbETH/ETH](https://data.chain.link/ethereum/mainnet/crypto-eth/cbeth-eth) (inactive) | 0xf017fcb346a1885194689ba23eff2fe6fa5c483b | 1%        |
+| Pair                                                                                  | Contract                                   |
+| ------------------------------------------------------------------------------------- | ------------------------------------------ |
+| [stETH/ETH](https://data.chain.link/ethereum/mainnet/crypto-eth/steth-eth)            | 0x86392dc19c0b719886221c78ab11eb8cf5c52812 |
+| [rETH/ETH](https://data.chain.link/ethereum/mainnet/crypto-eth/reth-eth)              | 0x536218f9e9eb48863970252233c8f271f554c2d0 |
+| [cbETH/ETH](https://data.chain.link/ethereum/mainnet/crypto-eth/cbeth-eth) (inactive) | 0xf017fcb346a1885194689ba23eff2fe6fa5c483b |
+| [CRV/USD](https://data.chain.link/ethereum/mainnet/crypto-usd/crv-usd)                | 0xcd627aa160a6fa45eb793d19ef54f5062f20f33f |
+| [CVX/USD](https://data.chain.link/ethereum/mainnet/crypto-usd/cvx-usd)                | 0xd962fC30A72A84cE50161031391756Bf2876Af5D |
