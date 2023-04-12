@@ -25,7 +25,7 @@ Both tokens are governed by OGV stakers who earn a portion of the fees that are 
 | DApp URL                 |                        [ousd.com](https://www.ousd.com)                        |                  [oeth.com](https://www.oeth.com)                 |
 | Conversion rate          |                                 1 OUSD = 1 USD                                 |                           1 OETH = 1 ETH                          |
 | Backing Assets           |                                 USDT, USDC, DAI                                |                      ETH, stETH, rETH, frxETH                     |
-| Strategies               |                Compound, Aave, Curve, Convex, Curve AMO, Morpho                |                      Curve, Convex, Curve AMO                     |
+| Strategies               |        Compound, Aave, Curve, Convex, Curve AMO, Morpho, Uniswap (soon)        |                      Curve, Convex, Curve AMO                     |
 | Auto-compounding         |                                     Daily+                                     |                               Daily+                              |
 | Collateralization        |                                      100%                                      |                                100%                               |
 | Oracles                  |                                    Chainlink                                   |                 Chainlink + Curve TWAP for frxETH                 |
