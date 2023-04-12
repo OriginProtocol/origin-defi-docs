@@ -7,11 +7,11 @@ Here is the list of OUSD, OETH, and OGV smart contracts that have been deployed 
 | Contract | Address                                                                                                                                                                                                                                      |
 | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | OUSD     | <p><a href="https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86"><img src="../.gitbook/assets/image (16).png" alt="" data-size="line"></a> 0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86<br>ousd.eth | origindollar.eth</p> |
-| OETH     | <p><a href="https://etherscan.io/address/0x856c4Efb76C1D1AE02e20CEB03A2A6a08b0b8dC3"><img src="../.gitbook/assets/image (2).png" alt="" data-size="line"></a> 0x856c4Efb76C1D1AE02e20CEB03A2A6a08b0b8dC3<br>origineth.eth</p>                |
+| OETH     | <p><a href="https://etherscan.io/address/0x856c4Efb76C1D1AE02e20CEB03A2A6a08b0b8dC3"><img src="../.gitbook/assets/image (2) (1).png" alt="" data-size="line"></a> 0x856c4Efb76C1D1AE02e20CEB03A2A6a08b0b8dC3<br>origineth.eth</p>            |
 | wOUSD    | <p><a href="https://etherscan.io/address/0xD2af830E8CBdFed6CC11Bab697bB25496ed6FA62"><img src="../.gitbook/assets/image (24).png" alt="" data-size="line"></a> 0xD2af830E8CBdFed6CC11Bab697bB25496ed6FA62<br>wousd.eth</p>                   |
 | wOETH    | <p><a href="https://etherscan.io/address/0xDcEe70654261AF21C44c093C300eD3Bb97b78192"><img src="../.gitbook/assets/image (8).png" alt="" data-size="line"></a> 0xDcEe70654261AF21C44c093C300eD3Bb97b78192<br>woeth.eth</p>                    |
-| OGV      | <p><a href="https://etherscan.io/address/0x9c354503C38481a7A7a51629142963F98eCC12D0"><img src="../.gitbook/assets/image (25).png" alt="" data-size="line"></a> 0x9c354503C38481a7A7a51629142963F98eCC12D0<br>ogv.eth</p>                     |
-| veOGV    | <p><a href="https://etherscan.io/address/0x0C4576Ca1c365868E162554AF8e385dc3e7C66D9"><img src="../.gitbook/assets/image (10).png" alt="" data-size="line"></a> 0x0C4576Ca1c365868E162554AF8e385dc3e7C66D9<br>veogv.eth</p>                   |
+| OGV      | <p><a href="https://etherscan.io/address/0x9c354503C38481a7A7a51629142963F98eCC12D0"><img src="../.gitbook/assets/image (25) (1).png" alt="" data-size="line"></a> 0x9c354503C38481a7A7a51629142963F98eCC12D0<br>ogv.eth</p>                 |
+| veOGV    | <p><a href="https://etherscan.io/address/0x0C4576Ca1c365868E162554AF8e385dc3e7C66D9"><img src="../.gitbook/assets/image (10) (2).png" alt="" data-size="line"></a> 0x0C4576Ca1c365868E162554AF8e385dc3e7C66D9<br>veogv.eth</p>               |
 
 {% content-ref url="registry/registry.md" %}
 [registry.md](registry/registry.md)
