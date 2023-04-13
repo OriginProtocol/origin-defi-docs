@@ -1,68 +1,64 @@
 # Getting Started
 
-These docs are intended to explain how OUSD works, communicate the potential risks and benefits, and provide a guide for developers who wish to contribute to our codebase or integrate OUSD into their products. Here are a few ways for you to dive in and get started.
+**Meet Origin's DeFi Coins**
 
-**Buying OUSD**
+These docs are intended to explain how OUSD and OETH work and introduce you to the value of the governance token, OGV. Besides communicating both the potential risks and benefits, these docs seek to provide a guide for developers who wish to contribute to our codebase or integrate these coins into their products. Here are a few ways for you to dive in and get started.
+
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Origin DeFi Governance (OGV)</strong></td><td>0x9c354503C38481a7A7a51629142963F98eCC12D0</td><td><a href=".gitbook/assets/ogv.svg">ogv.svg</a></td></tr><tr><td><strong>Origin Dollar (OUSD)</strong></td><td><p></p><p>0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86</p></td><td><a href=".gitbook/assets/ousd.svg">ousd.svg</a></td></tr><tr><td><strong>Origin Ether (OETH)</strong></td><td>0x856c4Efb76C1D1AE02e20CEB03A2A6a08b0b8dC3</td><td><a href=".gitbook/assets/ogv (1).svg">ogv (1).svg</a></td></tr></tbody></table>
+
+**Mint, redeem, or swap using the DApps**
 
 {% hint style="info" %}
-The [Origin Dollar DApp](https://ousd.com/swap) will intelligently route your transaction to get you the best rate.
+The [Origin Dollar DApp](https://ousd.com/swap) and [Origin Ether DApp](https://oeth.com/swap) will intelligently route your transaction to get you the best rate, whether that's from an AMM or minting from the vault.
 {% endhint %}
 
-The [Origin Dollar DApp](https://ousd.com/swap) allows anyone to buy or sell OUSD using a web-3 enabled cryptocurrency wallet like [Metamask](https://www.metamask.io), [Ledger](https://www.ledger.com/), or [Gnosis Safe](https://gnosis-safe.io/). This is the native way to get OUSD, especially if you want a large amount that could risk moving the market on other exchanges. The DApp will intelligently decide whether to create or trade-in OUSD tokens using the vault or help you complete the trade on whichever AMM is currently offering the best rate.
+The [OUSD DApp](https://ousd.com/swap) and [OETH DApp](https://oeth.com/swap) allow anyone to buy or sell using a web-3 enabled cryptocurrency wallet like [Metamask](https://www.metamask.io), [Ledger](https://www.ledger.com/), or [Gnosis Safe](https://gnosis-safe.io/). This is the native way to get OUSD or OETH, especially if you want a large amount that could risk moving the market on other exchanges. The DApp will intelligently decide whether to mint or redeem using the vault or help you complete the trade on whichever AMM is currently offering the best rate.
 
 **Decentralized Exchanges**
 
-OUSD is currently available on the following decentralized exchanges. These are listed here for reference only. We recommend using the [Origin Dollar DApp](https://ousd.com/swap) to ensure you always get the best rate.
+Origin's DeFi coins are currently available on the following decentralized exchanges. These are listed here for reference only. We recommend using the Dapps to ensure you always get the best rate.
 
-* [Buy OUSD on 1inch](https://app.1inch.io/#/1/swap/USDT/OUSD)
-* [Buy OUSD on Curve](https://curve.fi/factory/9)
-* [Buy OUSD on Uniswap v3](https://app.uniswap.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7\&outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
-* [Buy OUSD on Uniswap v2](https://app.uniswap.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7\&outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86\&use=v2)
-* [Buy OUSD on Sushiswap](https://app.sushi.com/swap?inputCurrency=0xdAC17F958D2ee523a2206206994597C13D831ec7\&outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86\&chainId=1)
+|            | OGV                                                                                                           | OUSD                                                                                                                                                                     | OETH                                                                                                                                                                     |
+| ---------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1inch      | [OGV on 1inch](https://app.1inch.io/#/1/simple/swap/ETH/OGV)                                                  | [OUSD on 1inch](https://app.1inch.io/#/1/swap/USDT/OUSD)                                                                                                                 | [OETH on 1inch](https://app.1inch.io/#/1/swap/USDT/OETH)                                                                                                                 |
+| Curve      | [OGV on Curve](https://curve.fi/#/ethereum/pools/factory-crypto-205/swap)                                     | [OUSD on Curve](https://curve.fi/factory/9)                                                                                                                              | OETH on Curve                                                                                                                                                            |
+| Uniswap v3 | [OGV on Uniswap v3](https://app.uniswap.org/#/swap?outputCurrency=0x9c354503C38481a7A7a51629142963F98eCC12D0) | [OUSD on Uniswap v3](https://app.uniswap.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7\&outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | [OETH on Uniswap v3](https://app.uniswap.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7\&outputCurrency=0x856c4Efb76C1D1AE02e20CEB03A2A6a08b0b8dC3) |
 
 **Centralized Exchanges**
 
-OUSD is currently available on the following centralized exchanges. Be sure to check on how they are handling the yield that is being generated by the protocol. Depending on the exchange, there may be additional steps you need to take to participate in the yield while it's being held in their custody.
+Origin's DeFi coins are currently available on the following centralized exchanges. Be sure to check on how they are handling the yield that is being generated by the protocol. Depending on the exchange, there may be additional steps you need to take to participate in the yield while it's being held in their custody.
 
-* Buy OUSD on KuCoin
-  * [OUSD/USDT](https://trade.kucoin.com/OUSD-USDT)
-  * [OUSD/BTC](https://trade.kucoin.com/OUSD-BTC)
-* Buy OUSD on Gate.io
-  * [OUSD/USDT](https://www.gate.io/trade/OUSD\_USDT)
+|         | OGV                                                                           | OUSD                                                                                           | OETH |
+| ------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---- |
+| KuCoin  | [OGV/USDT](https://www.kucoin.com/trade/OGV-USDT?rcode=e21sNJ)                | [OUSD/USDT](https://trade.kucoin.com/OUSD-USDT), [OUSD/BTC](https://trade.kucoin.com/OUSD-BTC) |      |
+| Gate    | [OGV/USDT](https://gate.io/trade/OGV\_USDT?ref=3018394)                       | [OUSD/USDT](https://www.gate.io/trade/OUSD\_USDT)                                              |      |
+| Bitmart | [OGV/USDT](https://www.bitmart.com/trade/en-US?symbol=%24OGV\_USDT)           | [OUSD/USDT](https://www.bitmart.com/trade/en-US?symbol=%24OUSD\_USDT) (soon)                   |      |
+| Huobi   | [OGV/USDT](https://www.huobi.com/en-us/exchange/ogv\_usdt?invite\_code=d8c53) |                                                                                                |      |
+| MEXC    | [OGV/USDT](https://www.mexc.com/exchange/OGV\_USDT?inviteCode=1498J)          |                                                                                                |      |
+| Bitget  | [OGV/USDT](https://www.bitget.com/en/spot/OGVUSDT\_SPBL)                      |                                                                                                |      |
+| Hotbit  | [OGV/USDT](https://www.hotbit.io/exchange?symbol=OGV\_USDT)                   |                                                                                                |      |
+| Bitrue  | [OGV/USDT](https://www.bitrue.com/trade/ogv\_usdt)                            |                                                                                                |      |
 
-We're continuing to work on making OUSD available on additional centralized exchanges.
+We're continuing to work on making all of our tokens available on additional centralized exchanges.
 
-**Adding OUSD to Your Wallet**
+**Adding Origin's Coins to Your Wallet**
 
-{% hint style="success" %}
-The main ERC20 address for Origin Dollar (OUSD) is: \
-**0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
-{% endhint %}
-
-If your OUSD does not automatically show up in your wallet, you should be able to add it manually using the address above. If you are planning on [storing your OUSD in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.&#x20;
+If your OUSD does not automatically show up in your wallet, you should be able to add it manually using the addresses above. If you are planning on [storing your OUSD or OETH in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have our coins supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
 
 **Integrating OUSD**
 
-OUSD is a non-standard ERC-20 token that requires custom integration work for most applications that wish to support it. In particular, it is important for developers to understand how our elastic supply works as this can easily cause unexpected behavior.
+OUSD and OETH are rebasing tokens may require custom integration work for some applications that wish to support it. In particular, it is important for developers to understand how our elastic supply works as this can easily cause unexpected behavior.
 
-If you are a wallet provider or crypto exchange that is interested in supporting OUSD, please refer to the following guides:&#x20;
+If you are a wallet provider or crypto exchange that is interested in supporting OUSD or OETH, please refer to the following guides:
 
 {% content-ref url="core-concepts/elastic-supply/rebasing-and-smart-contracts.md" %}
 [rebasing-and-smart-contracts.md](core-concepts/elastic-supply/rebasing-and-smart-contracts.md)
 {% endcontent-ref %}
 
-{% content-ref url="smart-contracts/architecture.md" %}
-[architecture.md](smart-contracts/architecture.md)
+{% content-ref url="guides/integration-guide-for-exchanges.md" %}
+[integration-guide-for-exchanges.md](guides/integration-guide-for-exchanges.md)
 {% endcontent-ref %}
-
-{% content-ref url="smart-contracts/api/" %}
-[api](smart-contracts/api/)
-{% endcontent-ref %}
-
-**Developer Analytics**
-
-Our internal developer dashboard is available at [analytics.ousd.com](https://analytics.ousd.com). The dashboard shows the current circulating supply, the assets under management in the vault, and the current allocations between each of the stablecoins and strategies.
 
 **Getting Help**
 
-Please join the Origin Dollar #engineering room in Origin's [Discord](https://www.originprotocol.com/discord) server.  Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
+Please join the Origin Dollar #engineering room in Origin's [Discord](https://www.originprotocol.com/discord) server. Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
