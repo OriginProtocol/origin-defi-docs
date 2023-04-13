@@ -14,7 +14,7 @@ OUSD and OETH use the same codebase but accept different collateral and utilize 
 
 OUSD was originally launched in September 2020 and has been battle-tested over time with hundreds of millions of dollars in circulating supply. The smart contracts have also been thoroughly audited by some of the top firms in the space including Trail of Bits and Open Zeppelin. OETH is scheduled to launch in May 2023 using the same core contracts as OUSD. The main difference is that OETH uses ETH and liquid staking derivates (LSDs) as the backing collateral instead of dollar-backed stablecoins. OETH also normalizes the accounting across the various supported LSDs so you don't need to do any math to figure out the amount of underlying ETH. 1 OETH is always worth 1 ETH.
 
-Both tokens are governed by OGV stakers who earn a portion of the fees that are generated.
+Both tokens are governed by **Origin DeFi Governance (OGV)** stakers who earn a portion of the fees that are generated.
 
 |                          |                              Origin Dollar (OUSD)                              |                          Origin Ether (OETH)                          |
 | ------------------------ | :----------------------------------------------------------------------------: | :-------------------------------------------------------------------: |
