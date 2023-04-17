@@ -4,36 +4,35 @@ Most of Origin's contracts are upgradable via a well-known proxy wrapper and an 
 
 **OETH Core**
 
-| Contract             | Address |
-| -------------------- | ------- |
-| OETH Implementation  |         |
-| wOETH Implementation |         |
-| OETH Vault           |         |
-| OETH VaultAdmin      |         |
-| OETH VaultCore       |         |
+| Contract    | Address                                     |
+| ----------- | ------------------------------------------- |
+| OETH Token  | 0x856c4Efb76C1D1AE02e20CEB03A2A6a08b0b8dC3  |
+| wOETH Token | 0xDcEe70654261AF21C44c093C300eD3Bb97b78192  |
+| OETH Vault  |  0x39254033945AA2E4809Cc2977E7087BEE48bd7Ab |
+| OETH Zapper | 0x8c135F50C7317A93Cc95bB208A494E5ADe5B66b0  |
 
 **OETH Strategies**
 
-| Contract                    | Address |
-| --------------------------- | ------- |
-| OETH Convex ETH +OETH (AMO) |         |
-| OETH Frax Staking           |         |
+| Contract                    | Address                                    |
+| --------------------------- | ------------------------------------------ |
+| OETH Convex ETH +OETH (AMO) | Not yet live                               |
+| OETH Frax Staking           | 0x3fF8654D633D4Ea0faE24c52Aec73B4A20D0d0e5 |
 
 **OUSD Yield Harvesting & Rewards Distribution**
 
-| Contract       | Address |
-| -------------- | ------- |
-| OETH Harvester |         |
-| OETH Dripper   |         |
-| OETH Buyback   |         |
+| Contract       | Address      |
+| -------------- | ------------ |
+| OETH Harvester | Not yet live |
+| OETH Dripper   | Not yet live |
+| OETH Buyback   | Not yet live |
 
 **Chainlink Keepers**
 
 Chainlink Keepers are an automated and decentralized way for OETH to perform regularly scheduled tasks.
 
-| Keeper        | Address | Purpose                  |
-| ------------- | ------- | ------------------------ |
-| OUSD Keeper 4 |         | Executing a daily rebase |
+| Keeper        | Address            | Purpose                  |
+| ------------- | ------------------ | ------------------------ |
+| OUSD Keeper 4 | Not setup for OETH | Executing a daily rebase |
 
 **OETH Assets**
 
