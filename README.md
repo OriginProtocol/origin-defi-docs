@@ -8,13 +8,13 @@ description: The easiest way to stack ETH or USD
 These docs are very much a work in progress. We're working on updating them in time for the launch of OETH in May 2023. For the most part, OETH works almost exactly like OUSD. If you understand OUSD, you already understand how OETH works too.
 {% endhint %}
 
-This documentation explains the technical design of both **Origin Dollar (OUSD)** and **Origin Ether (OETH)**. Both products are designed to deliver superior DeFi yields directly to your Ethereum wallet. Access the best yields available on ETH or USD with none of the hassles typically associated with yield-farming. No staking. No lockups. Constant compounding.
+This documentation explains the technical design of **Origin Dollar (OUSD)** and **Origin Ether (OETH)**. Both products are designed to deliver superior DeFi yields directly to your Ethereum wallet. Access the best yields available on ETH or USD with none of the hassles typically associated with yield-farming. No staking. No lockups. Constant compounding.
 
 OUSD and OETH use the same codebase but accept different collateral and utilize different combinations of strategies depending on the opportunities in the market. OUSD is designed to help you accumulate more dollars, whereas OETH helps you accumulate more ETH. OUSD is a stablecoin that tracks the price of USD. OETH works in the same way but tracks the price of ETH instead of US dollars. Both assets are 100% permissionless and always redeemable for their backing collateral.
 
 OUSD was originally launched in September 2020 and has been battle-tested over time with hundreds of millions of dollars in circulating supply. The smart contracts have also been thoroughly audited by some of the top firms in the space including Trail of Bits and Open Zeppelin. OETH is scheduled to launch in May 2023 using the same core contracts as OUSD. The main difference is that OETH uses ETH and liquid staking derivates (LSDs) as the backing collateral instead of dollar-backed stablecoins. OETH also normalizes the accounting across the various supported LSDs so you don't need to do any math to figure out the amount of underlying ETH. 1 OETH is always worth 1 ETH.
 
-Both tokens are governed by **Origin DeFi Governance (OGV)** stakers who earn a portion of the fees that are generated.
+Both tokens are governed by **Origin DeFi Governance (OGV)** stakers who earn a portion of the fees generated and a share of protocol-owned value.
 
 |                          |                              Origin Dollar (OUSD)                              |                          Origin Ether (OETH)                          |
 | ------------------------ | :----------------------------------------------------------------------------: | :-------------------------------------------------------------------: |
@@ -36,7 +36,7 @@ Both tokens are governed by **Origin DeFi Governance (OGV)** stakers who earn a 
 | Insurace Security Rating |                                       AAA                                      |                                  N/A                                  |
 | Launched                 |                                 September 2020                                 |                                May 2023                               |
 | Performance fee          | <p>10% for veOGV holders -> <br> +10% for buying protocol owned CVX (soon)</p> |                   20% for buying protocol owned CVX                   |
-| Redemption fee           |                                      0.25%                                     |                                 0.25%                                 |
+| Redemption fee           |                                      0.25%                                     |                                  TBD                                  |
 
 While the code powering OUSD and OETH is the same, there are a number of configuration differences between the two products. We are also planning on deploying the latest smart contracts for OETH and then back-porting those improvements to OUSD.  We will do our best to keep these docs updated but consider the smart contracts as the authoritative source of truth on these.
 
