@@ -6,9 +6,9 @@ In addition to supporting ETH as collateral, Origin Ether supports liquid stakin
 
 Currently, OETH holds exposure to three LSDs:&#x20;
 
-[lido-staked-eth-steth.md](lido-staked-eth-steth.md "mention")
+[lido-steth.md](lido-steth.md "mention")
 
-[rocket-pool-eth-reth.md](rocket-pool-eth-reth.md "mention")
+[rocketpool-reth.md](rocketpool-reth.md "mention")
 
-[frax-ether-frxeth.md](frax-ether-frxeth.md "mention")
+[frax-sfrxeth.md](frax-sfrxeth.md "mention")
 
