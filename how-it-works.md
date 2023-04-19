@@ -22,7 +22,7 @@ The Origin dapps will intelligently route users' transactions to give them the b
 
 **Selling OUSD or OETH**
 
-Users can redeem their OUSD or OETH for the underlying collateral at any time. Just as with buying, the Origin dapp will intelligently route users' transactions to give them the best available price while taking slippage, gas costs, and the vault's exit fee into consideration. This means that the dapps will often help users sell their OUSD or OETH on AMMs instead of redeeming with the vault and incurring the protocol's exit fee.
+Users can redeem their OUSD or OETH for the underlying collateral at any time. The Origin dapp will intelligently route users' transactions to give them the best available price while taking slippage, gas costs, and the vault's exit fee into consideration. This means that the DApp will often help users sell their OUSD on AMMs instead of redeeming with the vault and incurring the protocol's exit fee.
 
 A 0.25% exit fee is charged upon redemption of OUSD via the vault. The exit fee for OETH has initially been set to 0 but will be updated prior to the public launch. This fee is distributed as additional yield to the remaining participants in the vault (ie. other OUSD or OETH holders). The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from siphoning stablecoins from the vault in the event of mispriced underlying assets. The fee exists to incentivize long-term holders over short-term speculators.
 
@@ -34,10 +34,10 @@ Redemptions incur an **exit fee** and the user doesn't get to pick which coins t
 
 #### A**utomated Yield Farming**
 
-The smart contracts generate yield by deploying the deposited coins into trusted DeFi protocols such as Compound, Aave, Curve, Convex and Morpho. There may be new diversified strategies added to the vault in the future as approved by governance. Earned interest, trading fees, and rewards tokens are swapped and reinvested to produce OUSD or OETH-denominated yields. Over time, the protocol will rebalance assets between different earning strategies in order to maximize yields. Users are able to benefit from faster compounding and rebalancing of assets as the farming costs are shared across the entire pool.
+The smart contracts generate yield by deploying the deposited collateral into trusted DeFi protocols such as Compound, Aave, Curve, Convex and Morpho. There may be new diversified strategies added to the vault in the future as approved by governance. Earned interest, trading fees, and rewards tokens are swapped and reinvested to produce OUSD or OETH-denominated yields. Over time, the protocol will rebalance assets between different earning strategies in order to maximize yields. Users are able to benefit from faster compounding and rebalancing of assets as the farming costs are shared across the entire pool.
 
 #### **Elastic Supply**
 
-The generated returns are passed on to the holders of OUSD and OETH via constant rebasing of the money supply (up only). Both coins constantly adjust the money supply in response to the yield the protocol has generated. This allows the price of OUSD to stay pegged at 1 USD and OETH to stay pegged at 1 ETH while the balances in token holders' wallets adjust in real-time to reflect yields that have been earned by the protocol.
+The generated returns are passed on to the holders of OUSD and OETH via constant rebasing of the money supply. Both coins constantly increase their money supply in response to the yield the protocol has generated. This allows the price of OUSD to stay pegged at 1 USD and OETH to stay pegged at 1 ETH while the balances in token holders' wallets adjust in real-time to reflect yields that have been earned by the protocol.
 
-The end result is two tokens that are easy to spend, earn outsized risk-adjusted yields automatically, and are more desirable to hold than existing stablecoins.
+The end result is two tokens that are easy to spend, earn outsized yields automatically, and are more desirable to hold than ether, stablecoins, or liquid staking derivatives.

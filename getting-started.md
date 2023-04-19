@@ -16,11 +16,11 @@ The [Origin Dollar dapp](https://ousd.com/swap) and [Origin Ether dapp](https://
 
 {% embed url="https://oeth.com/swap" %}
 
-The [OUSD dapp](https://ousd.com/swap) and [OETH dapp](https://oeth.com/swap) allow anyone to buy or sell using a Web3-enabled cryptocurrency wallet like [Metamask](https://www.metamask.io), [Ledger](https://www.ledger.com/), or [Gnosis Safe](https://gnosis-safe.io/). This is the native way to get OUSD or OETH, especially if you want a large amount that could risk moving the market on other exchanges. The dapp will intelligently decide whether to mint or redeem using the vault or help you complete the trade on whichever AMM currently offers the best rate.
+The [OUSD DApp](https://ousd.com/swap) and [OETH DApp](https://oeth.com/swap) allow anyone to buy or sell using a Web3-enabled cryptocurrency wallet like [Metamask](https://www.metamask.io), [Ledger](https://www.ledger.com/), or [Gnosis Safe](https://gnosis-safe.io/). This is the native way to get OUSD or OETH, which is desirable if you want a large amount of capital that could risk moving the market on other exchanges. The dapp will intelligently decide whether to mint or redeem using the vault or help you complete the trade on whichever AMM is currently offering the best rate.
 
 **Decentralized Exchanges**
 
-Origin's DeFi coins are currently available on the following decentralized exchanges. These are listed here for reference only. We recommend using the dapps to ensure you always get the best rate.
+Origin's DeFi coins are currently available on the following decentralized exchanges. These are listed here for reference only. We recommend using these dapps to ensure you always get the best rate.
 
 |            | OGV                                                                                                           | OUSD                                                                                                                                                                     | OETH                                                                                                                                                                     |
 | ---------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -51,7 +51,7 @@ If your OUSD or OETH does not automatically show up in your wallet, you should b
 
 **Integrating OUSD and OETH**
 
-OUSD and OETH are rebasing tokens and may require custom integration work for some applications to support them. In particular, it is important for developers to understand how our elastic supply works as this can easily cause unexpected behavior.
+OUSD and OETH are rebasing tokens may require custom integration work for some applications that wish to support it. In particular, it is important for developers to understand how our elastic supply works, as this can easily cause unexpected behavior.
 
 If you are a wallet provider or crypto exchange that is interested in supporting OUSD or OETH, please refer to the following guides:
 

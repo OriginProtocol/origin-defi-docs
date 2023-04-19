@@ -6,7 +6,7 @@ Check out [Getting Started](https://docs.ousd.com/getting-started) to see a vari
 
 **What are the costs to mint and redeem?**
 
-As with any Ethereum transaction, you will need Ether to interact with Origin's smart contracts. We have taken measures to reduce gas usage where possible, but these costs can vary.
+As with any Ethereum transaction, you will need ether to interact with Origin's smart contracts. We have taken measures to reduce gas usage where possible, but these costs can vary.
 
 Anytime you mint or redeem OUSD or OETH, there will be an exchange rate applied to your stablecoins deposited or withdrawn. You can read more about this in [Price Oracles](https://docs.ousd.com/core-concepts/price-oracles).
 

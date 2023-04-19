@@ -1,5 +1,5 @@
 ---
-description: The easiest way to stack ETH or USD
+description: The easiest way to stack ETH and USD
 ---
 
 # Introduction
@@ -38,7 +38,7 @@ Both tokens are governed by **Origin DeFi Governance (OGV)** stakers who earn a 
 | Performance fee          | <p>10% for veOGV holders -> <br> +10% for buying protocol owned CVX (soon)</p> |                   20% for buying protocol owned CVX                   |
 | Redemption fee           |                                      0.25%                                     |                                  TBD                                  |
 
-While the code powering OUSD and OETH is the same, there are a number of configuration differences between the two products. We are also planning on deploying the latest smart contracts for OETH and then back-porting those improvements to OUSD.  We will do our best to keep these docs updated but consider the smart contracts as the authoritative source of truth on these.
+While the code powering OUSD and OETH is similar, there are a number of configuration differences between the two products. We are also planning on deploying the latest smart contracts for OETH and then back-porting those improvements to OUSD.  We will do our best to keep these docs updated but consider the smart contracts as the authoritative source of truth on these.
 
 |                       | Origin Dollar (OUSD) | Origin Ether (OETH) |
 | --------------------- | -------------------- | ------------------- |
