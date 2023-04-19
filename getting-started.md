@@ -4,23 +4,23 @@
 
 These docs are intended to explain how OUSD and OETH work and introduce you to the value of the governance token, OGV. Besides communicating both the potential risks and benefits, these docs seek to provide a guide for developers who wish to contribute to our codebase or integrate these coins into their products. Here are a few ways for you to dive in and get started.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Origin DeFi Governance (OGV)</strong></td><td>0x9c354503C38481a7A7a51629142963F98eCC12D0</td><td><a href=".gitbook/assets/ogv.svg">ogv.svg</a></td></tr><tr><td><strong>Origin Dollar (OUSD)</strong></td><td><p></p><p>0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86</p></td><td><a href=".gitbook/assets/ousd.svg">ousd.svg</a></td></tr><tr><td><strong>Origin Ether (OETH)</strong></td><td>0x856c4Efb76C1D1AE02e20CEB03A2A6a08b0b8dC3</td><td><a href=".gitbook/assets/ogv (1).svg">ogv (1).svg</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Origin DeFi Governance (OGV)</strong></td><td>0x9c354503C38481a7A7a51629142963F98eCC12D0</td><td><a href=".gitbook/assets/OGV Symbol.png">OGV Symbol.png</a></td></tr><tr><td><strong>Origin Dollar (OUSD)</strong></td><td><p></p><p>0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86</p></td><td><a href=".gitbook/assets/OUSD Symbol.png">OUSD Symbol.png</a></td></tr><tr><td><strong>Origin Ether (OETH)</strong></td><td>0x856c4Efb76C1D1AE02e20CEB03A2A6a08b0b8dC3</td><td><a href=".gitbook/assets/ogv (1).svg">ogv (1).svg</a></td></tr></tbody></table>
 
-**Mint, redeem or swap using the DApps**
+**Mint, redeem or swap using the dapps**
 
 {% hint style="info" %}
-The [Origin Dollar DApp](https://ousd.com/swap) and [Origin Ether DApp](https://oeth.com/swap) will intelligently route your transaction to get you the best rate, whether that's from an AMM or minting from the vault.
+The [Origin Dollar dapp](https://ousd.com/swap) and [Origin Ether dapp](https://oeth.com/swap) will intelligently route your transaction to get you the best rate, whether that's from an AMM or minting from the vault.
 {% endhint %}
 
 {% embed url="https://ousd.com/swap" %}
 
 {% embed url="https://oeth.com/swap" %}
 
-The [OUSD DApp](https://ousd.com/swap) and [OETH DApp](https://oeth.com/swap) allow anyone to buy or sell using a web-3 enabled cryptocurrency wallet like [Metamask](https://www.metamask.io), [Ledger](https://www.ledger.com/), or [Gnosis Safe](https://gnosis-safe.io/). This is the native way to get OUSD or OETH, especially if you want a large amount that could risk moving the market on other exchanges. The DApp will intelligently decide whether to mint or redeem using the vault or help you complete the trade on whichever AMM is currently offering the best rate.
+The [OUSD dapp](https://ousd.com/swap) and [OETH dapp](https://oeth.com/swap) allow anyone to buy or sell using a Web3-enabled cryptocurrency wallet like [Metamask](https://www.metamask.io), [Ledger](https://www.ledger.com/), or [Gnosis Safe](https://gnosis-safe.io/). This is the native way to get OUSD or OETH, especially if you want a large amount that could risk moving the market on other exchanges. The dapp will intelligently decide whether to mint or redeem using the vault or help you complete the trade on whichever AMM currently offers the best rate.
 
 **Decentralized Exchanges**
 
-Origin's DeFi coins are currently available on the following decentralized exchanges. These are listed here for reference only. We recommend using the Dapps to ensure you always get the best rate.
+Origin's DeFi coins are currently available on the following decentralized exchanges. These are listed here for reference only. We recommend using the dapps to ensure you always get the best rate.
 
 |            | OGV                                                                                                           | OUSD                                                                                                                                                                     | OETH                                                                                                                                                                     |
 | ---------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -47,11 +47,11 @@ We're continuing to work on making all of our tokens available on additional cen
 
 **Adding Origin's Coins to Your Wallet**
 
-If your OUSD does not automatically show up in your wallet, you should be able to add it manually using the addresses above. If you are planning on [storing your OUSD or OETH in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have our coins supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
+If your OUSD or OETH does not automatically show up in your wallet, you should be able to add it manually using the addresses above. If you plan to store[ your OUSD or OETH in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have our coins supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
 
 **Integrating OUSD and OETH**
 
-OUSD and OETH are rebasing tokens may require custom integration work for some applications that wish to support it. In particular, it is important for developers to understand how our elastic supply works as this can easily cause unexpected behavior.
+OUSD and OETH are rebasing tokens and may require custom integration work for some applications to support them. In particular, it is important for developers to understand how our elastic supply works as this can easily cause unexpected behavior.
 
 If you are a wallet provider or crypto exchange that is interested in supporting OUSD or OETH, please refer to the following guides:
 
@@ -65,4 +65,4 @@ If you are a wallet provider or crypto exchange that is interested in supporting
 
 **Getting Help**
 
-Please join the Origin Dollar #engineering room in Origin's [Discord](https://www.originprotocol.com/discord) server. Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
+Please join the Origin Dollar #engineering room in [Origin's Discord server](https://originprotocol.com/discord). Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
