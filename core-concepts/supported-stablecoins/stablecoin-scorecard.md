@@ -9,9 +9,9 @@ description: >-
 
 The Stablecoin Scorecard is a quantitative framework for evaluating risk, but is certainly not exhaustive nor prescriptive. Risk cannot be removed completely from any system, but it can be managed.
 
-When it comes to stablecoins, the best place to start is understanding the assets or collateral that help support its purported value, and then diving into the people and processes that support it. Risk is broken down into 4 separate scores with weighting that reflects their aggregate level of importance across each of these key areas.&#x20;
+When it comes to stablecoins, the best place to start is understanding the assets or collateral that help support its purported value, and then diving into the people and processes that support it. Risk is broken down into 4 separate scores with weighting that reflects their aggregate level of importance across each of these key areas.
 
-Scores are calculated based on the guidelines below and templates have been provided for both centralized and decentralized stablecoins - please create a copy when producing a score:
+Scores are calculated based on the guidelines below and templates have been provided for both [centralized](https://docs.google.com/spreadsheets/d/1eX85MBj1l9NLGWZwwlXtFg6fSz0PnRhdohVseblQ8RE/edit#gid=1053910649) and [decentralized](https://docs.google.com/spreadsheets/d/1YEyNqE7P2iGDm3zXcsdIXXVgllLKrlR74EivT2a74pc/edit#gid=1418231256) stablecoins.
 
 {% embed url="https://docs.google.com/spreadsheets/d/1eX85MBj1l9NLGWZwwlXtFg6fSz0PnRhdohVseblQ8RE/edit?usp=sharing" %}
 Scorecard Template for Centralized Stablecoin - Tether as an example
@@ -33,7 +33,7 @@ Net Liquidation Value: Once you have each of the collateral assets, they shouldn
 
 As a rule of thumb, try to be conservative by selecting the lowest net liquidation value and see where you net out. This can give you an idea of how well collateralized it is and the likelihood of a death spiral. For an algo stable (yikes!) I try to estimate the ability for the current market demand to support a forced liquidation of the stablecoin. In simple terms, I calculate how many multiples of the average daily volume it would take to sell the reserve and the higher the multiple the riskier it becomes. If there is $200M in the reserve and the average daily trading volume is $100M, then it would equal two days. A more rigorous way to analyze this would be to look at the actual order book depth on exchanges and estimate price slippage, which is something done by companies such as Gauntlet.
 
-Collateral Ratio: Once you’ve calculated the NLV, you can determine whether the stablecoin’s balance sheet is sufficient to meet its outstanding liabilities. Ideally, the collateral ratio will be greater than or equal to 100%. If it is below 85%, we assume it is not worth exploring further.&#x20;
+Collateral Ratio: Once you’ve calculated the NLV, you can determine whether the stablecoin’s balance sheet is sufficient to meet its outstanding liabilities. Ideally, the collateral ratio will be greater than or equal to 100%. If it is below 85%, we assume it is not worth exploring further.
 
 | Collateral Ratio |              |
 | ---------------- | ------------ |
@@ -82,4 +82,4 @@ Regulatory Risk: This can be somewhat subjective, but I start with looking at ho
 
 ### Summary
 
-While this level of research and detail can help with identifying the risks of a given stablecoin or strategy,  it is the ultimate responsibility of the OGV holder community to determine the right risk level for OUSD. The best way to manage risk is to move slowly and abide by the old adage “don’t put all of your eggs in one basket.” With the help of all of you, we can stay vigilant, constantly reviewing projects and new exploits to avoid getting rekt.
+While this level of research and detail can help with identifying the risks of a given stablecoin or strategy, it is the ultimate responsibility of the OGV holder community to determine the right risk level for OUSD. The best way to manage risk is to move slowly and abide by the old adage “don’t put all of your eggs in one basket.” With the help of all of you, we can stay vigilant, constantly reviewing projects and new exploits to avoid getting rekt.
