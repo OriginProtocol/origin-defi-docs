@@ -2,21 +2,15 @@
 
 **100% Open-source**
 
-OUSD is an entirely open-source project and we welcome contributions of all sorts. There are many ways to help, from reporting issues, contributing code, and helping us improve our community.
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+Origin DeFi is an entirely open-source project and we welcome contributions of all sorts. There are many ways to help, from reporting issues, contributing code, and helping us improve our community.
 
 We work in public and our company Discord is open to all. If you have questions or need help getting started, our [Discord OUSD channels](https://discord.gg/jyxpUSe) are the best place to get assistance from our team and community.
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+{% embed url="https://github.com/originprotocol/origin-dollar" %}
 
 **Developer Analytics**
 
-Our internal developer dashboard is available at [analytics.ousd.com](https://analytics.ousd.com). The dashboard shows the current circulating supply, the assets under management in the vault, and the current allocations between each of the stablecoins and strategies. Various other developer tools can be found at [ousd.com/dashboard](https://ousd.com/dashboard).
+Our internal developer dashboard is available at [analytics.ousd.com](https://analytics.ousd.com). The dashboard shows the current circulating supply, the assets under management in the vault, and the current allocations between each of the stablecoins and strategies. Various other developer tools can be found at [ousd.com/dashboard](https://ousd.com/dashboard). This dashboard will soon be deprecated.
 
 #### Development Process
 
@@ -35,10 +29,10 @@ Your development flow should look like:
 
 For critical smart contract code to be merged it must pass the following checklist:
 
-* &#x20;Code reviewed by 2 reviewers
-* &#x20;Unit tests pass
-* &#x20;Slither tests pass with no warning
-* &#x20;Echidna tests pass
+* Code reviewed by 2 reviewers
+* Unit tests pass
+* Slither tests pass with no warning
+* Echidna tests pass
 
 The `master` branch is locked so that only members of the [core team](https://github.com/orgs/OriginProtocol/teams/core) are able to merge your pull requests. Pull requests that are peer-reviewed by other trusted contributors will be fast-tracked and merged faster! Check in the `#engineering` Discord channel for appropriate reviewers.
 
@@ -77,7 +71,7 @@ If you find bugs, mistakes or inconsistencies in Origin’s code or documents, p
 
 #### Security Issues
 
-OUSD is still in early development, which means there may be problems with the protocol or in our implementations. We take security vulnerabilities very seriously. If you discover a security issue, please bring it to our attention right away!
+We take security vulnerabilities very seriously. If you discover a security issue, please bring it to our attention right away!
 
 If you find a security vulnerability please send your report privately to [security@originprotocol.com](mailto:security@originprotocol.com) or send an encrypted message to [@joshfraser on Keybase](https://keybase.io/joshfraser). Please DO NOT file a public issue. Be sure to review our guidelines for responsible disclosure and eligibility for bug bounties.
 
@@ -91,7 +85,7 @@ Origin is just as much about community as it is about our technology.
 
 We need constant help in improving our documentation, building new tools to interface with our platform, spreading the word to new users, helping new users getting setup and much more.
 
-Please get in touch if you would like to help out. Our `discussion` channel on [Discord](https://www.originprotocol.com/discord) is a great place to share ideas and volunteer to help.
+Please get in touch if you would like to help out. Our `defi-discussion` channel on [Discord](https://www.originprotocol.com/discord) is a great place to share ideas and volunteer to help.
 
 #### Full-Time Positions
 
@@ -100,4 +94,3 @@ Origin occasionally hires developers for part-time or full-time positions.
 We have a strong preference for hiring people who have already started contributing to the project. If you want a full-time position on our team, your best shot is to engage with our team and start contributing code. It is very unlikely that we would offer you a full-time position on our engineering team unless you’ve had at least a few pull requests merged.
 
 If you are interested, check out [the Origin Protocol job listings](https://angel.co/originprotocol/jobs). If you’d like to help in other ways, please propose your ideas in [our Discord channel](https://www.originprotocol.com/discord).
-
