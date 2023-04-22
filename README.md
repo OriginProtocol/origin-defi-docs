@@ -19,7 +19,7 @@ Both tokens are governed by **Origin DeFi Governance (OGV)** stakers who earn a 
 |                          |                              Origin Dollar (OUSD)                              |                            Origin Ether (OETH)                            |
 | ------------------------ | :----------------------------------------------------------------------------: | :-----------------------------------------------------------------------: |
 | 100% redeemable for      |       <img src=".gitbook/assets/image (19).png" alt="" data-size="line">       | <img src=".gitbook/assets/image (1) (1) (3).png" alt="" data-size="line"> |
-| Strategies               |      <img src=".gitbook/assets/image (2) (2).png" alt="" data-size="line">     |       <img src=".gitbook/assets/image.png" alt="" data-size="line">       |
+| Strategies               |      <img src=".gitbook/assets/image (2) (2).png" alt="" data-size="line">     |     <img src=".gitbook/assets/image (1).png" alt="" data-size="line">     |
 | Network                  |                                    Ethereum                                    |                                  Ethereum                                 |
 | Address                  |       [origindollar.eth](https://etherscan.com/address/origindollar.eth)       |        [origineth.eth](https://etherscan.io/address/origineth.eth)        |
 | DApp URL                 |                        [ousd.com](https://www.ousd.com)                        |                      [oeth.com](https://www.oeth.com)                     |
