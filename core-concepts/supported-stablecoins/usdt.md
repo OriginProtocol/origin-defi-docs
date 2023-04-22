@@ -6,7 +6,7 @@ Tether (USDT) is a fiat-pegged stablecoin that was initially built on top of Bit
 
 Each Tether issued into circulation is said to be backed by a one-to-one ratio with the equivalent amount of fiat currency held in a custodial account by Tether Limited, a Hong Kong-based company with close ties to the cryptocurrency exchange, Bitfinex.
 
-Despite the controversy around the company's failure to provide a promised audit showing adequate reserves backing tether, USDT is still the world's largest stablecoin by market cap and currently the third-largest cryptocurrency after BTC and ETH.
+Despite the controversy around the company's failure to provide a promised audit showing adequate reserves backing tether, as of April 2023, USDT is still the world's largest stablecoin by market cap and currently the third-largest cryptocurrency after BTC and ETH.
 
 | Key Facts     |                                            |
 | ------------- | ------------------------------------------ |

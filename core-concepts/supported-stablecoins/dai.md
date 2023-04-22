@@ -6,7 +6,7 @@ Dai is a fiat-pegged stablecoin launched as a ERC-20 token on the Ethereum block
 
 Dai is minted by users locking up crypto assets such as ETH or USDC as collateral in a collateralized debt position (CDP) called a vault. Previously, only ETH was accepted as collateral. The reserves and status of each vault can be viewed on the blockchain in real-time. The health of these vaults and the Dai stablecoin are closely monitored.
 
-Dai is currently the world's third-largest stablecoin with over $4.7 billion in circulation.
+As of April 2023, Dai is currently the world's third-largest stablecoin with over $4.7 billion in circulation.
 
 | Key Facts     |                                                |
 | ------------- | ---------------------------------------------- |

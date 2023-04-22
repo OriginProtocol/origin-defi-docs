@@ -6,7 +6,7 @@ USD Coin (USDC) is a fiat-pegged stablecoin launched as a ERC-20 token on the Et
 
 Each USDC is backed by a 1:1 ratio with the equivalent amount of fiat currency held in custodial accounts by members of Centre, a consortium founded by Circle and Coinbase. Members of Centre are regulated financial institutions based in the US. Monthly audits of reserves are published by Grant Thornton LLP.
 
-USDC is the world's second-largest stablecoin after USDT and has quickly grown to over $29 billion in circulation. USDC is currently the world's fifth-largest cryptocurrency.
+As of April 2023, USDC is the world's second-largest stablecoin after USDT and has quickly grown to over $29 billion in circulation. USDC is currently the world's fifth-largest cryptocurrency.
 
 | Key Facts     |                                                          |
 | ------------- | -------------------------------------------------------- |
