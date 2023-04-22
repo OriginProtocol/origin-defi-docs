@@ -1,6 +1,8 @@
 # Vote Delegation
 
-There are two different ways that vote delegation plays a role in Origin Dollar Governance. First, veOGV holders must register to vote by either self-delegating or delegating their voting power to another Ethereum account. This is the result of a design decision to minimize gas costs for OGV stakers, many of whom do not intend to participate in governance directly. In the near future, this registration step will likely be integrated into first-time staking transactions so that new OGV stakers automatically self-delegate and are able to exercise voting power without submitting a separate transaction. You can follow the progress of this issue in [GitHub](https://github.com/OriginProtocol/ousd-governance/issues/312).
+There are two main reasons to use vote delegation. First, you may want to delegate your votes to someone who is more technical or is paying more attention to the various proposals being made to the protocol. Second, you may wish to vote on your own, but for convenience delegate your votes to a hot wallet while holding your staked OGV in a safer cold wallet.&#x20;
+
+If you staked OGV prior to March 2023, you will need to [self-delegate](https://governance.ousd.com/register-vote) as a separate transaction. All new first-time stakers will have their voting power self-delegated going forward.
 
 **How to Register** (on-chain)
 
@@ -9,7 +11,7 @@ There are two different ways that vote delegation plays a role in Origin Dollar 
 
 <figure><img src="../.gitbook/assets/Screen Shot 2022-12-28 at 11.33.32 PM.png" alt=""><figcaption><p><a href="https://governance.ousd.com/register-vote">Self-delegation at governance.ousd.com/register-vote</a></p></figcaption></figure>
 
-Once veOGV holders are registered to vote, they may choose to delegate their voting power specifically for off-chain proposals on the [Origin Dollar Governance Snapshot Space](https://vote.ousd.com). Choosing this option does not strip the token holders of their voting power. The delegatee receives the extra voting power only on proposals the delegator has not voted on. This is convenient when users want someone they trust or even one of Origin's team members to make governance decisions regarding Origin's ecosystem. It is also useful when users have veOGV stored more safely in a hardware wallet and don’t want to go through the hassle of connecting it to the computer. A more accessible Ethereum wallet (e.g. MetaMask) can be used to vote by having voting power delegated to it from the hardware wallet.
+Once veOGV holders are registered to vote, they may choose to delegate their voting power specifically for off-chain proposals on the [Origin DeFi Governance Snapshot Space](https://vote.ousd.com). Choosing this option does not strip the token holders of their voting power. The delegatee receives the extra voting power only on proposals the delegator has not voted on. This is convenient when users want someone they trust or even one of Origin's team members to make governance decisions regarding Origin's ecosystem. It is also useful when users have veOGV stored more safely in a hardware wallet and don’t want to go through the hassle of connecting it to the computer. A more accessible Ethereum wallet (e.g. MetaMask) can be used to vote by having voting power delegated to it from the hardware wallet.
 
 **How to Delegate** (off-chain)
 
