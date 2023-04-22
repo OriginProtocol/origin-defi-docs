@@ -2,6 +2,10 @@
 
 ### Why Staking
 
+{% hint style="info" %}
+The goal of OGV Staking is to transfer both economic and governance power to those most committed to the long-term success of the protocol.
+{% endhint %}
+
 Origin's products are built for the long term. As such, we need community governance that is similarly focused on the long-term good of the protocol. We incentivize long-term thinking by having users lock Origin DeFi Governance tokens (OGV) for a period of time in exchange for economic and voting power in the form of Vote-Escrowed Origin DeFi Governance tokens (veOGV). The longer users choose to stake, the more power they receive. This ensures that power is held by those who are most committed to the long-term success of the protocol. In return for staking OGV, users not only earn the ability to create proposals and vote on the future of the protocol. They are also rewarded with additional OGV that can be collected at any time.
 
 ### Economic & Voting Power Calculation
@@ -51,4 +55,4 @@ Visit [the OUSD Governance DApp](https://governance.ousd.com/stake) in a web3-en
 
 ### Buying OGV
 
-OGV is currently available on 1inch, [Curve](https://curve.fi/#/ethereum/pools/factory-crypto-205/swap), [Uniswap](https://app.uniswap.org/#/swap?outputCurrency=0x9c354503C38481a7A7a51629142963F98eCC12D0\&chain=mainnet), [Huobi](https://www.huobi.com/exchange/ogv\_usdt/), [KuCoin](https://www.kucoin.com/trade/OGV-USDT), [Gate.io](https://www.gate.io/trade/OGV\_USDT), [MEXC](https://www.mexc.com/exchange/OGV\_USDT), and [Bitget](https://www.bitget.com/spot/OGVUSDT\_SPBL).
+OGV is currently available on [1inch](https://app.1inch.io/#/1/simple/swap/ETH/OGV), [Curve](https://curve.fi/#/ethereum/pools/factory-crypto-205/swap), [Uniswap](https://app.uniswap.org/#/swap?outputCurrency=0x9c354503C38481a7A7a51629142963F98eCC12D0\&chain=mainnet), [Huobi](https://www.huobi.com/exchange/ogv\_usdt/), [KuCoin](https://www.kucoin.com/trade/OGV-USDT), [Gate.io](https://www.gate.io/trade/OGV\_USDT), [MEXC](https://www.mexc.com/exchange/OGV\_USDT), and [Bitget](https://www.bitget.com/spot/OGVUSDT\_SPBL).
