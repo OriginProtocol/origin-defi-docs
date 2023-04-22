@@ -15,3 +15,5 @@ OUSD integrates with leading lending providers that have a proven track record, 
 {% content-ref url="../supported-strategies/aave.md" %}
 [aave.md](../supported-strategies/aave.md)
 {% endcontent-ref %}
+
+OETH is not expected to utilize any lending strategies at launch.
