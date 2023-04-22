@@ -4,11 +4,17 @@
 
 In addition to supporting ETH as collateral, Origin Ether supports liquid staking derivatives stETH, frxETH, and rETH. The vault holds exposure to Frax Staked Ether (sfrxETH), but the vault does not support sfrxETH as a collateral type.
 
-Currently, OETH holds exposure to three LSDs:&#x20;
+Currently, OETH holds exposure to three Liquid Staking Derivatives (LSDs):&#x20;
 
-[lido-steth.md](lido-steth.md "mention")
+{% content-ref url="lido-steth.md" %}
+[lido-steth.md](lido-steth.md)
+{% endcontent-ref %}
 
-[rocketpool-reth.md](rocketpool-reth.md "mention")
+{% content-ref url="rocketpool-reth.md" %}
+[rocketpool-reth.md](rocketpool-reth.md)
+{% endcontent-ref %}
 
-[frax-sfrxeth.md](frax-sfrxeth.md "mention")
+{% content-ref url="frax-sfrxeth.md" %}
+[frax-sfrxeth.md](frax-sfrxeth.md)
+{% endcontent-ref %}
 
