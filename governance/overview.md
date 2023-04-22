@@ -1,8 +1,12 @@
 # Overview
 
+{% hint style="warning" %}
+OETH will be initially governed by a 5 of 8 multisig upon launch. After launch, the timelock will be gradually increased from 0 to 48 hours, before ownership is fully transferred over to OGV stakers. This is in case any major issues are discovered..
+{% endhint %}
+
 **Principles**
 
-Origin Dollar is a decentralized protocol governed by multiple stakeholders around the world. Everything from yield generation to fee collection and distribution is managed by a set of smart contracts on the Ethereum blockchain. These contracts are upgradeable with a timelock and controlled by hundreds of governance token holders. While the initial contracts and yield-earning strategies were developed by the Origin team, anyone can shape the future of the protocol by creating or voting on proposals, submitting new strategies, or contributing code improvements. We intend for all important decisions to be made through community governance and limited powers to be delegated to trusted contributors who are more actively involved in the day-to-day management of the protocol.
+Origin Dollar is a decentralized protocol governed by multiple stakeholders around the world. Everything from yield generation to fee collection and distribution is managed by a set of smart contracts on the Ethereum blockchain. These contracts are upgradeable with a timelock and controlled by hundreds of governance token holders all around the world. While the initial contracts and yield-earning strategies were developed by the Origin team, anyone can shape the future of the protocol by creating or voting on proposals, submitting new strategies, or contributing code improvements. We intend for all important decisions to be made through community governance and for limited powers to be delegated to trusted contributors who are more actively involved in the day-to-day management of the protocol.
 
 **Proposal lifecycle**
 
@@ -34,5 +38,4 @@ Here are the step-by-step instructions to vote and create a proposal:
 
 Feel free to use one of the [templates](../guides/governance-templates/) as a guide for writing governance proposals
 
-Routine funds management and precautionary actions are handled by multi-sig signers known as the [Strategists](https://docs.ousd.com/governance/admin-privileges#strategist). These users have been delegated authority to implement reallocations across OUSD’s yield-generating strategies in addition to being granted other limited emergency powers. Strategist actions do not require an on-chain vote involving veOGV holders since they are executed from a 2 of 9 multi-sig account. However, they are usually accompanied by an off-chain Snapshot proposal except in rare cases when the Strategists proactively respond to market conditions (e.g. de-risking from a given strategy or collateral type).&#x20;
-
+Routine funds management and precautionary actions are handled by multi-sig signers known as the [Strategists](https://docs.ousd.com/governance/admin-privileges#strategist). These users have been delegated authority to implement reallocations across OUSD’s yield-generating strategies in addition to being granted other limited emergency powers. Strategist actions do not require an on-chain vote involving veOGV holders since they are executed from a 2 of 9 multi-sig account. However, they are usually accompanied by an off-chain Snapshot proposal except in rare cases when the Strategists proactively respond to market conditions (e.g. de-risking from a given strategy or collateral type).
