@@ -14,7 +14,7 @@ Time-delayed admin actions give users a chance to exit OUSD if any malicious pro
 
 ### Strategists
 
-Some functionality, such as rebalancing funds between strategies or pausing deposits, can be triggered without the timelock and with far fewer signers. This allows the Origin team to react more quickly to market conditions or security threats. These signers, known as Strategists, have the ability to execute a limited number of functions \_\_ with only 2 of 9 signers.
+Some functionality, such as rebalancing funds between strategies or pausing deposits, can be triggered without the timelock and with far fewer signers. This allows the Origin team to react more quickly to market conditions or security threats. These signers, known as Strategists, have the ability to execute a limited number of functions with only 2 of 9 signers.
 
 The strategist multisig can do the following actions on the vault:
 
