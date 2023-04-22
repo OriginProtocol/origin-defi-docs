@@ -18,7 +18,7 @@ Our branching strategy is similar to [GitFlow](http://nvie.com/posts/a-successfu
 
 Your development flow should look like:
 
-1. Find an interesting issue and communicate! Please let the `#engineering` [Discord](https://discord.gg/jyxpUSe) channel know what you want to work on.
+1. Find an interesting issue and communicate! Please let the `#defi-engineering` [Discord](https://discord.gg/jyxpUSe) channel know what you want to work on.
 2. Ping a [core team member](https://github.com/orgs/OriginProtocol/teams/core/members) member on Discord and ask to be added to our [contributors team](https://github.com/orgs/OriginProtocol/teams/contributors). Otherwise, you’ll need to fork the relevant repository and push feature branches to your own fork.
 3. Add a comment to the issue or self-assign so we don’t have multiple contributors unintentionally working on the same task.
 4. Start with the `master` branch and check out a new feature branch unless you’re contributing to an existing feature.
