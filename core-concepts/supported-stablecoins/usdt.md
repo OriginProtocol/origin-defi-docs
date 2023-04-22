@@ -16,4 +16,4 @@ Despite the controversy around the company's failure to provide a promised audit
 | Address       | 0xdAC17F958D2ee523a2206206994597C13D831ec7 |
 | Decimals      | 6                                          |
 | Official site | [https://tether.to/](https://tether.to/)   |
-| Holders       | Over 4.2M addresses                        |
+| Holders       | Over 4.2M addresses as of April, 2023      |

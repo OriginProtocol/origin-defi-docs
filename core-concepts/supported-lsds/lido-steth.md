@@ -17,5 +17,5 @@ Lido is the by far the most dominant LSD, holding nearly 75% market share in the
 | APR (as of April 2023)      | 4.6%                                       |
 | Address                     | 0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84 |
 | Website                     | [https://lido.fi/](https://lido.fi/)       |
-| Number of Holders           | 193,953                                    |
+| Number of Holders           | Almost 200k as of April, 2023              |
 

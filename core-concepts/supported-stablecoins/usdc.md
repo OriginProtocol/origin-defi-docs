@@ -16,4 +16,4 @@ As of April 2023, USDC is the world's second-largest stablecoin after USDT and h
 | Address       | 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48               |
 | Decimals      | 6                                                        |
 | Official site | [https://www.centre.io/usdc](https://www.centre.io/usdc) |
-| Holders       | Over 1.6M addresses                                      |
+| Holders       | Over 1.6M addresses as of April, 2023                    |

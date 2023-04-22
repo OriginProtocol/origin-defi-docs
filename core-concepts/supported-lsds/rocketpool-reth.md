@@ -17,5 +17,5 @@ While Rocket Pool doesn't take a fee directly, node operators receive variable c
 | APR (as of April 2023)       | 3.5% - 7%                                          |
 | Address                      | 0xae78736Cd615f374D3085123A210448E74Fc6393         |
 | Website                      | [https://rocketpool.net/](https://rocketpool.net/) |
-| Number of Holders            | 113,163                                            |
+| Number of Holders            | Over 100k as of April, 2023                        |
 

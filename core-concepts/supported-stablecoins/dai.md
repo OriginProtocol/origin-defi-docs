@@ -16,4 +16,4 @@ As of April 2023, Dai is currently the world's third-largest stablecoin with ove
 | Address       | 0x6B175474E89094C44Da98b954EedeAC495271d0F     |
 | Decimals      | 18                                             |
 | Official site | [https://makerdao.com/](https://makerdao.com/) |
-| Holders       | Over 500k addresses                            |
+| Holders       | Over 500k addresses as of April, 2023          |
