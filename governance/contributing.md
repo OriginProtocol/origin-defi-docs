@@ -34,7 +34,7 @@ For critical smart contract code to be merged it must pass the following checkli
 * Slither tests pass with no warning
 * Echidna tests pass
 
-The `master` branch is locked so that only members of the [core team](https://github.com/orgs/OriginProtocol/teams/core) are able to merge your pull requests. Pull requests that are peer-reviewed by other trusted contributors will be fast-tracked and merged faster! Check in the `#engineering` Discord channel for appropriate reviewers.
+The `master` branch is locked so that only members of the [core team](https://github.com/orgs/OriginProtocol/teams/core) are able to merge your pull requests. Pull requests that are peer-reviewed by other trusted contributors will be fast-tracked and merged faster! Check in the `#defi-engineering` Discord channel for appropriate reviewers.
 
 #### Coding Style
 
