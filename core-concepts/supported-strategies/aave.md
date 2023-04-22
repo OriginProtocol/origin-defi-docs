@@ -8,8 +8,6 @@ Aave supports flash loans, which are uncollateralized loans where users borrow a
 
 Aave's governance token was formerly called LEND which was the utility token for ETHLend. As part of their transition to fully decentralized governance, LEND holders were able to exchange LEND for AAVE, a new ERC-20 governance token with staking rewards. Some AAVE tokens have been distributed to users of the platform in a liquidity mining campaign.
 
-Aave's total value locked (TVL) has quickly grown to over $15.5 billion, making it the largest DeFi protocol at the time of writing. LEND has a circulating market cap of over $5.3 billion.
-
 Aave has undergone security audits by OpenZeppelin, Trail of Bits, and Consensys Diligence. Aave maintains a bug bounty program.
 
 OUSD's AAVE strategy collects and sells AAVE tokens during times that AAVE incentivizes deposits. The resulting stablecoins are added to the OUSD vault and distributed as yield.
