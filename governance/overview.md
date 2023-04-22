@@ -1,7 +1,7 @@
 # Overview
 
 {% hint style="warning" %}
-OETH will be initially governed by a 5 of 8 multisig upon launch. After launch, the timelock will be gradually increased from 0 to 48 hours, before ownership is fully transferred over to OGV stakers. This is in case any major issues are discovered..
+OETH will be initially governed by a 5 of 8 multisig upon launch. After launch, the timelock will be gradually increased from 0 to 48 hours, before ownership is fully transferred over to OGV stakers. This is in case any major issues are discovered.
 {% endhint %}
 
 **Principles**
