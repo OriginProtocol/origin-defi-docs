@@ -6,7 +6,7 @@ Both OUSD and OETH utilize Automated Market Operations (AMO). Origin uses the sa
 The AMO helps to maintain the peg, increase capital efficiency, and maximize yields for OUSD and OETH holders.&#x20;
 {% endhint %}
 
-### Understanding Curve's MetaPool
+**Understanding Curve's MetaPool**
 
 MetaPools are Curve pools that allow for one token to trade with another underlying base pool. 3Pool is the most common base pool and it is the only one currently supported by our strategy codebase. For example, a TUSD MetaPool using 3Pool as its base pool enables users to seamlessly trade between TUSD and 3CRV (DAI/USDC/USDT).
 
@@ -30,7 +30,7 @@ This feature can also also work in reverse, with the protocol removing extra OUS
 
 #### Protocol Owned Liquidity
 
-The OUSD and OETH deployed into the AMO is not minted by the Vault in a classic manner using backing collateral. Instead, the OUSD/OETH that is minted by the AMO is backed by itself. When the strategy removes liquidity from the AMO alongside 3Pool tokens, the OUSD/OETH is also removed and burned.
+The OUSD and OETH deployed into the AMO are not minted by the Vault in a classic manner using backing collateral. Instead, the OUSD/OETH that is minted by the AMO is backed by itself. When the strategy removes liquidity from the AMO alongside 3Pool tokens, the OUSD/OETH is also removed and burned.
 
 Remaining 100% collateralized is an important bedrock component of the protocol. The protocol owned OUSD/OETH held in the AMO is controlled by the protocol and it never enters circulation without generating profit for the protocol. When traders add or remove OUSD/OETH from the MetaPool, it has an effect similar to redeeming or minting since our strategy is capable of burning or creating new supply to maintain the pool's balance. Ultimately, OUSD/OETH can still be redeemed at any time for the underlying collateral on a 1:1 basis.
 
