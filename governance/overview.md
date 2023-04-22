@@ -24,7 +24,7 @@ Two high-level criteria are required to vote and make proposals:
    * No minimum to vote on existing proposals
    * 10,000 veOGV to create a Snapshot proposal
    * 10,000,000 veOGV to create an on-chain proposal
-2. ~~Register by self-delegating your governance power~~ Update: if you staked OGV prior to March 2023, you will need to [self-delegate](https://governance.ousd.com/register-vote) as a separate transaction. All new first-time stakers will have their voting power self-delegated going forward.
+2. If you staked OGV prior to March 2023, you will need to [self-delegate](https://governance.ousd.com/register-vote) as a separate transaction. All new first-time stakers will have their voting power self-delegated going forward.
    * Can also be delegated to another Ethereum account
    * Partial delegation is not supported
 
