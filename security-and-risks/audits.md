@@ -2,9 +2,13 @@
 
 **Continuously audited**
 
+{% hint style="info" %}
+OETH utilizes 95% of the same code as OUSD. The new changes will have been audited by OpenZeppelin and Narya prior to launch.
+{% endhint %}
+
 Origin currently has a continuous auditing agreement with [OpenZeppelin](https://openzeppelin.com) to constantly review 100% of our smart contract changes. OpenZeppelin has audited Coinbase, Ethereum, Aave, Compound, and other leading projects. They are one of the most trusted auditing firms in the industry and we are thrilled to count them as part of our extended team.
 
-OUSD has also been thoroughly audited by multiple other top security firms including [Trail of Bits](https://www.trailofbits.com/), [Solidified](https://solidified.io/), and [Certora](https://www.certora.com/). Their findings are available below:
+OUSD has also been thoroughly audited by multiple other top security firms including [Trail of Bits](https://www.trailofbits.com/), [Solidified](https://solidified.io/), [Certora](https://www.certora.com/) and [Narya](https://narya.ai/) (previously PwnedNoMore). Their findings are available below:
 
 * [Trail of Bits, OUSD Audit, December 2020](https://github.com/OriginProtocol/security/blob/master/audits/Trail%20of%20Bits%20-%20Origin%20Dollar%20-%20Dec%202020.pdf)
 * [Solidified, OUSD Audit, December 2020](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20Origin%20Dollar%20-%20Dec%202020.pdf)
@@ -48,7 +52,7 @@ Morpho has been audited by [Trail of Bits](https://www.trailofbits.com/), [Solid
 
 **Chainlink Oracles**
 
-Chainlink has been audited by [Quantstamp](https://github.com/smartcontractkit/chainlink/tree/bafa91c), [SigmaPrime](https://github.com/smartcontractkit/chainlink/tree/cee356), [Callisto](https://gist.github.com/yuriy77k/c3a70d212a7f9ecda715252e45073158), and [Nick Johnson](https://github.com/smartcontractkit/chainlink/tree/5327f9).&#x20;
+Chainlink has been audited by [Quantstamp](https://github.com/smartcontractkit/chainlink/tree/bafa91c), [SigmaPrime](https://github.com/smartcontractkit/chainlink/tree/cee356), [Callisto](https://gist.github.com/yuriy77k/c3a70d212a7f9ecda715252e45073158), and [Nick Johnson](https://github.com/smartcontractkit/chainlink/tree/5327f9).
 
 ### **Full list of audits**
 
