@@ -64,6 +64,8 @@
 * [Audits](security-and-risks/audits.md)
 * [Insurance](security-and-risks/insurance.md)
 * [Bug Bounties](security-and-risks/bug-bounties.md)
+* [Risk Reports](security-and-risks/risk-reports/README.md)
+  * [frxETH/sfrxETH](security-and-risks/risk-reports/frxeth-sfrxeth.md)
 
 ## Guides
 
