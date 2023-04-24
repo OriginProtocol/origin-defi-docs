@@ -34,8 +34,6 @@ The contracts are also not upgradeable which means that they cannot deploy addit
 | Timelock                             | [0x8412ebf45bAC1B340BbE8F318b928C466c4E39CA](https://etherscan.io/address/0x8412ebf45bAC1B340BbE8F318b928C466c4E39CA)                   | <p><br></p>                                                                  |
 | Comptroller (Also, multi-sig wallet) | [0xB1748C79709f4Ba2Dd82834B8c82D4a505003f27](https://etherscan.io/address/0xB1748C79709f4Ba2Dd82834B8c82D4a505003f27#readProxyContract) | Controls timelock, shares two of the signers with the other multi-sig wallet |
 
-You can find the full smart contract review [here](https://docs.google.com/document/d/1voXJs2PlLiSUGhOB4sF8i62l1d1AvN7gmJ8diQyXZy4/edit?usp=sharing).
-
 ## Audit findings
 
 In our assessment of frxETH being included in the underlying basket of OETH, we have factored in if the protocol has undergone an audit and if it was performed by a reputable firm. The audit of frxETH and sfrxETH have been conducted by a tier A audit firm in the form of Trail of Bits and also through multiple white hat hackers in order to get as many eyes as possible on the code.&#x20;
