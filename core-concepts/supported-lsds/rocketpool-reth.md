@@ -19,3 +19,4 @@ While Rocket Pool doesn't take a fee directly, node operators receive variable c
 | Website                      | [https://rocketpool.net/](https://rocketpool.net/) |
 | Number of Holders            | Over 100k as of April, 2023                        |
 
+You can read our risk report of Rocket Pool ETH [here](../../security-and-risks/risk-reports/reth.md).
