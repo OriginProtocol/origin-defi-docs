@@ -17,6 +17,7 @@ OUSD has also been thoroughly audited by multiple other top security firms inclu
 * [OpenZeppelin, OUSD Audit, August 2021](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Dollar%20-%20October%202021.pdf)
 * [Solidified, wOUSD, ERC721a, Governance, Harvester & Dripper Audit, May 2022](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20OGV%2C%20wOUSD%2C%20and%20ERC721a%20-%20May%202022.pdf)
 * [OpenZeppelin, OUSD Convex Strategies Audit, October 2022](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Dollar%20Convex%20-%20October%202022.pdf)
+* [OpenZeppelin, OUSD Dripper & Uniswap Strategy Audit, April 2023](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Dollar%20Dripper%20%26%20Uniswap%20strategy%20-%20April%202023.pdf)
 
 Both our original governance token (OGN) and our current governance token (OGV) have been audited as well:
 
