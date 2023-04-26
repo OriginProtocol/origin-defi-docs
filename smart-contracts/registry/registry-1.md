@@ -9,7 +9,7 @@ Most of Origin's contracts are upgradable via a well-known proxy wrapper and an 
 | OETH Token  | 0x856c4Efb76C1D1AE02e20CEB03A2A6a08b0b8dC3  |
 | wOETH Token | 0xDcEe70654261AF21C44c093C300eD3Bb97b78192  |
 | OETH Vault  |  0x39254033945AA2E4809Cc2977E7087BEE48bd7Ab |
-| OETH Zapper | 0x8c135F50C7317A93Cc95bB208A494E5ADe5B66b0  |
+| OETH Zapper | 0x9858e47BCbBe6fBAC040519B02d7cd4B2C470C66  |
 
 **OETH Strategies**
 
