@@ -20,11 +20,11 @@ Most of Origin's contracts are upgradable via a well-known proxy wrapper and an 
 
 **OUSD Yield Harvesting & Rewards Distribution**
 
-| Contract       | Address      |
-| -------------- | ------------ |
-| OETH Harvester | Not yet live |
-| OETH Dripper   | Not yet live |
-| OETH Buyback   | Not yet live |
+| Contract       | Address                                    |
+| -------------- | ------------------------------------------ |
+| OETH Harvester | Not yet live                               |
+| OETH Dripper   | 0xc0F42F73b8f01849a2DD99753524d4ba14317EB3 |
+| OETH Buyback   | Not yet live                               |
 
 **Chainlink Keepers**
 
