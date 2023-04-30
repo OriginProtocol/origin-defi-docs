@@ -50,8 +50,8 @@
 
 * [Architecture](smart-contracts/architecture.md)
 * [Registry](smart-contracts/registry.md)
-  * [OUSD Registry](smart-contracts/registry/registry.md)
-  * [OETH Registry](smart-contracts/registry/registry-1.md)
+  * [OUSD Registry](smart-contracts/registry/ousd-registry.md)
+  * [OETH Registry](smart-contracts/registry/oeth-registry.md)
 * [API](smart-contracts/api/README.md)
   * [Vault](smart-contracts/api/vault.md)
   * [ERC-20](smart-contracts/api/erc-20-1.md)

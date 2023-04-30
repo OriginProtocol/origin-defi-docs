@@ -13,12 +13,12 @@ Here is the list of OUSD, OETH, and OGV smart contracts that have been deployed 
 | OGV      | <p><a href="https://etherscan.io/address/0x9c354503C38481a7A7a51629142963F98eCC12D0"><img src="../.gitbook/assets/image (25) (1).png" alt="" data-size="line"></a> 0x9c354503C38481a7A7a51629142963F98eCC12D0<br>ogv.eth</p>                 |
 | veOGV    | <p><a href="https://etherscan.io/address/0x0C4576Ca1c365868E162554AF8e385dc3e7C66D9"><img src="../.gitbook/assets/image (10) (2).png" alt="" data-size="line"></a> 0x0C4576Ca1c365868E162554AF8e385dc3e7C66D9<br>veogv.eth</p>               |
 
-{% content-ref url="registry/registry.md" %}
-[registry.md](registry/registry.md)
+{% content-ref url="registry/ousd-registry.md" %}
+[ousd-registry.md](registry/ousd-registry.md)
 {% endcontent-ref %}
 
-{% content-ref url="registry/registry-1.md" %}
-[registry-1.md](registry/registry-1.md)
+{% content-ref url="registry/oeth-registry.md" %}
+[oeth-registry.md](registry/oeth-registry.md)
 {% endcontent-ref %}
 
 **Timelock & Multisigs**
