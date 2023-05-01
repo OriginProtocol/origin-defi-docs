@@ -30,9 +30,9 @@ Most of Origin's contracts are upgradable via a well-known proxy wrapper and an 
 
 Chainlink Keepers are an automated and decentralized way for OETH to perform regularly scheduled tasks.
 
-| Keeper        | Address            | Purpose                  |
-| ------------- | ------------------ | ------------------------ |
-| OUSD Keeper 4 | Not setup for OETH | Executing a daily rebase |
+| Keeper        | Address                                    | Purpose                  |
+| ------------- | ------------------------------------------ | ------------------------ |
+| OUSD Keeper 4 | 0xAAdf7D0f2E217168ACC90e5d39A42a24857620d5 | Executing a daily rebase |
 
 **OETH Assets**
 
