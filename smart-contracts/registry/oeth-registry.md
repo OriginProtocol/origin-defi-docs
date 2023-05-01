@@ -26,14 +26,6 @@ Most of Origin's contracts are upgradable via a well-known proxy wrapper and an 
 | OETH Dripper   | 0xc0F42F73b8f01849a2DD99753524d4ba14317EB3 |
 | OETH Buyback   | Not yet live                               |
 
-**Chainlink Keepers**
-
-Chainlink Keepers are an automated and decentralized way for OETH to perform regularly scheduled tasks.
-
-| Keeper        | Address                                    | Purpose                  |
-| ------------- | ------------------------------------------ | ------------------------ |
-| OUSD Keeper 4 | 0xAAdf7D0f2E217168ACC90e5d39A42a24857620d5 | Executing a daily rebase |
-
 **OETH Assets**
 
 OETH is backed by WETH and the following liquid staking derivates:

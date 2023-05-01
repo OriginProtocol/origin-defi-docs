@@ -35,3 +35,10 @@ Here is the list of OUSD, OETH, and OGV smart contracts that have been deployed 
 | ------------------ | ------------------------------------------ |
 | OGV Rewards Source | 0x7d82e86cf1496f9485a8ea04012afeb3c7489397 |
 
+**Chainlink Keepers**
+
+Chainlink Keepers are an automated and decentralized way to perform regularly scheduled tasks.
+
+| Keeper                                                                                                                              | Address                                    | Purpose                                         |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ | ----------------------------------------------- |
+| [OUSD Keeper 4](https://automation.chain.link/mainnet/2022703490822923113448311755206212242563019305713071923191609770064783093618) | 0xAAdf7D0f2E217168ACC90e5d39A42a24857620d5 | Executing a daily rebase for both OUSD and OETH |
