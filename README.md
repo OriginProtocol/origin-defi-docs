@@ -47,5 +47,5 @@ While the code powering OUSD and OETH is similar, there are a number of configur
 | RebaseThreshold       | 1,000 USD            | 1 ETH               |
 | MaxSupplyDiff         | 5%                   | 3%                  |
 | TrusteeAddress        | Strategist multisig  | Strategist multisig |
-| TrusteeFee            | 10% -> 20% soon      | 20%                 |
+| TrusteeFee            | 20%                  | 20%                 |
 
