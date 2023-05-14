@@ -1,17 +1,21 @@
 # API
 
-Several data endpoints are used internally and by our partners. These have been created incrementally on an as-needed basis and are not intended for widespread use. This documentation has been added for convenience, but please do not rely on this the API for mission-critical data. If you have a need for additional data to use in your application, please [reach out on Discord](https://originprotocol.com/discord).
+Several data endpoints are used internally and by our partners. These have been created incrementally on an as-needed basis and are not intended for widespread use. This documentation has been added for convenience, but please do not rely on this API for mission-critical data. If you need additional data to use in your application, please [reach out on Discord](https://originprotocol.com/discord).
 
 The are two separate hostnames where different endpoints are hosted. The source code can be found in the [ousd-analytics](https://github.com/OriginProtocol/ousd-analytics/blob/2b16b3af85e90ed85c6375f2a6c0b41848dd8bd8/eagleproject/eagleproject/urls.py#L51-L64) and [origin-website](https://github.com/OriginProtocol/origin-website/blob/master/views/web\_views.py#L291-L324) GitHub repositories.
 
-### OUSD Analytics
+### OUSD/OETH Analytics
 
-{% swagger method="get" path="/api/v1/apr/trailing/{days}" baseUrl="https://analytics.ousd.com" summary="OUSD trailing yield" %}
+{% swagger method="get" path="/api/v2/{symbol}/apr/trailing/{days}" baseUrl="https://analytics.ousd.com" summary="Trailing yield" %}
 {% swagger-description %}
-The annualized trailing yield for OUSD over given number of days
+The annualized trailing yield for OUSD or OETH over a given number of days
 
 Numbers greater than 365 may produce unexpected results
 {% endswagger-description %}
+
+{% swagger-parameter in="path" name="symbol" type="String" required="true" %}
+ousd or oeth
+{% endswagger-parameter %}
 
 {% swagger-parameter in="path" required="false" type="Number" name="days" %}
 Number of days
@@ -27,10 +31,14 @@ Number of days
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="get" path="/api/v1/apr/history" baseUrl="https://analytics.ousd.com" summary="OUSD yield history" %}
+{% swagger method="get" path="/api/v2/{symbol}/apr/history" baseUrl="https://analytics.ousd.com" summary="Yield history" %}
 {% swagger-description %}
-The recent annualized historical yield for OUSD
+The recent annualized historical yield for OUSD or OETH
 {% endswagger-description %}
+
+{% swagger-parameter in="path" name="symbol" type="String" required="true" %}
+ousd or oeth
+{% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="" %}
 ```javascript
@@ -83,10 +91,14 @@ The recent annualized historical yield for OUSD
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="get" path="/collateral" baseUrl="https://analytics.ousd.com" summary="OUSD collateral" %}
+{% swagger method="get" path="/api/v2/{symbol}/collateral" baseUrl="https://analytics.ousd.com" summary="Collateral" %}
 {% swagger-description %}
-A list of stablecoins and their balances held by OUSD
+A list of backing assets and their balances held by OUSD or OETH
 {% endswagger-description %}
+
+{% swagger-parameter in="path" name="symbol" type="String" required="true" %}
+ousd or oeth
+{% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="" %}
 ```javascript
@@ -114,13 +126,17 @@ A list of stablecoins and their balances held by OUSD
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="get" path="/strategies{?structured}" baseUrl="https://analytics.ousd.com" summary="OUSD strategies" %}
+{% swagger method="get" path="/api/v2/{symbol}/strategies{?structured}" baseUrl="https://analytics.ousd.com" summary="Strategies" %}
 {% swagger-description %}
-A list of OUSD's yield-earning strategies and their token balances
+A list of OUSD's or OETH's yield-earning strategies and their token balances
 {% endswagger-description %}
 
 {% swagger-parameter in="query" name="structured" required="false" %}
 
+{% endswagger-parameter %}
+
+{% swagger-parameter in="path" name="symbol" type="String" required="true" %}
+ousd or oeth
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="unstructured" %}
