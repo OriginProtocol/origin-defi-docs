@@ -31,18 +31,6 @@ Mints OUSD in exchange for a deposit of a certain `_amount` of stablecoin specif
 | \_amount            | uint256 | Amount deposited, expressed in decimal units                                                                                                        |
 | \_minimumOusdAmount | uint256 | Minimum amount of OUSD the caller is willing to receive. The call to mint() reverts if the minimum is not met.                                      |
 
-### mintMultiple() <a href="#mintmultiple" id="mintmultiple"></a>
-
-\*\*`function mintMultiple(address[] _assets, uint256[] _amounts, uint256 _minimumOusdAmount)`\*\*‌
-
-Mints OUSD in exchange for a deposit of multiple stablecoins in a single call. Stablecoins are specified by the `_assets` array parameter and the amounts by the `_amounts` array parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
-
-| Parameter Name      | Type       | Description                                                                                                                                            |
-| ------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| \_assets            | address\[] | Addresses of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/\~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoins |
-| \_amounts           | uint256\[] | Amounts deposited, expressed in decimal units                                                                                                          |
-| \_minimumOusdAmount | uint256    | Minimum amount of OUSD the caller is willing to receive. The call to mint() reverts if the minimum is not met.                                         |
-
 {% hint style="warning" %}
 On redemptions, it is the protocol and not the user that decides which stablecoin(s) are returned to the user. This decision of which coin(s) to return is based on the internal ratios of the assets that are being held in the vault.‌
 {% endhint %}
