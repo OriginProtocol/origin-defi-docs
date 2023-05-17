@@ -1,6 +1,6 @@
 # Origin Ether (OETH)
 
-<figure><img src=".gitbook/assets/OETH Meta Tag Image.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/oeth.jpeg" alt=""><figcaption></figcaption></figure>
 
 Origin Ether shares much of its codebase with Origin Dollar, with the key distinction being that OETH is an ether-denominated token, whereas OUSD is denominated in USD. OETH takes advantage of liquid staking yield, boosting APYs through DeFi strategies and rewards tokens.&#x20;
 
