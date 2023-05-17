@@ -4,10 +4,6 @@ description: The easiest way to stack ETH and USD
 
 # Introduction
 
-{% hint style="warning" %}
-These docs are very much a work in progress. We're working on updating them in time for the launch of OETH in May 2023. For the most part, OETH works almost exactly like OUSD. If you understand OUSD, you already understand how OETH works too.
-{% endhint %}
-
 This documentation explains the technical design of **Origin Dollar (OUSD)** and **Origin Ether (OETH)**. Both products are designed to deliver superior DeFi yields directly to your Ethereum wallet. Access the best yields available on ETH or USD with none of the hassles typically associated with yield-farming. No staking. No lockups. Constant compounding.
 
 OUSD and OETH use the same codebase but accept different collateral and utilize different combinations of strategies depending on the opportunities in the market. OUSD is designed to help you accumulate more dollars, whereas OETH helps you accumulate more ETH. OUSD is a stablecoin that tracks the price of USD. OETH works in the same way but tracks the price of ETH instead of US dollars. Both assets are 100% permissionless and always redeemable for their backing collateral.
