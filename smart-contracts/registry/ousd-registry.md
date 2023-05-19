@@ -36,14 +36,6 @@ Flipper is a gas-optimized way for users to swap in and out of OUSD at a fixed 1
 | OUSD Rewards Source | 0x7d82e86cf1496f9485a8ea04012afeb3c7489397 |
 | OUSD Flipper        | 0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70 |
 
-**Chainlink Keepers**
-
-Chainlink Keepers are an automated and decentralized way for OUSD to perform regularly scheduled tasks.
-
-| Keeper                                                    | Address                                    | Purpose                  |
-| --------------------------------------------------------- | ------------------------------------------ | ------------------------ |
-| [OUSD Keeper 3](https://automation.chain.link/mainnet/71) | 0x321e130c0a9cadb0f1ff07f024d6adb290788efb | Executing a daily rebase |
-
 **OUSD Assets**
 
 OUSD is backed by the following stablecoins:
