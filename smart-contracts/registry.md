@@ -39,6 +39,6 @@ Here is the list of OUSD, OETH, and OGV smart contracts that have been deployed 
 
 Chainlink Keepers are an automated and decentralized way to perform regularly scheduled tasks.
 
-| Keeper                                                                                                                              | Address                                    | Purpose                                         |
-| ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ | ----------------------------------------------- |
-| [OUSD Keeper 4](https://automation.chain.link/mainnet/2022703490822923113448311755206212242563019305713071923191609770064783093618) | 0xAAdf7D0f2E217168ACC90e5d39A42a24857620d5 | Executing a daily rebase for both OUSD and OETH |
+| Keeper                                                                                                                               | Address                                    | Purpose                                         |
+| ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------ | ----------------------------------------------- |
+| [OUSD Keeper 5](https://automation.chain.link/mainnet/80310800131671020338601273445439145162738398695605141883575959303659215247238) | 0x9c979C2687B2E64293c45B2D122d688e2d7fD8ec | Executing a daily rebase for both OUSD and OETH |
