@@ -20,7 +20,7 @@ Most of Origin's contracts are upgradable via a well-known proxy wrapper and an 
 | OETH Convex ETH +OETH (AMO) | 0x1827F9eA98E0bf96550b2FC20F7233277FcD7E63 |
 | OETH Frax Staking           | 0x3fF8654D633D4Ea0faE24c52Aec73B4A20D0d0e5 |
 
-**OUSD Yield Harvesting & Rewards Distribution**
+**OETH Yield Harvesting & Rewards Distribution**
 
 | Contract       | Address                                    |
 | -------------- | ------------------------------------------ |
