@@ -68,4 +68,5 @@ These contacts are no longer actively used but are included here for historical 
 | Original OGN Staking Implementation | 0x8cd68a1e0b79150455c5498882d5d5d3df2dde08 |
 | OUSD Compensation                   | 0x9C94df9d594BA1eb94430C006c269C314B1A8281 |
 | Old OUSD Vault                      | 0x277e80f3E14E7fB3fc40A9d6184088e0241034bD |
-| Old Buyback Contract                | 0x77314EB392b2be47C014cde0706908b3307Ad6a9 |
+| Old Buyback (1 of 2)                | 0x77314EB392b2be47C014cde0706908b3307Ad6a9 |
+| Old Buyback (2 of 2)                | 0x6C5cdfB47150EFc52072cB93Eea1e0F123529748 |
