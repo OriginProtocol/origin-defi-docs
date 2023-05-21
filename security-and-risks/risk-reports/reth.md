@@ -11,7 +11,7 @@ Rocketpool was launched with the aim of decentralizing Ethereum staking to ensur
 * rETH has extremely deep liquidity and fits within our threshold of a $100M secondary market liquidity in case a rebalancing of the LSD basket needs to take place.&#x20;
 * The protocol has a strong team that represents the product well although the majority of them are not public.&#x20;
 * RocketPool's documentation is clear and professional and directly leads you to find the necessary information you need to find, especially concerning contracts and the thought process behind them.
-* .No clear owner of the contracts can take over or destroy the contracts. \
+* .The contracts follow industry standard by having no clear owner of the contracts that can take over or destroy the contracts. \
 
 
 Rocketpool launched their liquid-staked derivative of Ethereum in November 2021 as they aspired to diversify the risk of Ethereum to protect it from being staked by one entity. Their liquid-staked derivative is called rETH and is a token that goes up in value based on the underlying staking rewards that the token is accruing. Thus, it works differently from the other solutions that always aim to maintain a peg with ETH.
