@@ -83,7 +83,7 @@ There is also clear documentation regarding the smart contracts that have been d
 
 ## Admin Controls
 
-Finding information about the admin controls of the protocol isn’t a straightforward process for the average user as there is no information about it in the documentation. However, most contract does not have an owner that can take over control or destroy the contracts which is a positive indication of how decentralized the protocol aspires to be.&#x20;
+Finding information about the admin controls of the protocol isn’t a straightforward process for the average user as there is no information about it in the documentation. However, most contracts do not have an owner that can take over control or destroy the contracts which is a positive indication of how decentralized the protocol aspires to be.&#x20;
 
 \
 \
