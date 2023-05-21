@@ -28,13 +28,12 @@ Most of Origin's contracts are upgradable via a well-known proxy wrapper and an 
 
 Flipper is a gas-optimized way for users to swap in and out of OUSD at a fixed 1:1 rate with other stablecoins. This contract may become empty on one side (e.g., contain 0 OUSD balance), and thus sometimes provides limited swap routes. Flipper is currently only available for OUSD.
 
-| Contract            | Address                                    |
-| ------------------- | ------------------------------------------ |
-| OUSD Harvester      | 0x21fb5812d70b3396880d30e90d9e5c1202266c89 |
-| OUSD Dripper        | 0x80c898ae5e56f888365e235ceb8cea3eb726cb58 |
-| OUSD Buyback        | 0xD7B28d06365b85933c64E11e639EA0d3bC0e3BaB |
-| OUSD Rewards Source | 0x7d82e86cf1496f9485a8ea04012afeb3c7489397 |
-| OUSD Flipper        | 0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70 |
+| Contract       | Address                                    |
+| -------------- | ------------------------------------------ |
+| OUSD Harvester | 0x21fb5812d70b3396880d30e90d9e5c1202266c89 |
+| OUSD Dripper   | 0x80c898ae5e56f888365e235ceb8cea3eb726cb58 |
+| OUSD Buyback   | 0xD7B28d06365b85933c64E11e639EA0d3bC0e3BaB |
+| OUSD Flipper   | 0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70 |
 
 **OUSD Assets**
 
