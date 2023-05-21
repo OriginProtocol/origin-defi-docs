@@ -15,10 +15,10 @@ Most of Origin's contracts are upgradable via a well-known proxy wrapper and an 
 
 **OETH Strategies**
 
-| Contract                    | Address                                    |
-| --------------------------- | ------------------------------------------ |
-| OETH Convex ETH +OETH (AMO) | 0x1827F9eA98E0bf96550b2FC20F7233277FcD7E63 |
-| OETH Frax Staking           | 0x3fF8654D633D4Ea0faE24c52Aec73B4A20D0d0e5 |
+| Contract                   | Address                                    |
+| -------------------------- | ------------------------------------------ |
+| OETH Convex ETH+OETH (AMO) | 0x1827F9eA98E0bf96550b2FC20F7233277FcD7E63 |
+| OETH Frax Staking          | 0x3fF8654D633D4Ea0faE24c52Aec73B4A20D0d0e5 |
 
 **OETH Yield Harvesting & Rewards Distribution**
 
@@ -32,12 +32,11 @@ Most of Origin's contracts are upgradable via a well-known proxy wrapper and an 
 
 OETH is backed by WETH and the following liquid staking derivates:
 
-| WETH                      | 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 |
-| ------------------------- | ------------------------------------------ |
-| Lido stETH                | 0xae7ab96520de3a18e5e111b5eaab095312d7fe84 |
-| Rocketpool rETH           | 0xae78736cd615f374d3085123a210448e74fc6393 |
-| Frax frxETH               | 0x5e8422345238f34275888049021821e8e08caa1f |
-| Coinbase cbETH (inactive) | 0xBe9895146f7AF43049ca1c1AE358B0541Ea49704 |
+| WETH            | 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 |
+| --------------- | ------------------------------------------ |
+| Lido stETH      | 0xae7ab96520de3a18e5e111b5eaab095312d7fe84 |
+| Rocketpool rETH | 0xae78736cd615f374d3085123a210448e74fc6393 |
+| Frax frxETH     | 0x5e8422345238f34275888049021821e8e08caa1f |
 
 **Oracles**
 
