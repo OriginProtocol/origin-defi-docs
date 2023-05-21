@@ -8,9 +8,9 @@ Rocketpool was launched with the aim of decentralizing Ethereum staking to ensur
 * Smart contracts are well designed and there is no one that can mint rETH without supplying backing collateral of underlying ETH
 * Concerns regarding reentrancy risk and rollback between new and old code that could sandwich transactions were caught and rectified in the latest audit report.&#x20;
 * rETH doesn’t work like the other LSDs and represents the underlying farmed rewards, which means that it trades at a premium to ETH. It has managed to do that except during the early stages of its launch.&#x20;
-* frxETH has extremely deep liquidity and fits within our threshold of a $100M secondary market liquidity in case a rebalancing of the LSD basket needs to take place.&#x20;
+* rETH has extremely deep liquidity and fits within our threshold of a $100M secondary market liquidity in case a rebalancing of the LSD basket needs to take place.&#x20;
 * The protocol has a strong team that represents the product well although the majority of them are not public.&#x20;
-* Frax’s documentation is clear and professional and directly leads you to find the necessary information you need to find, especially concerning contracts and the thought process behind them.
+* RocketPool's documentation is clear and professional and directly leads you to find the necessary information you need to find, especially concerning contracts and the thought process behind them.
 * .No clear owner of the contracts can take over or destroy the contracts. \
 
 
