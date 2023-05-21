@@ -32,7 +32,7 @@ Flipper is a gas-optimized way for users to swap in and out of OUSD at a fixed 1
 | ------------------- | ------------------------------------------ |
 | OUSD Harvester      | 0x21fb5812d70b3396880d30e90d9e5c1202266c89 |
 | OUSD Dripper        | 0x80c898ae5e56f888365e235ceb8cea3eb726cb58 |
-| OUSD Buyback        | 0x6C5cdfB47150EFc52072cB93Eea1e0F123529748 |
+| OUSD Buyback        | 0xD7B28d06365b85933c64E11e639EA0d3bC0e3BaB |
 | OUSD Rewards Source | 0x7d82e86cf1496f9485a8ea04012afeb3c7489397 |
 | OUSD Flipper        | 0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70 |
 
