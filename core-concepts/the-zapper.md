@@ -4,7 +4,7 @@ The OETH Zapper is a convenience contract enabling depositors to use Ether (ETH)
 
 ### Zapping
 
-[The Origin Ether dapp](https://app.oeth.com) supports zapping and minting OETH in a single transaction. Users who come to the dapp with ETH will have their transactions automatically routed to the most economically advantageous contract, whether it’s swapping ETH for OETH via Curve or minting OETH by depositing ETH into the Zapper and subsequently WETH into the Vault automatically. At this time, minting with sfrxETH is only supported via the Zapper.
+[The Origin Ether dapp](https://app.oeth.com) supports zapping and minting OETH in a single transaction. Users who come to the dapp with ETH will have their transactions automatically routed to the most economically advantageous contract, whether it’s swapping ETH for OETH via Curve or minting OETH by depositing ETH into the Zapper and subsequently WETH into the Vault automatically. At this time, the only way to get OETH using sfrxETH is to mint via the Zapper.
 
 ### Withdrawing
 
