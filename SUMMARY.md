@@ -36,6 +36,7 @@
 * [Fund Management](core-concepts/fund-management.md)
 * [Wrapping](core-concepts/wrapped-ousd.md)
 * [Price Oracles](core-concepts/price-oracles.md)
+* [The Zapper](core-concepts/the-zapper.md)
 
 ## Governance
 
