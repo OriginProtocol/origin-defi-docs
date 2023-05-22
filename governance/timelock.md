@@ -10,8 +10,9 @@ Both OUSD and OGV are subject to a 48-hour timelock contract based on [OpenZeppe
 
 Although OETH mostly consists of battle-tested code from OUSD and every new addition is extensively audited, it's important for the Admin (5 of 8) to be able to make swift upgrades in the unlikely event that a vulnerability is discovered. For this reason, the OETH timelock is initially configured with a minimum delay of 60 seconds. Over time, this will be extended before ownership is fully transferred over to OGV stakers.
 
-| Current                     | 60 seconds |
-| --------------------------- | ---------- |
-| After one week              | 24 hours   |
-| After one month             | 48 hours   |
-| After full decentralization | 48 hours   |
+| Time period                 | Minimum delay |
+| --------------------------- | ------------- |
+| Current                     | 60 seconds    |
+| After one week              | 24 hours      |
+| After one month             | 48 hours      |
+| After full decentralization | 48 hours      |
