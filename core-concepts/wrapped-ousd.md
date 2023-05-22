@@ -25,7 +25,7 @@ Once you have OUSD in your wallet, visit [ousd.com/wrap](https://ousd.com/wrap) 
 3. Submit the allowance for the wOUSD contract to use your OUSD
 4. Submit the transaction to wrap your OUSD
 
-OETH can similarly be wrapped by visiting [oeth.com/wrap](https://www.oeth.com/wrap).
+OETH can similarly be wrapped by visiting [app.oeth.com/wrap](https://app.oeth.com/wrap).
 
 
 
