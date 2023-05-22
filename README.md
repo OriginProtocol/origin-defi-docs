@@ -25,7 +25,7 @@ Both tokens are governed by **Origin DeFi Governance (OGV)** stakers who earn a 
 | Auto-compounding         |                                  Daily+                                 |                                   Daily+                                  |
 | Collateralization        |                                   100%                                  |                                    100%                                   |
 | Oracles                  |                                Chainlink                                |                     Chainlink + Curve TWAP for frxETH                     |
-| Timelock                 |                                 48 hours                                |                          1 min -> 48 hours (soon)                         |
+| Timelock                 |                                 48 hours                                |   1 min -> 48 hours ([soon](https://docs.oeth.com/governance/timelock))   |
 | Governance               |                                OGV stakers                              |                   5 of 8 multisig -> OGV stakers (soon)                   |
 | Audits                   |             Trail of Bits, Solidified, Certora, OpenZeppelin            |              Trail of Bits, Solidified, Certora, OpenZeppelin             |
 | Bug bounty               |                                 $250,000                                |                                  $250,000                                 |
