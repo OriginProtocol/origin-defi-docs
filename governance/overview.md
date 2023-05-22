@@ -1,7 +1,7 @@
 # Overview
 
 {% hint style="warning" %}
-OETH will be initially governed by a 5 of 8 multisig upon launch. After launch, the timelock will be gradually increased from 0 to 48 hours, before ownership is fully transferred over to OGV stakers. This is in case any major issues are discovered.
+OETH is initially governed by a 5 of 8 multi-sig wallet with a plan to transfer ownership to OGV stakers. While most of OETH’s contracts are upgradeable, they are subject to a timelock that prevents changes from taking effect without advance notice. [Learn more >](https://docs.oeth.com/governance/timelock)
 {% endhint %}
 
 **Principles**

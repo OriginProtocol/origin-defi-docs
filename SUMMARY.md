@@ -42,6 +42,7 @@
 
 * [Overview](governance/overview.md)
 * [Governance](governance/admin-privileges.md)
+* [Timelock](governance/timelock.md)
 * [OGV Staking](governance/ogv-staking.md)
 * [Contributing](governance/contributing.md)
 * [Vote Delegation](governance/vote-delegation.md)

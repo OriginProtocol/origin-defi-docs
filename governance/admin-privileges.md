@@ -1,7 +1,7 @@
 # Governance
 
 {% hint style="warning" %}
-OETH is initially governed by a 5 of 8 multi-sig wallet with a one-minute timelock. After launch, the timelock will be gradually increased from 1 min to 48 hours, before ownership is fully transferred over to OGV stakers. This is in case any major issues are discovered. One week after launch, the timelock delay will be extended to 24 hours. After 1 month, it will be extended to 48 hours.
+OETH is initially governed by a 5 of 8 multi-sig wallet with a plan to transfer ownership to OGV stakers. While most of OETH’s contracts are upgradeable, they are subject to a timelock that prevents changes from taking effect without advance notice. [Learn more >](https://docs.oeth.com/governance/timelock)
 {% endhint %}
 
 ### Fully decentralized governance
