@@ -1,6 +1,6 @@
 # University Governance Program
 
-In an effort to increase the decentralization of the network, approved University blockchain organizations will be eligible for a temporary delegation of veOGV tokens to engage in DAO governance. The veOGV provided is expected to be utilized in the voting processes on the OUSD [snapshot](https://snapshot.org/#/ousdgov.eth) and [hardvote](https://governance.ousd.com/) pages.
+In an effort to increase the decentralization of the network, approved University blockchain organizations will be eligible for a temporary delegation of veOGV tokens to engage in DAO governance. The veOGV provided is expected to be utilized in the voting processes on the Origin Defi [snapshot](https://snapshot.org/#/ousdgov.eth) and [hardvote](https://governance.ousd.com/) pages.
 
 To get started, university blockchain organizations may [contact Origin](https://calendly.com/peter-origin-protocol/30min?month=2023-03) for an initial screening call. If approved, Origin will delegate a predetermined amount of veOGV to an Ethereum wallet address controlled by the university blockchain organization.
 
