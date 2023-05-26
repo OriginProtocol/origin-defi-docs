@@ -12,7 +12,7 @@ AMMs can only enable new markets when liquidity providers supply liquidity (e.g.
 
 The OUSD protocol routes USDT, USDC, and DAI to highly-performing liquidity pools as determined by trading volume and rewards tokens (e.g. Curve rewards CRV tokens to liquidity providers). Yields are then passed on to OUSD holders.
 
-OUSD and OETH are currently integrated with the following automated market makers:
+OTokens are currently integrated with the following automated market makers:
 
 {% content-ref url="../supported-strategies/curve.md" %}
 [curve.md](../supported-strategies/curve.md)

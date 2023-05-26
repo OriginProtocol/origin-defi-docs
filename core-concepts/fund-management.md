@@ -1,6 +1,6 @@
 # Fund Management
 
-The OUSD smart contract aggregates all users' stablecoin deposits into a single pool of assets that are then deployed into earning strategies based on preset allocations. In contrast to Yearn Vaults, TokenSets, or Zapper opportunities, users do not select individual strategies. All deposited stablecoins and consequently all OUSD tokens are fungible. The same goes for all LSDs that are deposited into OETH.
+The OUSD smart contract aggregates all users' stablecoin deposits into a single pool of assets that are then deployed into earning strategies based on preset allocations. In contrast to Yearn Vaults, TokenSets, or Zapper opportunities, users do not select individual strategies. All deposited stablecoins and consequently all OUSD tokens are fungible. The same goes for all LSTs that are deposited into OETH.
 
 The weighting of how assets are distributed between the supported strategies is decided by veOGV holders using weekly snapshot voting. These votes happen off-chain and do not cost any gas. The results of the weekly poll will then be executed on-chain by members of the [Strategist multi-sig](https://etherscan.io/address/0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC) (known as "Strategists") subject to their review and discretion.
 

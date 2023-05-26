@@ -12,6 +12,10 @@ Anytime you mint or redeem OUSD or OETH, there will be an exchange rate applied 
 
 To encourage long-term holders and to protect the protocol from attackers, an exit fee is charged on all OUSD redemptions. You can read more about this in [How It Works](how-it-works.md).
 
+**What are OTokens?**
+
+OTokens are the yield-bearing tokens developed by Origin DeFi. OTokens are fully backed by blue-chip collateral, earn yield that's compounded in your wallet, and remain fully liquid at all times.&#x20;
+
 **How soon will my balance increase?**
 
 The amount of OUSD or OETH in your wallet will grow each time there is a positive rebase event. You can read more about this in [Elastic Supply](core-concepts/elastic-supply/). The supply is currently rebased several times per day and is usually correlated with how many people are minting and redeeming.

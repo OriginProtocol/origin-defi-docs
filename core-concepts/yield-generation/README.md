@@ -22,7 +22,7 @@ OUSD uses the following high-level strategies for generating yield:
 [rewards.md](rewards.md)
 {% endcontent-ref %}
 
-The protocol is able to generate higher yields than competing protocols due to a combination of important design decisions that amplify the rewards that are returned to OUSD/OETH holders:
+The protocol is able to generate higher yields than competing protocols due to a combination of important design decisions that amplify the rewards that are returned to OToken holders:
 
 * Exit fees are returned to the pool, rewarding long-term holders.
 * Price oracles favor the collective over the individual, again rewarding long-term holders.
@@ -31,4 +31,4 @@ The protocol is able to generate higher yields than competing protocols due to a
 * The gas costs of harvesting yield are amortized across the entire pool. This makes it economical to harvest more frequently, leading to faster compounding. The more frequent the compounding periods, the faster your money grows.
 * The AMO allows the protocol to earn up to 2x the rewards using the same amount of capital.
 
-The net effect of these benefits is that **OUSD and OETH are able to consistently return higher yields** than you would get deploying directly into any of the underlying strategies on their own.
+The net effect of these benefits is that **OTokens are able to consistently return higher yields** than you would get deploying directly into any of the underlying strategies on their own.

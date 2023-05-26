@@ -1,6 +1,6 @@
 # The Zapper
 
-The OETH Zapper is a convenience contract enabling depositors to use Ether (ETH) and Staked Frax Ether (sfrxETH) to mint OETH. The OETH Vault supports WETH and frxETH (in addition to stETH and rETH) but does not allow direct minting with ETH or sfrxETH. This design decision increases security and also reduces the gas costs associated with minting.
+The OETH Zapper is a convenience contract enabling depositors to use Ether (ETH) and Frax Staked Ether (sfrxETH) to mint OETH. The OETH Vault supports WETH and frxETH (in addition to stETH and rETH) but does not allow direct minting with ETH or sfrxETH. This design decision increases security and also reduces the gas costs associated with minting.
 
 ### Zapping
 

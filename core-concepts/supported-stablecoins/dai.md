@@ -8,12 +8,4 @@ Dai is minted by users locking up crypto assets such as ETH or USDC as collatera
 
 As of April 2023, Dai is currently the world's third-largest stablecoin with over $4.7 billion in circulation.
 
-| Key Facts     |                                                |
-| ------------- | ---------------------------------------------- |
-| Issued by     | MakerDAO                                       |
-| Name          | Dai                                            |
-| Symbol        | DAI                                            |
-| Address       | 0x6B175474E89094C44Da98b954EedeAC495271d0F     |
-| Decimals      | 18                                             |
-| Official site | [https://makerdao.com/](https://makerdao.com/) |
-| Holders       | Over 500k addresses as of April, 2023          |
+<table><thead><tr><th width="184">Key Facts</th><th></th></tr></thead><tbody><tr><td>Issued by</td><td>MakerDAO</td></tr><tr><td>Name</td><td>Dai</td></tr><tr><td>Symbol</td><td>DAI</td></tr><tr><td>Address</td><td>0x6B175474E89094C44Da98b954EedeAC495271d0F</td></tr><tr><td>Decimals</td><td>18</td></tr><tr><td>Official site</td><td><a href="https://makerdao.com/">https://makerdao.com/</a></td></tr><tr><td>Holders</td><td>Over 500k addresses as of April, 2023</td></tr></tbody></table>

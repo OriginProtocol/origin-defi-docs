@@ -1,6 +1,6 @@
 # Wrapping
 
-Wrapped versions of OUSD and OETH are available as non-rebasing alternatives that still earn yield. This may make it easier to use these coins as building blocks in other contracts. The wrapped versions may also provide tax benefits in some jurisdictions.
+Wrapped versions of OTokens are available as non-rebasing alternatives that still earn yield. This may make it easier to use these coins as building blocks in other contracts. The wrapped versions may also provide tax benefits in some jurisdictions.
 
 ![Two flavors, up only](https://cdn-images-1.medium.com/max/1600/1\*cqRG-8-64XYx9QChoMxk3g.png)
 
@@ -33,4 +33,4 @@ OETH can similarly be wrapped by visiting [app.oeth.com/wrap](https://app.oeth.c
 
 ### Unwrapping
 
-Unwrapping your OUSD or OETH does not require any approvals since you already hold the wrapped version in your wallet. There's also no minimum term or lock-up period. You can use the same form shown above and just click the arrow to flip it to unwrap mode. This form calls the `redeem` function to unwrap a specific amount of wrapped tokens. You can also [use Etherscan](https://etherscan.io/address/0xd2af830e8cbdfed6cc11bab697bb25496ed6fa62#writeProxyContract) to call the `withdraw` function if you prefer to specify the amount of OUSD or OETH that you want to be taken out.
+Unwrapping your OTokens do not require any approvals since you already hold the wrapped version in your wallet. There's also no minimum term or lock-up period. You can use the same form shown above and just click the arrow to flip it to unwrap mode. This form calls the `redeem` function to unwrap a specific amount of wrapped tokens. You can also [use Etherscan](https://etherscan.io/address/0xd2af830e8cbdfed6cc11bab697bb25496ed6fa62#writeProxyContract) to call the `withdraw` function if you prefer to specify the amount of OUSD or OETH that you want to be taken out.
