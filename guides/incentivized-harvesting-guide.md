@@ -45,6 +45,8 @@ Below is the harvestAndSwap ABI:
 }]
 ```
 
+### **Harvesting from Curve/Convex**
+
 When harvesting rewards from Convex, you may want to first claim the rewards from Curve on behalf of Convex. Convex offers a similar incentive to whoever covers the gas costs to perform this work. Whoever calls the function first will receive 1% of the CRV that is claimed.  Additional token incentives that are offered on some pools are not included in the calculation for your caller reward, just the CRV.
 
 You can see how many rewards have been earned but not yet claimed by Convex by [filtering for Convex's address on Curve](https://classic.curve.fi/pools?see=0x989AEb4d175e16225E39E87d0D97A3360524AD80). Search for "ousd" or "oeth" to see how many CRV are available to be claimed.&#x20;
