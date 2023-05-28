@@ -49,7 +49,7 @@ When harvesting rewards from Convex, you may want to first claim the rewards fro
 
 You can see how many rewards have been earned but not yet claimed by Convex by [filtering for Convex's address on Curve](https://classic.curve.fi/pools?see=0x989AEb4d175e16225E39E87d0D97A3360524AD80). Search for "ousd" or "oeth" to see how many CRV are available to be claimed.&#x20;
 
-To claim these rewards from[^1] Curve, you'll want to call the `earmarkRewards()` function on [Convex's Booster contract](https://etherscan.io/address/0xf403c135812408bfbe8713b5a23a04b3d48aae31). You'll need to pass the `_pid` for the specific pool you wish to call. You can find these pool IDs by clicking the info tab next to each pool on [Convex staking](https://www.convexfinance.com/stake). The Convex pool (\_pid) is 56 for OUSD and 174 for OETH.
+To claim these pending rewards from[^1] Curve, you'll want to call the `earmarkRewards()` function on [Convex's Booster contract](https://etherscan.io/address/0xf403c135812408bfbe8713b5a23a04b3d48aae31). You'll need to pass the `_pid` for the specific pool you wish to call. You can find these pool IDs by clicking the info tab next to each pool on [Convex staking](https://www.convexfinance.com/stake). The Convex pool (\_pid) is 56 for OUSD and 174 for OETH. Once earmarked, these rewards will be slowly distributed over a week to prevent them from being stolen with opportunistic flash loans.&#x20;
 
 Happy harvesting!
 
