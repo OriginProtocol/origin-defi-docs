@@ -16,7 +16,7 @@ Here is the list of OUSD, OETH, and OGV smart contracts that have been deployed 
 
 **Timelock & Multisigs**
 
-<table><thead><tr><th width="198">Contract</th><th>Address</th></tr></thead><tbody><tr><td>OUSD Timelock</td><td>0x35918cDE7233F2dD33fA41ae3Cb6aE0e42E0e69F</td></tr><tr><td>OETH Governor / Timelock</td><td>0x72426BA137DEC62657306b12B1E869d43FeC6eC7</td></tr><tr><td>Admin (5 of 8)</td><td>0xbe2AB3d3d8F6a32b96414ebbd865dBD276d3d899</td></tr><tr><td>Strategist (2 of 9)</td><td>0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC</td></tr></tbody></table>
+<table><thead><tr><th width="198">Contract</th><th>Address</th></tr></thead><tbody><tr><td>OUSD Timelock</td><td>0x35918cDE7233F2dD33fA41ae3Cb6aE0e42E0e69F</td></tr><tr><td>OETH Governor / Timelock</td><td>0x72426BA137DEC62657306b12B1E869d43FeC6eC7</td></tr><tr><td>Admin (5 of 8)</td><td>0xbe2AB3d3d8F6a32b96414ebbd865dBD276d3d899</td></tr><tr><td>Strategist (2 of 8)</td><td>0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC</td></tr></tbody></table>
 
 **OGV Rewards**
 
