@@ -21,11 +21,11 @@ Both OUSD and OETH are built on top of other DeFi platforms like Aave, Compound,
 
 **Collateral risks**
 
-It is important to understand that OUSD and OETH are only as strong as the backing collateral. Any loss of value to underlying stablecoin assets or LSDs will cause a similar loss to the value of OUSD or OETH. While OUSD is designed to maintain a 1:1 relationship between supply and number of backing stablecoins, it does not guarantee which stablecoins will make up that backing nor the value of those coins. The same goes for OETH.
+It is important to understand that OUSD and OETH are only as strong as the backing collateral. Any loss of value to underlying stablecoin assets or LSTs will cause a similar loss to the value of OUSD or OETH. While OUSD is designed to maintain a 1:1 relationship between supply and number of backing stablecoins, it does not guarantee which stablecoins will make up that backing nor the value of those coins. The same goes for OETH.
 
 It is important to note that each of the supported stablecoins introduces non-trivial counter-party risk. Tether, in particular, has had well-documented banking troubles and regulatory challenges. In addition, both USDT and USDC have backdoors that grant their issuers the power to freeze money in their holder's wallets. While DAI does not have any direct backdoors, its assets can also be negatively impacted since USDC and USDT are accepted as collateral for minting DAI.
 
-There is also significant centralization and slashing risk associated with the various LSDs that act as collateral for OETH. If any of the node operators that are backing the LSDs that are backing OETH are slashed, you can expect that OETH holders will similarly lose money. In the case of a minor slashing like we've seen to date, the result will be that OETH holders will earn slightly less yield. In the event of a major slashing, you can expect that OETH will drop in value proportional to the percentage of the backing LSD that was impacted.&#x20;
+There is also significant centralization and slashing risk associated with the various LSTs that act as collateral for OETH. If any of the node operators that are backing the LSTs that are backing OETH are slashed, you can expect that OETH holders will similarly lose money. In the case of a minor slashing like we've seen to date, the result will be that OETH holders will earn slightly less yield. In the event of a major slashing, you can expect that OETH will drop in value proportional to the percentage of the backing LST that was impacted.&#x20;
 
 **Regulatory risk**
 

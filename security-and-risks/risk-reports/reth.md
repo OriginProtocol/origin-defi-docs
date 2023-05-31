@@ -7,8 +7,8 @@ Rocketpool was launched with the aim of decentralizing Ethereum staking to ensur
 
 * Smart contracts are well designed and there is no one that can mint rETH without supplying backing collateral of underlying ETH
 * Concerns regarding reentrancy risk and rollback between new and old code that could sandwich transactions were caught and rectified in the latest audit report.&#x20;
-* rETH doesn’t work like the other LSDs and represents the underlying farmed rewards, which means that it trades at a premium to ETH. It has managed to do that except during the early stages of its launch.&#x20;
-* rETH has extremely deep liquidity and fits within our threshold of a $100M secondary market liquidity in case a rebalancing of the LSD basket needs to take place.&#x20;
+* rETH doesn’t work like the other LSTs and represents the underlying farmed rewards, which means that it trades at a premium to ETH. It has managed to do that except during the early stages of its launch.&#x20;
+* rETH has extremely deep liquidity and fits within our threshold of a $100M secondary market liquidity in case a rebalancing of the LST basket needs to take place.&#x20;
 * The protocol has a strong team that represents the product well although the majority of them are not public.&#x20;
 * RocketPool's documentation is clear and professional and directly leads you to find the necessary information you need to find, especially concerning contracts and the thought process behind them.
 * .The contracts follow industry standard by having no clear owner of the contracts that can take over or destroy the contracts. \
@@ -59,7 +59,7 @@ Despite some large discrepancies in fair value vs market value at times, over ti
 
 ## Liquidity & Composability
 
-Factoring in liquidity in our assessment is paramount as there is a necessity for users to be able to exit without any complications. We need to be aware if we would be able to exit our position with sufficient liquidity in the market and rebalance the underlying LSDs without any issues. Therefore we believe that there should be at least $100M liquidity available for it to be considered an option. Considering exits are made possible after Shanghai and rETH are backed 1:1 with the underlying deposited ETH along with accrued rewards, there is more than sufficient liquidity to cover every person’s deposits in case of emergency. $988M worth of Ethereum has been deposited into Rocketpool and there are further ≈$500M distributed across liquidity pools in DeFi allowing rETH holders to swap out of their position to ETH and other tokens.
+Factoring in liquidity in our assessment is paramount as there is a necessity for users to be able to exit without any complications. We need to be aware if we would be able to exit our position with sufficient liquidity in the market and rebalance the underlying LSTs without any issues. Therefore we believe that there should be at least $100M liquidity available for it to be considered an option. Considering exits are made possible after Shanghai and rETH are backed 1:1 with the underlying deposited ETH along with accrued rewards, there is more than sufficient liquidity to cover every person’s deposits in case of emergency. $988M worth of Ethereum has been deposited into Rocketpool and there are further ≈$500M distributed across liquidity pools in DeFi allowing rETH holders to swap out of their position to ETH and other tokens.
 
 <figure><img src="../../.gitbook/assets/Screen Shot 2023-04-25 at 14.57.34.png" alt=""><figcaption></figcaption></figure>
 

@@ -13,7 +13,7 @@ All OUSD and OETH amounts passed or returned by the Vault methods use 18 decimal
 
 For OUSD's supported [stablecoins](../../core-concepts/supported-stablecoins/), the number of decimal places varies. DAI uses 18 decimal places while USDC and USDT use only 6.
 
-Each of OETH's supported [liquid staking derivatives (LSDs)](../../core-concepts/supported-lsts/) use 18 decimals.
+Each of OETH's supported [liquid staking tokens (LSTs)](../../core-concepts/supported-lsts/) use 18 decimals.
 
 {% hint style="warning" %}
 The OUSD protocol was updated in November 2021 to [increase the resolution](https://github.com/OriginProtocol/origin-dollar/issues/590) of rebasing calculations from 18 decimals to 27 decimals. The OUSD token itself retained 18 decimals of precision and user balances were not affected.
@@ -119,7 +119,7 @@ Return all asset token addresses.‌
 
 For OUSD, the assets are [stablecoins](../../core-concepts/supported-stablecoins/).
 
-For OETH, the assets are [liquid staking derivatives (LSD)](../../core-concepts/supported-lsts/).
+For OETH, the assets are [liquid staking tokens (LSTs)](../../core-concepts/supported-lsts/).
 
 ### getStrategyCount()‌ <a href="#getstrategycount" id="getstrategycount"></a>
 

@@ -8,7 +8,7 @@ Frax entered the liquid-staked derivatives market in late 2022 with the launch o
 * The smart contracts follow industry standards and aren’t upgradable. They don’t use any proxies but the multi-sig is controlled by ⅗ keys and the wallet in control has no timelock.&#x20;
 * A few concerns that have been rectified were highlighted in the latest audit such as flawed accounting logic and the perceived risk of frontrunning.&#x20;
 * frxETH is relatively new to the market and has remained very stable except for the instability that took place as it was newly deployed to the market. It’s still very popular despite this.&#x20;
-* frxETH has extremely deep liquidity and fits within our threshold of a $100M secondary market liquidity in case a rebalancing of the LSD basket needs to take place.&#x20;
+* frxETH has extremely deep liquidity and fits within our threshold of a $100M secondary market liquidity in case a rebalancing of the LST basket needs to take place.&#x20;
 * The protocol has a strong and public team that represents the product very well.
 * Frax’s documentation is clear and professional and directly leads you to find the necessary information you need to find, especially concerning contracts.
 * Room for improvement regarding multi-sig key controllers in the documentation. However, very easy to find in smart contracts.&#x20;
@@ -54,10 +54,10 @@ Other issues were of lesser severity including delayed rewards and loss of peg. 
 
 ## frxETH Peg Stability
 
-In order for an LSD to be a viable option for usage, there needs to be a clear indication that it has the capability to maintain its peg to ETH (or remain very close to it). An LSD that is too volatile in relation to ETH poses too much of a risk for the LSD aggregator and can severely imbalance the stability of the aggregator. Thus, it is paramount that we take a look into how each LSD has maintained its peg in relation to ETH over time.\
+In order for an LST to be a viable option for usage, there needs to be a clear indication that it has the capability to maintain its peg to ETH (or remain very close to it). An LST that is too volatile in relation to ETH poses too much of a risk for the LST aggregator and can severely imbalance the stability of the aggregator. Thus, it is paramount that we take a look into how each LST has maintained its peg in relation to ETH over time.\
 
 
-frxETH is the most nascent of the LSDs that we are looking into and Dune only tracks its data from February. Still, attached below is a line chart that demonstrates the peg stability over time.
+frxETH is the most nascent of the LSTs that we are looking into and Dune only tracks its data from February. Still, attached below is a line chart that demonstrates the peg stability over time.
 
 <figure><img src="../../.gitbook/assets/Screen Shot 2023-04-24 at 20.02.47.png" alt=""><figcaption></figcaption></figure>
 
@@ -65,11 +65,11 @@ Apart from the instability that normally occurs as a new 1:1 derivative is being
 
 ## Liquidity & Composability
 
-In our assessment of the LSDs, it is paramount that we factor in the available liquidity of the tokens and how composable it is across DeFi. Using $100M available liquidity on the market acts as a reasonable benchmark not factoring in the TVL that is locked in the contracts on the platform that mints the LSD. Frax has created deep liquidity for frxETH in order to facilitate the process for users that want to swap between frxETH / ETH without any major issues. There is over ≈ $350M worth of frxETH liquidity available across DeFi to facilitate swaps between frxETH and other tokens in the ecosystem.&#x20;
+In our assessment of the LSTs, it is paramount that we factor in the available liquidity of the tokens and how composable it is across DeFi. Using $100M available liquidity on the market acts as a reasonable benchmark not factoring in the TVL that is locked in the contracts on the platform that mints the LST. Frax has created deep liquidity for frxETH in order to facilitate the process for users that want to swap between frxETH / ETH without any major issues. There is over ≈ $350M worth of frxETH liquidity available across DeFi to facilitate swaps between frxETH and other tokens in the ecosystem.&#x20;
 
 <figure><img src="../../.gitbook/assets/Screen Shot 2023-04-24 at 20.06.02.png" alt=""><figcaption></figcaption></figure>
 
-FrxETH is also an LSD that has benefitted strongly from the Shanghai upgrade and their rate of deposits is currently growing faster than other competitors (although you have to factor in that they had a smaller piece of the pie, to begin with, making growth in relation to prior deposits higher). Despite not being as battle tested as other liquid-staked derivatives, frxETH, and sfrxETH can be deployed in pools throughout the DeFi ecosystem and is highly composable. This includes pools in reputable platforms such as Curve, Convex, Aura, and Balancer to name a few.&#x20;
+FrxETH is also an LST that has benefitted strongly from the Shanghai upgrade and their rate of deposits is currently growing faster than other competitors (although you have to factor in that they had a smaller piece of the pie, to begin with, making growth in relation to prior deposits higher). Despite not being as battle tested as other liquid-staked derivatives, frxETH, and sfrxETH can be deployed in pools throughout the DeFi ecosystem and is highly composable. This includes pools in reputable platforms such as Curve, Convex, Aura, and Balancer to name a few.&#x20;
 
 ## Team
 
