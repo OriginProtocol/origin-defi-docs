@@ -10,7 +10,7 @@ Most of Origin's contracts are upgradable via a well-known proxy wrapper and an 
 
 **OETH Strategies**
 
-<table><thead><tr><th width="276">Contract</th><th>Address</th></tr></thead><tbody><tr><td>OETH Convex ETH+OETH (AMO)</td><td>0x1827F9eA98E0bf96550b2FC20F7233277FcD7E63</td></tr><tr><td>OETH Frax Staking</td><td>0x3fF8654D633D4Ea0faE24c52Aec73B4A20D0d0e5</td></tr></tbody></table>
+<table><thead><tr><th width="276">Contract</th><th>Address</th></tr></thead><tbody><tr><td>OETH Convex ETH+OETH (AMO)</td><td>0x1827F9eA98E0bf96550b2FC20F7233277FcD7E63</td></tr><tr><td>OETH Frax Staking</td><td>0x3fF8654D633D4Ea0faE24c52Aec73B4A20D0d0e5</td></tr><tr><td>OETH Morpho Aave V2</td><td>0xc1fc9E5eC3058921eA5025D703CBE31764756319</td></tr></tbody></table>
 
 **OETH Yield Harvesting & Rewards Distribution**
 
