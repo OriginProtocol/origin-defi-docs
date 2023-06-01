@@ -3,10 +3,10 @@
 As the Origin Defi comminity grows in members and in TVL, it is likely that there will be an overwhelming amount of proposals submitted to Origin's Discord forum and Snapshot. Below are a list of delegates who hold significant voting power in the Origin Defi DAO that you may delegate voting power to:
 
 * [originteam.eth](https://etherscan.io/address/0x449e0b5564e0d141b3bc3829e74ffa0ea8c08ad5) — Origin’s team account
-* [joshfraser.eth](https://etherscan.io/address/0x57b0dd7967955c92b6e34a038b47fee63e1efd1a) — Origin’s cofounder overseeing OUSD/OETH development
-* [danielvf.eth](https://etherscan.io/address/0x17768cfd6030e2b65eb5086e34a512fde5dc1f1f) — OUSD developer
-* [grabec.eth](https://etherscan.io/address/0x5e687f547d26732a3f1213e1c31432c3ef6810bc) — OUSD developer
-* [micahalcorn.eth](https://etherscan.io/address/0x96feb7b6f808dd2bbd09c9e5ccde77cabd58d019) — OUSD director of product
+* [joshfraser.eth](https://etherscan.io/address/0x57b0dd7967955c92b6e34a038b47fee63e1efd1a) — Origin’s cofounder overseeing Origin Defi development
+* [danielvf.eth](https://etherscan.io/address/0x17768cfd6030e2b65eb5086e34a512fde5dc1f1f) — Origin Defi developer
+* [grabec.eth](https://etherscan.io/address/0x5e687f547d26732a3f1213e1c31432c3ef6810bc) — Origin Defi developer
+* [micahalcorn.eth](https://etherscan.io/address/0x96feb7b6f808dd2bbd09c9e5ccde77cabd58d019) — Origin Defi director of product
 * [0x50fb…AEE1](https://etherscan.io/address/0x50fb9F9C069721FC4EF7Ea74cfe0680dc28eAEE1) — active community member “Orion” handle on Discord
 
 
