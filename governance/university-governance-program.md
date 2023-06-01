@@ -5,3 +5,7 @@ In an effort to increase the decentralization of the network, approved Universit
 To get started, university blockchain organizations may [contact Origin](https://calendly.com/peter-origin-protocol/30min?month=2023-03) for an initial screening call. If approved, Origin will delegate a predetermined amount of veOGV to an Ethereum wallet address controlled by the university blockchain organization.
 
 The tokens delegated to university blockchain organizations can be used for the sole purpose of voting on governance proposals and the participating organizations must commit to acting in the best interests of the protocol. Organizations are also encouraged to propose their own proposals, and can use one of the [templates](../guides/governance-templates/) as a guide.
+
+
+
+Schools currently participating in this program can be seen under [Recognized Delegates](vote-delegation/recognized-delegates.md).

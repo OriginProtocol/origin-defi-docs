@@ -45,7 +45,8 @@
 * [Timelock](governance/timelock.md)
 * [OGV Staking](governance/ogv-staking.md)
 * [Contributing](governance/contributing.md)
-* [Vote Delegation](governance/vote-delegation.md)
+* [Vote Delegation](governance/vote-delegation/README.md)
+  * [Recognized Delegates](governance/vote-delegation/recognized-delegates.md)
 * [University Governance Program](governance/university-governance-program.md)
 
 ## Smart Contracts

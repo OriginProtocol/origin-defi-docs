@@ -1,0 +1,21 @@
+# Recognized Delegates
+
+As the Origin Defi comminity grows in members and in TVL, it is likely that there will be an overwhelming amount of proposals submitted to Origin's Discord forum and Snapshot. Below are a list of delegates who hold significant voting power in the Origin Defi DAO that you may delegate voting power to:
+
+* [originteam.eth](https://etherscan.io/address/0x449e0b5564e0d141b3bc3829e74ffa0ea8c08ad5) — Origin’s team account
+* [joshfraser.eth](https://etherscan.io/address/0x57b0dd7967955c92b6e34a038b47fee63e1efd1a) — Origin’s cofounder overseeing OUSD/OETH development
+* [tomlinton.eth ](https://etherscan.io/address/0x6361f7885104333ff3e355bc2d6e7137e186f823)— OUSD developer
+* [danielvf.eth](https://etherscan.io/address/0x17768cfd6030e2b65eb5086e34a512fde5dc1f1f) — OUSD developer
+* [grabec.eth](https://etherscan.io/address/0x5e687f547d26732a3f1213e1c31432c3ef6810bc) — OUSD developer
+* [micahalcorn.eth](https://etherscan.io/address/0x96feb7b6f808dd2bbd09c9e5ccde77cabd58d019) — OUSD director of product
+* [0x50fb…AEE1](https://etherscan.io/address/0x50fb9F9C069721FC4EF7Ea74cfe0680dc28eAEE1) — active community member “Orion” handle on Discord
+
+
+
+University blockchain clubs participating in the [University Governance Program](../university-governance-program.md) also hold significant voting power in the Origin Defi DAO:
+
+* [michiganblockchain.eth](https://etherscan.io/address/0x13bdae8c5f0fc40231f0e6a4ad70196f59138548) — University of Michigan
+* [cmublockchain.eth](https://etherscan.io/address/0x25dE6F4852a65FF08989ef1A09d1e1c498aB1079) — Carnegie Mellon University
+* [boilerblockchain.eth](https://etherscan.io/address/0x2345F4E0CdF00D427D773413Dd4617d0156c29A9) — Purdue University&#x20;
+* [0x93...3f1d7](https://etherscan.io/address/0x933EB459569836D53ad6647a29748Bb096b3f1d7) — Queens College
+
