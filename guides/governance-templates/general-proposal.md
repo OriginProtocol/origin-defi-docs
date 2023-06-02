@@ -1,7 +1,7 @@
 ---
 description: >-
   Use this template as a guide for writing any other kind of proposal for OUSD,
-  OGV, or OGN that does not involve yield strategies or integration
+  OGV, or OETH that does not involve yield strategies or integration
 ---
 
 # General Proposal
@@ -20,7 +20,7 @@ _When was the proposal created?_
 
 ## _**Proposal:**_
 
-_One sentence summarizing the proposal_&#x20;
+_One sentence summarizing the proposal_
 
 ### **References**
 
@@ -34,7 +34,7 @@ _Add links to:_
 * _source code/Github_
 * _Ethereum addresses_
 * _ChainLink Oracle_
-* _audits_&#x20;
+* _audits_
 
 **Socials**
 
@@ -47,31 +47,31 @@ Add links, with number of followers/members:
 * Reddit
 * Youtube
 
-### Summary&#x20;
+### Summary
 
 _Enter a short 1-3 sentence summary of the proposal, tl;dr version of what follows_
 
 ### Abstract
 
-_The “What?” of the proposal. What are you trying to achieve?_&#x20;
+_The “What?” of the proposal. What are you trying to achieve?_
 
-### Motivation&#x20;
+### Motivation
 
-_The “Why?” of the proposal or the reasoning behind the proposal. Why is this useful or important to Origin or the Origin community?_&#x20;
+_The “Why?” of the proposal or the reasoning behind the proposal. Why is this useful or important to Origin or the Origin community?_
 
 ### Goals
 
-_What are the main goals of the proposal?_&#x20;
+_What are the main goals of the proposal?_
 
 ### _Specification_
 
-_What monetary or budgetary costs are involved in this proposal? Which core teams or resources need to be involved?_&#x20;
+_What monetary or budgetary costs are involved in this proposal? Which core teams or resources need to be involved?_
 
 ### _Implementation_
 
-_The “How?” of the proposal. How will this proposal be carried out to completion? What level of technical work is required to execute this proposal?_&#x20;
+_The “How?” of the proposal. How will this proposal be carried out to completion? What level of technical work is required to execute this proposal?_
 
-### _Risks_&#x20;
+### _Risks_
 
 _What are the risks to Origin if this proposal were to pass? How is each risk mitigated?_
 
@@ -82,4 +82,3 @@ _Can be binary, or have multiple options with a "No" option._
 * **Yes** - Approve \[proposal name]
 * **No** - Do not approve \[proposal name]
 
-\
