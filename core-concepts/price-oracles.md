@@ -27,7 +27,7 @@ As a decentralized protocol, OUSD must rely on non-centralized sources for these
 
 ### Liquid Staking Token Pricing
 
-In a similar manner, OETH uses available Chainlink oracles to make sure that the protocol is not overpaying for LSTs that may be trading at a lower value. As of April 2023, Chainlink offered pricing oracles for stETH and rETH, but not frxETH. For Frax, the protocol utilizes Curve's time-weighted price oracle instead.
+In a similar manner, OETH uses available Chainlink oracles to make sure that the protocol is not overpaying for LSTs that may be trading at a lower value. As of April 2023, Chainlink offered pricing oracles for stETH and rETH, but not frxETH. For Frax, the protocol plans to utilize Curve's time-weighted price oracle instead. As of June 2023, this had not yet been implemented and the price ratio for frxETH was hard coded as 1:1. The oracles are just one of multiple security features protecting the vault, so the hard-coded value is not a major cause for concern. You are, however, relying on the Strategists multisig to manually pause deposits in the case of a major depegging of frxETH.
 
 ### Reward Token Oracles & Front Running Protection
 
