@@ -13,6 +13,7 @@ As the Origin Defi comminity grows in members and in TVL, it is likely that ther
 
 University blockchain clubs participating in the [University Governance Program](../university-governance-program.md) also hold significant voting power in the Origin Defi DAO:
 
+* [franklindao.eth](https://etherscan.io/address/0xcc878369b26127bd4bc1b0b465bc8be9b92a4c62) — UPenn/FranklinDAO
 * [michiganblockchain.eth](https://etherscan.io/address/0x13bdae8c5f0fc40231f0e6a4ad70196f59138548) — University of Michigan
 * [cmublockchain.eth](https://etherscan.io/address/0x25dE6F4852a65FF08989ef1A09d1e1c498aB1079) — Carnegie Mellon University
 * [boilerblockchain.eth](https://etherscan.io/address/0x2345F4E0CdF00D427D773413Dd4617d0156c29A9) — Purdue University&#x20;
