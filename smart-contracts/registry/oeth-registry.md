@@ -2,7 +2,7 @@
 
 Most of Origin's contracts are upgradable via a well-known proxy wrapper and an implementation contract. The Vault is split into VaultAdmin and VaultCore to work around the maximum contract size limit on Ethereum.
 
-<figure><img src="../../.gitbook/assets/oethContracts (1).png" alt=""><figcaption><p>OETH contract dependencies</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/oethContracts (3).png" alt="OETH contract dependencies"><figcaption><p>OETH contract dependencies</p></figcaption></figure>
 
 **OETH Core**
 
@@ -23,6 +23,8 @@ OETH is backed by WETH and the following liquid staking derivates:
 <table data-header-hidden><thead><tr><th width="183"></th><th></th></tr></thead><tbody><tr><td>WETH</td><td>0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2</td></tr><tr><td>Lido stETH</td><td>0xae7ab96520de3a18e5e111b5eaab095312d7fe84</td></tr><tr><td>Rocketpool rETH</td><td>0xae78736cd615f374d3085123a210448e74fc6393</td></tr><tr><td>FRAX frxETH</td><td>0x5e8422345238f34275888049021821e8e08caa1f</td></tr></tbody></table>
 
 **Oracles**
+
+<table><thead><tr><th width="204">Contract</th><th>Address</th></tr></thead><tbody><tr><td>OETH Oracle Router</td><td>0x3cCD26E82F7305B12742fBb36708B42f82B61dBa</td></tr></tbody></table>
 
 The following Chainlink oracles are used to protect the vault in case a backing asset loses value. They also offer slippage protection when harvesting rewards tokens.
 

@@ -1,8 +1,8 @@
 # OUSD Registry
 
-Most of Origin's contracts are upgradable via a well-known proxy wrapper and an implementation contract. The Vault is split into VaultAdmin and VaultCore to work around the maximum contract size limit on Ethereum
+Most of Origin's contracts are upgradable via a well-known proxy wrapper and an implementation contract. The Vault is split into VaultAdmin and VaultCore to work around the maximum contract size limit on Ethereum.
 
-<figure><img src="../../.gitbook/assets/ousdContracts.png" alt=""><figcaption><p>OUSD contract dependencies</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ousdContracts.png" alt="OUSD contract dependencies"><figcaption><p>OUSD contract dependencies</p></figcaption></figure>
 
 **OUSD Core**
 
@@ -25,6 +25,8 @@ OUSD is backed by the following stablecoins:
 <table data-header-hidden><thead><tr><th width="136"></th><th></th></tr></thead><tbody><tr><td><a href="https://etherscan.io/address/0xdac17f958d2ee523a2206206994597c13d831ec7">USDT</a></td><td>0xdac17f958d2ee523a2206206994597c13d831ec7</td></tr><tr><td><a href="https://etherscan.io/address/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48">USDC</a></td><td>0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48</td></tr><tr><td><a href="https://etherscan.io/address/0x6b175474e89094c44da98b954eedeac495271d0f">DAI</a></td><td>0x6b175474e89094c44da98b954eedeac495271d0f</td></tr></tbody></table>
 
 **Oracles**
+
+<table><thead><tr><th width="204">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Oracle Router</td><td>0x7533365d1b0D95380bc4e94D0bdEF5173E43f954</td></tr></tbody></table>
 
 The following Chainlink oracles are used to protect the vault in case a backing asset loses value. They also offer slippage protection when harvesting rewards tokens.
 
