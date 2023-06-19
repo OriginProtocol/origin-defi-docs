@@ -2,11 +2,11 @@
 
 **Continuously audited**
 
-{% hint style="info" %}
-OETH utilizes 95% of the same code as OUSD. The new changes will have been audited by OpenZeppelin and Narya prior to launch.
-{% endhint %}
-
 Origin currently has a continuous auditing agreement with [OpenZeppelin](https://openzeppelin.com) to constantly review 100% of our smart contract changes. OpenZeppelin has audited Coinbase, Ethereum, Aave, Compound, and other leading projects. They are one of the most trusted auditing firms in the industry and we are thrilled to count them as part of our extended team.
+
+{% hint style="info" %}
+OETH utilizes 95% of the same code as OUSD. The new changes were audited by OpenZeppelin and Narya prior to launch.
+{% endhint %}
 
 OUSD has also been thoroughly audited by multiple other top security firms including [Trail of Bits](https://www.trailofbits.com/), [Solidified](https://solidified.io/), [Certora](https://www.certora.com/) and [Narya](https://narya.ai/) (previously PwnedNoMore). Their findings are available below:
 
@@ -26,6 +26,10 @@ Both our original governance token (OGN) and our current governance token (OGV) 
 * [Trail of Bits, OGN Audit, November 2018](https://github.com/OriginProtocol/security/blob/master/audits/Trail%20of%20Bits%20-%20Origin%20Marketplace%20and%20OGN%20Token%20-%20Nov%202018.pdf)
 * [Solidified, OGV Audit, May 2022](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20OGV%2C%20wOUSD%2C%20and%20ERC721a%20-%20May%202022.pdf)
 * [OpenZeppelin, OUSD Governance Audit, June 2022](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Dollar%20Governance%20-%20June%202022.pdf)
+
+We're also grateful for the in-depth risk assessment of OETH from [LlamaRisk](https://cryptorisks.substack.com/):
+
+{% embed url="https://cryptorisks.substack.com/p/asset-risk-assessment-origin-ether" %}
 
 In addition, the underlying strategies and dependencies that OUSD utilizes have been thoroughly audited by various firms.
 
