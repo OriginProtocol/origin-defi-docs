@@ -2,7 +2,7 @@
 
 Most of Origin's contracts are upgradable via a well-known proxy wrapper and an implementation contract. The Vault is split into VaultAdmin and VaultCore to work around the maximum contract size limit on Ethereum.
 
-<figure><img src="../../.gitbook/assets/oethContracts (3).png" alt="OETH contract dependencies"><figcaption><p>OETH contract dependencies</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/oethContracts (4).png" alt=""><figcaption><p>OETH Contract Dependencies</p></figcaption></figure>
 
 **OETH Core**
 
