@@ -18,7 +18,6 @@ Some functionality, such as rebalancing funds between strategies or pausing depo
 
 The strategist multisig can do the following actions on the vault:
 
-* reallocate - move funds between strategies
 * depositToStrategy - deposit multiple assets from the vault into the strategy.
 * withdrawFromStrategy - withdraw multiple assets from the strategy to the vault.
 * setVaultBuffer - adjust the amount of funds held outside strategies for cheaper redeems.
@@ -28,3 +27,4 @@ The strategist multisig can do the following actions on the vault:
 * pauseRebase - pause all rebases
 * pauseCapital - pause all mints and redeems
 * unpauseCapital - allow all mints and redeems
+* swapCollateral - swaps collateral assets sitting in the vault
