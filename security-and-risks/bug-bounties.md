@@ -2,7 +2,7 @@
 
 **Bug Bounties**
 
-Bug bounties are granted at the full discretion of Origin Protocol. The rewards range in size from **$100 OUSD** for minor issues to **$250,000 OUSD** for major vulnerabilities. Currently, the bounty program only applies to OUSD and OETH and not other products from Origin. Our bug bounty program is currently administered by [Immunefi](https://immunefi.com/bounty/origindefi/).&#x20;
+Bug bounties are granted at the full discretion of Origin Protocol. The rewards range in size from **$100 OUSD** for minor issues to **$1,000,000 OUSD** for major critical vulnerabilities. Currently, the bounty program only applies to OUSD and OETH and not other products from Origin. Our bug bounty program is currently administered by [Immunefi](https://immunefi.com/bounty/origindefi/).&#x20;
 
 {% embed url="https://immunefi.com/bounty/origindefi/" %}
 
