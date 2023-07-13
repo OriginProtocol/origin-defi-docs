@@ -285,7 +285,7 @@ ousd or oeth
 
 ### Origin Protocol
 
-{% swagger method="get" path="/circulating-ogn" baseUrl="https://originprotocol.com" summary="OGN circulating supply" %}
+{% swagger method="get" path="/circulating-ogn" baseUrl="https://api.originprotocol.com" summary="OGN circulating supply" %}
 {% swagger-description %}
 The number of Origin Tokens (OGN) in circulation
 {% endswagger-description %}
@@ -297,7 +297,7 @@ The number of Origin Tokens (OGN) in circulation
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="get" path="/circulating-ogv" baseUrl="https://originprotocol.com" summary="OGV circulating supply" %}
+{% swagger method="get" path="/circulating-ogv" baseUrl="https://api.originprotocol.com" summary="OGV circulating supply" %}
 {% swagger-description %}
 The number of Origin Dollar Governance (OGV) tokens in circulation
 {% endswagger-description %}
@@ -309,7 +309,7 @@ The number of Origin Dollar Governance (OGV) tokens in circulation
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="get" path="/total-ogn" baseUrl="https://originprotocol.com" summary="OGN total supply" %}
+{% swagger method="get" path="/total-ogn" baseUrl="https://api.originprotocol.com" summary="OGN total supply" %}
 {% swagger-description %}
 The total number of Origin Tokens (OGN) in existence
 {% endswagger-description %}
@@ -321,7 +321,7 @@ The total number of Origin Tokens (OGN) in existence
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="get" path="/total-ogv" baseUrl="https://originprotocol.com" summary="OGV total supply" %}
+{% swagger method="get" path="/total-ogv" baseUrl="https://api.originprotocol.com" summary="OGV total supply" %}
 {% swagger-description %}
 The total number of Origin Dollar Governance (OGV) tokens in existence
 {% endswagger-description %}
@@ -333,7 +333,7 @@ The total number of Origin Dollar Governance (OGV) tokens in existence
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="get" path="/total-ousd" baseUrl="https://originprotocol.com" summary="OUSD total supply" %}
+{% swagger method="get" path="/total-ousd" baseUrl="https://api.originprotocol.com" summary="OUSD total supply" %}
 {% swagger-description %}
 The total number of Origin Dollar (OUSD) tokens in existence
 {% endswagger-description %}
