@@ -344,3 +344,13 @@ The total number of Origin Dollar (OUSD) tokens in existence
 ```
 {% endswagger-response %}
 {% endswagger %}
+
+{% swagger method="get" path="/total-oeth" baseUrl="https://api.originprotocol.com" summary="OETH total supply" %}
+{% swagger-description %}
+The total number of Origin Ether (OETH) tokens in existence
+{% endswagger-description %}
+
+{% swagger-response status="200: OK" description="" %}
+
+{% endswagger-response %}
+{% endswagger %}
