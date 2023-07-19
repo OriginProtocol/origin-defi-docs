@@ -6,7 +6,7 @@ Origin DeFi's OTokens are ERC-20 tokens for the Ethereum network.
 
 **OUSD** is a stable currency that is backed 1:1 by USDT, USDC and DAI. As a result, 1 OUSD should always be very close to 1 USD in value.&#x20;
 
-**OETH** is a stable currency that is backed 1:1 by Ether and liquid staking derivatives like stETH, rETH, and sfrxETH. As a result, 1 OETH should always be very close to 1 ETH in value.
+**OETH** is a stable currency that is backed 1:1 by Ether and liquid staking tokens like stETH, rETH, and sfrxETH. As a result, 1 OETH should always be very close to 1 ETH in value.
 
 {% hint style="success" %}
 1 OUSD = 1 USD

@@ -1,6 +1,6 @@
 # rETH
 
-Rocketpool was launched with the aim of decentralizing Ethereum staking to ensure it was not solely controlled by one party. By lowering the barriers to entry for ETH staking from 32 ETH to 16 ETH as well as facilitating the process by not requiring the average user to run a node. It has allowed anyone to stake ETH in a trustless manner while still maintaining autonomy of the underlying staked collateral through their liquid staked derivative rETH (Rocketpool ETH).\
+Rocketpool was launched with the aim of decentralizing Ethereum staking to ensure it was not solely controlled by one party. By lowering the barriers to entry for ETH staking from 32 ETH to 16 ETH as well as facilitating the process by not requiring the average user to run a node. It has allowed anyone to stake ETH in a trustless manner while still maintaining autonomy of the underlying staked collateral through their liquid staking token rETH (Rocketpool ETH).\
 
 
 **TL;DR:**&#x20;
@@ -14,7 +14,7 @@ Rocketpool was launched with the aim of decentralizing Ethereum staking to ensur
 * .The contracts follow industry standard by having no clear owner of the contracts that can take over or destroy the contracts. \
 
 
-Rocketpool launched their liquid-staked derivative of Ethereum in November 2021 as they aspired to diversify the risk of Ethereum to protect it from being staked by one entity. Their liquid-staked derivative is called rETH and is a token that goes up in value based on the underlying staking rewards that the token is accruing. Thus, it works differently from the other solutions that always aim to maintain a peg with ETH.
+Rocketpool launched their liquid staking token of Ethereum in November 2021 as they aspired to diversify the risk of Ethereum to protect it from being staked by one entity. Their liquid staking token, rETH, increases in value based on the underlying staking rewards that the token is accruing. Thus, it works differently from the other solutions that always aim to maintain a peg with ETH.
 
 ## Smart Contracts
 
@@ -51,7 +51,7 @@ Apart from that the remaining part of the highlighted threats have been acknowle
 
 ## Price Stability
 
-rETH does not function in the same manner as the other liquid-staked derivatives as it is a claim in the ETH principal and all the accrued staking rewards over time. This means that it naturally will increase in price over time as rewards accrue. While the others aim to have as close to a 1:1 price with ETH at all times. When rETH launched, it was trading at a discount due to the uncertainty regarding the functionality of withdrawals at the time. However, as time passed and the underlying ETH has accrued rewards, rETH has been trading at a premium. Based on the underlying ETH that represents 1 rETH, arbitragers can take advantage of market inefficiencies when it either trades at a wide premium or discounts to rebalance the price. The line chart below displays the change in rETH price over time and factors in fair value vs market price:&#x20;
+rETH does not function in the same manner as the other liquid staking tokens as it is a claim in the ETH principal and all the accrued staking rewards over time. This means that it naturally will increase in price over time as rewards accrue. While the others aim to have as close to a 1:1 price with ETH at all times. When rETH launched, it was trading at a discount due to the uncertainty regarding the functionality of withdrawals at the time. However, as time passed and the underlying ETH has accrued rewards, rETH has been trading at a premium. Based on the underlying ETH that represents 1 rETH, arbitragers can take advantage of market inefficiencies when it either trades at a wide premium or discounts to rebalance the price. The line chart below displays the change in rETH price over time and factors in fair value vs market price:&#x20;
 
 <figure><img src="../../.gitbook/assets/Screen Shot 2023-04-25 at 14.52.56.png" alt=""><figcaption></figcaption></figure>
 

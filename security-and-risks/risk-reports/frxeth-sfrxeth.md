@@ -1,6 +1,6 @@
 # frxETH/sfrxETH
 
-Frax entered the liquid-staked derivatives market in late 2022 with the launch of frxETH and sfrxETH. frxETH is an ETH-pegged stablecoin that can be used across DeFi whereas sfrxETH is an interest-bearing token that increases in value over time due to the ETH reward it accumulates. \
+Frax entered the liquid-staked token market in late 2022 with the launch of frxETH and sfrxETH. frxETH is an ETH-pegged stablecoin that can be used across DeFi whereas sfrxETH is an interest-bearing token that increases in value over time due to the ETH reward it accumulates. \
 
 
 **TL;DR:**
