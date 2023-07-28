@@ -9,14 +9,20 @@ These docs are intended to explain how Origin DeFi's OTokens work and introduce 
 **Mint, redeem or swap using the dapps**
 
 {% hint style="info" %}
-The [Origin Dollar dapp](https://ousd.com/swap) and [Origin Ether dapp](https://oeth.com/swap) will intelligently route your transaction to get you the best rate, whether that's from an AMM or minting from the vault.
+The [Origin Dollar dapp](https://app.ousd.com) and [Origin Ether dapp](https://app.oeth.com/) will intelligently route your transaction to get you the best rate, whether that's from an AMM or minting from the vault.
 {% endhint %}
 
-{% embed url="https://ousd.com/swap" %}
 
-{% embed url="https://oeth.com/swap" %}
 
-The [OUSD dapp](https://ousd.com/swap) and [OETH dapp](https://oeth.com/swap) allow anyone to buy or sell using a Web3-enabled cryptocurrency wallet like [Metamask](https://www.metamask.io), [Ledger](https://www.ledger.com/), or [Gnosis Safe](https://gnosis-safe.io/). This is the native way to get OUSD or OETH, which is desirable if you want a large amount of capital that could risk moving the market on other exchanges. The dapp will intelligently decide whether to mint or redeem using the vault or help you complete the trade on whichever AMM currently offers the best rate.
+{% embed url="https://app.oeth.com" %}
+Swap ETH or LSTs for OETH
+{% endembed %}
+
+{% embed url="https://app.ousd.com" %}
+Swap USDT, USDC, or DAI for OUSD
+{% endembed %}
+
+The [OUSD dapp](https://app.ousd.com) and [OETH dapp](https://app.oeth.com) allow anyone to buy or sell using a Web3-enabled cryptocurrency wallet like [Metamask](https://www.metamask.io), [Ledger](https://www.ledger.com/), or [Gnosis Safe](https://gnosis-safe.io/). This is the native way to get OUSD or OETH, which is desirable if you want a large amount of capital that could risk moving the market on other exchanges. The dapp will intelligently decide whether to mint or redeem using the vault or help you complete the trade on whichever AMM currently offers the best rate.
 
 **Decentralized Exchanges**
 
