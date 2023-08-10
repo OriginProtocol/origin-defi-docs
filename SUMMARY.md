@@ -34,7 +34,7 @@
   * [Morpho](core-concepts/supported-strategies/morpho.md)
 * [The Dripper](core-concepts/the-dripper.md)
 * [The Zapper](core-concepts/the-zapper.md)
-* [Fund Management](core-concepts/fund-management.md)
+* [Funds Management](core-concepts/fund-management.md)
 * [Wrapping](core-concepts/wrapped-ousd.md)
 * [Price Oracles](core-concepts/price-oracles.md)
 
