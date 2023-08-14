@@ -2,7 +2,7 @@
 
 Most of Origin's contracts are upgradable via a well-known proxy wrapper and an implementation contract. The Vault is split into VaultAdmin and VaultCore to work around the maximum contract size limit on Ethereum.
 
-<figure><img src="../../.gitbook/assets/ousdContracts.png" alt="OUSD contract dependencies"><figcaption><p>OUSD contract dependencies</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ousdContracts (3).png" alt=""><figcaption><p>OUSD contract dependencies</p></figcaption></figure>
 
 **OUSD Core**
 
@@ -10,7 +10,7 @@ Most of Origin's contracts are upgradable via a well-known proxy wrapper and an 
 
 **OUSD Strategies**
 
-<table><thead><tr><th width="276">Contract</th><th>Address</th></tr></thead><tbody><tr><td>OUSD Aave</td><td>0x5e3646A1Db86993f73E6b74A57D8640B69F7e259</td></tr><tr><td>OUSD Compound</td><td>0x9c459eeb3FA179a40329b81C1635525e9A0Ef094</td></tr><tr><td>OUSD Convex DAI+USDC+USDT</td><td>0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3</td></tr><tr><td>OUSD Convex LUSD+3Crv</td><td>0x7A192DD9Cc4Ea9bdEdeC9992df74F1DA55e60a19</td></tr><tr><td>OUSD Convex OUSD+3Crv (AMO)</td><td>0x89eb88fedc50fc77ae8a18aad1ca0ac27f777a90</td></tr><tr><td>OUSD Morpho Compound</td><td>0x5A4eEe58744D1430876d5cA93cAB5CcB763C037D</td></tr><tr><td>OUSD Morpho Aave</td><td>0x79F2188EF9350A1dC11A062cca0abE90684b0197</td></tr></tbody></table>
+<table><thead><tr><th width="276">Contract</th><th>Address</th></tr></thead><tbody><tr><td>OUSD Aave</td><td>0x5e3646A1Db86993f73E6b74A57D8640B69F7e259</td></tr><tr><td>OUSD Compound</td><td>0x9c459eeb3FA179a40329b81C1635525e9A0Ef094</td></tr><tr><td>OUSD Convex DAI+USDC+USDT</td><td>0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3</td></tr><tr><td>OUSD Convex LUSD+3Crv</td><td>0x7A192DD9Cc4Ea9bdEdeC9992df74F1DA55e60a19</td></tr><tr><td>OUSD Convex OUSD+3Crv (AMO)</td><td>0x89eb88fedc50fc77ae8a18aad1ca0ac27f777a90</td></tr><tr><td>OUSD Morpho Compound</td><td>0x5A4eEe58744D1430876d5cA93cAB5CcB763C037D</td></tr><tr><td>OUSD Morpho Aave</td><td>0x79F2188EF9350A1dC11A062cca0abE90684b0197</td></tr><tr><td>OUSD Flux Strategy</td><td>0x76Bf500B6305Dc4ea851384D3d5502f1C7a0ED44</td></tr><tr><td>OUSD Maker DAI Saving Rate</td><td>0x6b69B755C629590eD59618A2712d8a2957CA98FC</td></tr></tbody></table>
 
 **OUSD Yield Harvesting, Rewards Distribution & Swapping**
 
