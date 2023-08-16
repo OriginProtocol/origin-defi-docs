@@ -23,3 +23,5 @@ Note that regularly scheduled, [weekly allocation votes have been paused](https:
 * When voting, please remember it is inefficient to move in and out of Convex strategies frequently and some funds need to always remain outside of Convex in order to accommodate withdrawals.
 
 ***
+
+***

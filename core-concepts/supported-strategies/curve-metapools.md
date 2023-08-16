@@ -20,6 +20,8 @@ MetaPool liquidity providers can then deposit the LP tokens to the Convex gauge 
 
 OUSD uses a MetaPool to pair OUSD with 3CRV (USDT/DAI/USDC). OETH on the other hand uses a standard v2 pool to pair OETH with ETH.
 
+<figure><img src="../../.gitbook/assets/oethValueFlows-amo.png" alt="Value flow of the AMO strategy"><figcaption><p>OETH AMO strategy value flows for deposit and withdrawal</p></figcaption></figure>
+
 **How the AMO Works**
 
 AMM's count the number of coins on each side of the pool to determine the current price. In order to maintain the peg, both sides of a Curve pool must remain balanced. When the protocol deposits funds into a Curve pool, it deploys liquidity to both sides of the pool. For OUSD, it deploys OUSD on one side and 3CRV (USDT/DAI/USDC) on the other. For OETH, it deploys OETH on one side and ETH on the other. This ensures that after deploying liquidity, the balance of the pool doesn't change - since the protocol deploys equal amounts to both sides of the pool. When the pool contains more 3CRV than OUSD, the protocol deploys extra OUSD to bring the pool back into balance (but never more than a 1:2 ratio). Similarly, the protocol can deploy extra OETH if there is more ETH than OETH in the pool. This approach of providing (in most cases) double the liquidity to the Curve pools allows the protocol to earn up to twice as many rewards using the same amount of capital. &#x20;

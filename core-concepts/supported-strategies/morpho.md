@@ -12,6 +12,8 @@ The OUSD vault is currently one of the largest holders of MORPHO tokens, but the
 
 OUSD's Morpho strategy collects MORPHO tokens and collects and sells pass-thru COMP and AAVE. The resulting stablecoins are added to the OUSD vault and distributed as yield. The OUSD vault is currently one of the largest holders of MORPHO tokens, but they are currently locked and unable to be transferred or sold. OGV stakers will determine what to do with these tokens once they are eventually unlocked and transferrable.&#x20;
 
+<figure><img src="../../.gitbook/assets/oethValueFlows-morpho-aave.png" alt=""><figcaption><p>OETH Morpho Aave strategy value flows for deposit and withdrawal</p></figcaption></figure>
+
 | Resources      |                                                                  |
 | -------------- | ---------------------------------------------------------------- |
 | Official site  | [https://www.morpho.xyz](https://www.morpho.xyz/)                |

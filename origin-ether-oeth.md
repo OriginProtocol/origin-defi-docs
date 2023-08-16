@@ -4,7 +4,7 @@
 
 Origin Ether shares much of its codebase with Origin Dollar, with the key distinction being that OETH is an ether-denominated token, whereas OUSD is denominated in USD. OETH takes advantage of liquid staking yield, boosting APYs through DeFi strategies and rewards tokens.&#x20;
 
-Ethereum staking participation currently pales in comparison to Solana (68% staked), Cardano (72% staked), Polkadot (46% staked), and Avalanche (62% staked). This is largely due to stakers being unable to withdraw staked ETH up until the recent Shanghai upgrade. Of the 15% of Ether staked, around 40% is provided through LST providers like Lido, Coinbase, Frax, and others.
+Ethereum staking participation currently pales in comparison to Solana (68% staked), Cardano (72% staked), Polkadot (46% staked), and Avalanche (62% staked). This is largely due to stakers being unable to withdraw staked ETH up until the recent Shanghai upgrade. Of the 21% of Ether staked, around 40% is provided through LST providers like Lido, Coinbase, Frax, and others.
 
 With Ethereum’s Shanghai upgrade removing withdrawal risk, ETH staking participation is expected to increase dramatically. With a total addressable market of all ether in circulation, the ETH staking market is in its infancy. With ETH staking withdrawals being enabled, staking participation is projected to double in the next 12 months ([Delphi Digital](https://members.delphidigital.io/reports/the-future-of-eth-liquid-staking#the-future-of-eths-liquid-staking-protocols)). Over the long-term, it’s not inconceivable that 60-75% of ether will be staked to secure the network.
 
