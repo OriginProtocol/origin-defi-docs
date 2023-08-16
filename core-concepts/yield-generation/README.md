@@ -29,7 +29,7 @@ The protocol is able to generate higher yields than competing protocols due to a
 * Smart contracts must manually opt-in to earn yield. This allows the protocol to put more capital to work than would be otherwise possible. For example, the OUSD that is being held on Uniswap does not rebase, but the backing stablecoins are still deployed and earning yield on behalf of OUSD holders.
 * Yields tend to get compressed as more funds are deployed into a given strategy. By spreading capital across multiple strategies at once, OUSD is able to able to deploy more capital with less yield compression.
 * The gas costs of harvesting yield are amortized across the entire pool. This makes it economical to harvest more frequently, leading to faster compounding. The more frequent the compounding periods, the faster your money grows.
-* The AMO allows the protocol to earn up to 2x the rewards using the same amount of capital.
-* The protocol invests in ensuring future rewards by using a portion of the performance fee to buy flywheel tokens. The purchased CVX tokens are vote-locked and used to vote for the AMO pools, creating a sustainable source of yield for OTokens.
+* The [AMO](../supported-strategies/curve-metapools.md) allows the protocol to earn up to 2x the rewards using the same amount of capital.
+* The protocol invests in ensuring future rewards by using a portion of the performance fee to buy flywheel tokens such as CVX. The purchased CVX tokens are vote-locked and used to vote for the AMO pools which drive additional CRV incentives to the pools, creating a sustainable source of yield for OTokens.
 
 The net effect of these benefits is that **OTokens are able to consistently return higher yields** than you would get deploying directly into any of the underlying strategies on their own.

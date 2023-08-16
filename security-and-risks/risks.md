@@ -27,6 +27,23 @@ It is important to note that each of the supported stablecoins introduces non-tr
 
 There is also significant centralization and slashing risk associated with the various LSTs that act as collateral for OETH. If any of the node operators that are backing the LSTs that are backing OETH are slashed, you can expect that OETH holders will similarly lose money. In the case of a minor slashing like we've seen to date, the result will be that OETH holders will earn slightly less yield. In the event of a major slashing, you can expect that OETH will drop in value proportional to the percentage of the backing LST that was impacted.&#x20;
 
+**Slashing**
+
+In Ethereum's Proof-of-Stake system, validators put up ETH as collateral to participate in validating transactions and creating new blocks. This act is called "staking."
+
+"Slashing" is when some or all of a validator's staked ETH is taken away as a penalty. It happens if a validator breaks the rules or acts carelessly. Reasons for slashing include:
+
+1. **Double signing:** Trying to validate two different versions of the truth.
+2. **Liveness faults:** Not being online and active when needed.
+3. **Safety faults:** Actions that risk the network's security.
+
+Slashing is crucial for two main reasons:
+
+1. It stops dishonest behavior by making validators lose money if they break the rules.
+2. It promotes network reliability by punishing careless actions.
+
+In essence, slashing ensures validators have a financial reason to do their job correctly and keeps the Ethereum network secure.
+
 **Regulatory risk**
 
 On Feb. 21, 2023, a judge in the High Court of England and Wales ordered Oasis, a gateway for the DeFi lender MakerDAO, to "take all necessary steps" to retrieve assets that were stolen as part of a $320M heist last year. Unfortunately as a result, no risk assessment would be complete without mentioning the risk of antagonistic regulators trying to meddle in the affairs of the protocol.

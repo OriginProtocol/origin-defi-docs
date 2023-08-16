@@ -26,7 +26,7 @@ Despite these concerns, there are already billions of dollars betting on the sec
 
 **Turning FUD into Profit**
 
-March 2023 was the first time we saw a major depegging since the launch of OUSD. After the collapse of Silicon Valley Bank, both USDC and DAI (which is largely backed by USDC) dropped to $0.96. Thankfully, the protocol was designed with the assumption that the backing collateral could drop in value at any time. OUSD has multiple protections in place to protect the protocol in case of a depegging. We were proud to see that these protections protected the vault, maintained a superior peg than either USDC or DAI, and generated record-breaking profits for the protocol during this stressful event.
+March 2023 was the first time we saw a major depegging since the launch of OUSD. After the collapse of Silicon Valley Bank, both USDC and DAI (which is largely backed by USDC) dropped to $0.96. Thankfully, OUSD was designed with the assumption that the backing collateral could drop in value at any time. OUSD has multiple protections in place to protect the protocol in case of a depegging. We were proud to see that these protections protected the vault, maintained a superior peg than either USDC or DAI, and generated record-breaking profits for the protocol during this stressful event.
 
 {% embed url="https://twitter.com/joshfraser/status/1634654570298130432?s=20" %}
 

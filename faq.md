@@ -26,7 +26,7 @@ By default, rebase events don't affect the supply of OUSD or OETH that is sittin
 
 **How is it possible for the APY to be so high?**
 
-You can read about our various strategies in [Yield Generation](core-concepts/yield-generation/). We currently get most of the yield from harvesting rewards tokens. Additionally, the yield increases as more OUSD is held in smart contracts that do not opt into rebasing since the underlying collateral continues to earn for the remaining holders.
+You can read about our various strategies in [Yield Generation](core-concepts/yield-generation/). We currently get most of the yield from harvesting rewards tokens. Additionally, the yield increases as more OUSD and OETH are held in smart contracts that do not opt into rebasing since the underlying collateral continues to earn for the remaining holders.
 
 **Why is my balance increasing at a slower rate than the advertised APY?**
 
