@@ -28,6 +28,8 @@ A small exit fee is charged upon redemption of OUSD (0.25%) or OETH (0.5%) via t
 
 Upon redemption, the vault will determine which coins to return to the user. The vault will return coins in the same ratio as the current holdings. This lack of user optionality protects the vault in the event that any of the supported stablecoins loses their peg.
 
+For example, If the vault contains 25% stETH, 32% frxETH, 35% rETH, and 8% WETH, you'll get these coins in the same proportions upon redemption.
+
 {% hint style="warning" %}
 Redemptions incur an **exit fee** and the user doesn't get to pick which coins they receive. Users can often avoid this fee by swapping on an exchange instead.
 {% endhint %}
