@@ -8,7 +8,7 @@ These docs are a great starting point for understanding how oTokens works. Here 
 
 We're assuming the answer will be yes and we highly encourage this as well! However, there may be some instances where you would prefer to move fast and list oTokens without participating in the [rebasing nature of oTokens](../core-concepts/elastic-supply/rebasing-and-smart-contracts.md) since it's the fastest and simplest integration. For exchanges that want to list oTokens, but are strapped for engineering resources, you may want to launch the non-rebasing version first while your engineers make whatever changes are necessary. To make oTokens non-rebasing you can call `rebaseOptOut()` from each EOA wallet that holds OUSD or OETH, or do nothing if you are storing oTokens on smart contracts. Non-rebasing oTokens behaves just like any other ERC-20 token.
 
-Another option is to list [wrapped OUSD](../core-concepts/wrapped-ousd.md) (wOUSD) or [wrapped OETH](../core-concepts/wrapped-ousd.md) (wOETH) which is a non-rebasing version of oTokens that still earns yield. wOUSD and wOETH can be wrapped or unwrapped anytime for native OUSD and OETH.
+Another option is to list [wrapped OUSD](../core-concepts/wrapping.md) (wOUSD) or [wrapped OETH](../core-concepts/wrapping.md) (wOETH) which is a non-rebasing version of oTokens that still earns yield. wOUSD and wOETH can be wrapped or unwrapped anytime for native OUSD and OETH.
 
 **Are you storing customer balances on smart contracts (ie. multi-sigs) or EOA wallets?**
 

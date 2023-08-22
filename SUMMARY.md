@@ -35,7 +35,7 @@
 * [The Dripper](core-concepts/the-dripper.md)
 * [The Zapper](core-concepts/the-zapper.md)
 * [Funds Management](core-concepts/fund-management.md)
-* [Wrapping](core-concepts/wrapped-ousd.md)
+* [Wrapping](core-concepts/wrapping.md)
 * [Price Oracles](core-concepts/price-oracles.md)
 
 ## Governance
