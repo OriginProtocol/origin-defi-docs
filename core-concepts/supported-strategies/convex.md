@@ -15,3 +15,7 @@ OUSD's Convex strategy collects and sells CRV and CVX tokens. The resulting stab
 | Official site  | [https://www.convexfinance.com](https://www.convexfinance.com/)   |
 | Developer docs | [https://docs.convexfinance.com](https://docs.convexfinance.com/) |
 | GitHub         | [https://github.com/convex-eth](https://github.com/convex-eth)    |
+
+{% hint style="info" %}
+Convex strategies including "Convex-3pool" and "Convex-LUSD+3crv" are currently inactive due to [governance consensus](https://governance.ousd.com/proposals/30894412376194853647122581916496530536830189795097427662392821757029264128284). However, any veOGV holder can propose their activation anytime.
+{% endhint %}
