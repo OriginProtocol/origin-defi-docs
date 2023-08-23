@@ -6,12 +6,12 @@ OUSD generates yield by depositing stablecoins into lending platforms and market
 
 Currently, OUSD earns yield using the following DeFi protocols:
 
-{% content-ref url="compound.md" %}
-[compound.md](compound.md)
-{% endcontent-ref %}
-
 {% content-ref url="aave.md" %}
 [aave.md](aave.md)
+{% endcontent-ref %}
+
+{% content-ref url="maker-dai-savings-rate.md" %}
+[maker-dai-savings-rate.md](maker-dai-savings-rate.md)
 {% endcontent-ref %}
 
 {% content-ref url="morpho.md" %}

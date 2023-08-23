@@ -2,7 +2,7 @@
 
 Most of Origin's contracts are upgradable via a well-known proxy wrapper and an implementation contract. The Vault is split into VaultAdmin and VaultCore to work around the maximum contract size limit on Ethereum.
 
-<figure><img src="../../.gitbook/assets/ousdContracts (3).png" alt=""><figcaption><p>OUSD contract dependencies</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ousdContracts.png" alt=""><figcaption><p>OUSD contract dependencies</p></figcaption></figure>
 
 **OUSD Core**
 
@@ -10,7 +10,7 @@ Most of Origin's contracts are upgradable via a well-known proxy wrapper and an 
 
 **OUSD Strategies**
 
-<table><thead><tr><th width="276">Contract</th><th>Address</th></tr></thead><tbody><tr><td>OUSD Aave</td><td>0x5e3646A1Db86993f73E6b74A57D8640B69F7e259</td></tr><tr><td>OUSD Compound</td><td>0x9c459eeb3FA179a40329b81C1635525e9A0Ef094</td></tr><tr><td>OUSD Convex DAI+USDC+USDT</td><td>0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3</td></tr><tr><td>OUSD Convex LUSD+3Crv</td><td>0x7A192DD9Cc4Ea9bdEdeC9992df74F1DA55e60a19</td></tr><tr><td>OUSD Convex OUSD+3Crv (AMO)</td><td>0x89eb88fedc50fc77ae8a18aad1ca0ac27f777a90</td></tr><tr><td>OUSD Morpho Compound</td><td>0x5A4eEe58744D1430876d5cA93cAB5CcB763C037D</td></tr><tr><td>OUSD Morpho Aave</td><td>0x79F2188EF9350A1dC11A062cca0abE90684b0197</td></tr><tr><td>OUSD Flux</td><td>0x76Bf500B6305Dc4ea851384D3d5502f1C7a0ED44</td></tr><tr><td>OUSD Maker DSR</td><td>0x6b69B755C629590eD59618A2712d8a2957CA98FC</td></tr></tbody></table>
+<table><thead><tr><th width="276">Contract</th><th>Address</th></tr></thead><tbody><tr><td>OUSD Aave</td><td>0x5e3646A1Db86993f73E6b74A57D8640B69F7e259</td></tr><tr><td>OUSD Convex OUSD+3Crv (AMO)</td><td>0x89eb88fedc50fc77ae8a18aad1ca0ac27f777a90</td></tr><tr><td>OUSD Morpho Compound</td><td>0x5A4eEe58744D1430876d5cA93cAB5CcB763C037D</td></tr><tr><td>OUSD Morpho Aave</td><td>0x79F2188EF9350A1dC11A062cca0abE90684b0197</td></tr><tr><td>OUSD Flux</td><td>0x76Bf500B6305Dc4ea851384D3d5502f1C7a0ED44</td></tr><tr><td>OUSD Maker DSR</td><td>0x6b69B755C629590eD59618A2712d8a2957CA98FC</td></tr></tbody></table>
 
 **OUSD Yield Harvesting, Rewards Distribution & Swapping**
 
@@ -36,4 +36,4 @@ The following Chainlink oracles are used to protect the vault in case a backing 
 
 These contacts are no longer actively used but are included here for historical purposes.
 
-<table><thead><tr><th width="224">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Original OGN Staking</td><td>0x501804B374EF06fa9C427476147ac09F1551B9A0</td></tr><tr><td>Original OGN Staking Implementation</td><td>0x8cd68a1e0b79150455c5498882d5d5d3df2dde08</td></tr><tr><td>OUSD Compensation</td><td>0x9C94df9d594BA1eb94430C006c269C314B1A8281</td></tr><tr><td>Old OUSD Vault</td><td>0x277e80f3E14E7fB3fc40A9d6184088e0241034bD</td></tr><tr><td>Old Buyback (1 of 2)</td><td>0x77314EB392b2be47C014cde0706908b3307Ad6a9</td></tr><tr><td>Old Buyback (2 of 2)</td><td>0x6C5cdfB47150EFc52072cB93Eea1e0F123529748</td></tr></tbody></table>
+<table><thead><tr><th width="224">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Original OGN Staking</td><td>0x501804B374EF06fa9C427476147ac09F1551B9A0</td></tr><tr><td>Original OGN Staking Implementation</td><td>0x8cd68a1e0b79150455c5498882d5d5d3df2dde08</td></tr><tr><td>OUSD Compensation</td><td>0x9C94df9d594BA1eb94430C006c269C314B1A8281</td></tr><tr><td>Old OUSD Vault</td><td>0x277e80f3E14E7fB3fc40A9d6184088e0241034bD</td></tr><tr><td>Old Buyback (1 of 2)</td><td>0x77314EB392b2be47C014cde0706908b3307Ad6a9</td></tr><tr><td>Old Buyback (2 of 2)</td><td>0x6C5cdfB47150EFc52072cB93Eea1e0F123529748</td></tr><tr><td>OUSD Compound Strategy</td><td>0x9c459eeb3FA179a40329b81C1635525e9A0Ef094</td></tr><tr><td>OUSD Convex DAI+USDC+USDT</td><td>0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3</td></tr><tr><td>OUSD Convex LUSD+3Crv</td><td>0x7A192DD9Cc4Ea9bdEdeC9992df74F1DA55e60a19</td></tr></tbody></table>
