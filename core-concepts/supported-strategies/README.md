@@ -10,8 +10,8 @@ Currently, OUSD earns yield using the following DeFi protocols:
 [aave.md](aave.md)
 {% endcontent-ref %}
 
-{% content-ref url="maker-dao.md" %}
-[maker-dao.md](maker-dao.md)
+{% content-ref url="makerdao.md" %}
+[makerdao.md](makerdao.md)
 {% endcontent-ref %}
 
 {% content-ref url="morpho.md" %}
