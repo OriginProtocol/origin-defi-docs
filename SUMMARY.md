@@ -30,6 +30,7 @@
   * [Curve](core-concepts/supported-strategies/curve.md)
   * [Convex](core-concepts/supported-strategies/convex.md)
   * [Curve AMO](core-concepts/supported-strategies/curve-metapools.md)
+  * [Flux](core-concepts/supported-strategies/flux.md)
   * [Maker DAO](core-concepts/supported-strategies/maker-dao.md)
   * [Morpho](core-concepts/supported-strategies/morpho.md)
 * [The Dripper](core-concepts/the-dripper.md)
