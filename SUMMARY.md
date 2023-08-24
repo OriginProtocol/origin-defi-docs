@@ -30,7 +30,7 @@
   * [Curve](core-concepts/supported-strategies/curve.md)
   * [Convex](core-concepts/supported-strategies/convex.md)
   * [Curve AMO](core-concepts/supported-strategies/curve-metapools.md)
-  * [Maker DAI Savings Rate](core-concepts/supported-strategies/maker-dai-savings-rate.md)
+  * [Maker DAO](core-concepts/supported-strategies/maker-dao.md)
   * [Morpho](core-concepts/supported-strategies/morpho.md)
 * [The Dripper](core-concepts/the-dripper.md)
 * [The Zapper](core-concepts/the-zapper.md)
