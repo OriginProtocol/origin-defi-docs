@@ -1,6 +1,6 @@
 # Flux
 
-Flux Finance is a decentralized lending platform built on Ethereum. The protocol launched in February 2023 and facilitates both lending and borrowing for its users. Users can either provide liquidity to earn interest or take loans against their collateralized digital assets. Users can either provide liquidity to earn interest or take loans against their collateralized digital assets. Flux Finance is a fork of Compound V2 with additional functionality to support both permissionless assets (USDC, DAI, USDT, etc.) and permissioned assets (OUSG).&#x20;
+Flux Finance is a decentralized lending platform built on Ethereum. The protocol launched in February 2023 and facilitates both lending and borrowing for its users. Users can either provide liquidity to earn interest or take loans against their collateralized digital assets. Flux Finance is a fork of Compound V2 with additional functionality to support both permissionless assets (USDC, DAI, USDT, etc.) and permissioned asset (OUSG).&#x20;
 
 For every deposited asset, users receive fTokens – ERC-20 tokens – which act as proof of their deposit and entitlement to the underlying asset. This mechanism ensures that interest is automatically compounded, allowing liquidity providers to observe a gradual increase in their fToken balance, reflecting earned interest. Furthermore, these fTokens can be used as collateral to take loans or be traded and integrated with other DeFi protocols.
 
