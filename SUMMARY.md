@@ -22,6 +22,7 @@
   * [USDC](core-concepts/supported-stablecoins/usdc.md)
   * [DAI](core-concepts/supported-stablecoins/dai.md)
 * [Supported LSTs](core-concepts/supported-lsts/README.md)
+  * [General Assessment Criteria](core-concepts/supported-lsts/general-assessment-criteria.md)
   * [Lido Staked ETH (stETH)](core-concepts/supported-lsts/lido-staked-eth-steth.md)
   * [Rocket Pool ETH (rETH)](core-concepts/supported-lsts/rocket-pool-eth-reth.md)
   * [Frax Ether (frxETH)](core-concepts/supported-lsts/frax-ether-frxeth.md)
