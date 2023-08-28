@@ -6,7 +6,7 @@ Most of Origin's contracts are upgradable via a well-known proxy wrapper and an 
 
 **OUSD Core**
 
-<table><thead><tr><th width="190">Contract</th><th width="633">Address</th></tr></thead><tbody><tr><td>OUSD</td><td>0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86</td></tr><tr><td>OUSD Implementation</td><td>0x33db8d52d65F75E4cdDA1b02463760c9561A2aa1</td></tr><tr><td>wOUSD</td><td>0xD2af830E8CBdFed6CC11Bab697bB25496ed6FA62</td></tr><tr><td>wOUSD Implementation</td><td>0xBF3B9b141Cb3629F5Bb8F721cbA9265c92494539</td></tr><tr><td>OUSD Vault</td><td>0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70</td></tr><tr><td>OUSD VaultAdmin<br>Implementation</td><td>0x1ef0553feb80e6f133cae3092e38f0b23da6452b</td></tr><tr><td>OUSD VaultCore<br>Implementation</td><td>0x997c35A0bf8E21404aE4379841E0603C957138c3</td></tr></tbody></table>
+<table><thead><tr><th width="190">Contract</th><th width="633">Address</th></tr></thead><tbody><tr><td>OUSD</td><td>0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86</td></tr><tr><td>OUSD Implementation</td><td>0x33db8d52d65F75E4cdDA1b02463760c9561A2aa1</td></tr><tr><td>wOUSD</td><td>0xD2af830E8CBdFed6CC11Bab697bB25496ed6FA62</td></tr><tr><td>wOUSD Implementation</td><td>0xBF3B9b141Cb3629F5Bb8F721cbA9265c92494539</td></tr><tr><td>OUSD Vault</td><td>0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70</td></tr><tr><td>OUSD VaultAdmin<br>Implementation</td><td>0x8b39590a49569dD5489E4186b8DD43069d4Ef0cC</td></tr><tr><td>OUSD VaultCore<br>Implementation</td><td>0x0adD23eCF2Ef9f4be557C52E75A5beDCdD070d34</td></tr></tbody></table>
 
 **OUSD Strategies**
 
@@ -16,7 +16,7 @@ Most of Origin's contracts are upgradable via a well-known proxy wrapper and an 
 
 Flipper is a gas-optimized way for users to swap in and out of OUSD at a fixed 1:1 rate with other stablecoins. This contract may become empty on one side (e.g., contain 0 OUSD balance), and thus sometimes provides limited swap routes. Flipper is currently only available for OUSD.
 
-<table><thead><tr><th width="194">Contract</th><th>Address</th></tr></thead><tbody><tr><td>OUSD Harvester</td><td>0x21fb5812d70b3396880d30e90d9e5c1202266c89</td></tr><tr><td>OUSD Dripper</td><td>0x80c898ae5e56f888365e235ceb8cea3eb726cb58</td></tr><tr><td>OUSD Buyback</td><td>0xD7B28d06365b85933c64E11e639EA0d3bC0e3BaB</td></tr><tr><td>OUSD Flipper</td><td>0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70</td></tr></tbody></table>
+<table><thead><tr><th width="194">Contract</th><th>Address</th></tr></thead><tbody><tr><td>OUSD Harvester</td><td>0x6aD90cB172001eE0096Bb758c617F5cba5163687</td></tr><tr><td>OUSD Dripper</td><td>0x80c898ae5e56f888365e235ceb8cea3eb726cb58</td></tr><tr><td>OUSD Buyback</td><td>0xD7B28d06365b85933c64E11e639EA0d3bC0e3BaB</td></tr><tr><td>OUSD Flipper</td><td>0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70</td></tr></tbody></table>
 
 **OUSD Assets**
 
@@ -26,7 +26,7 @@ OUSD is backed by the following stablecoins:
 
 **Oracles**
 
-<table><thead><tr><th width="204">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Oracle Router</td><td>0x7533365d1b0D95380bc4e94D0bdEF5173E43f954</td></tr></tbody></table>
+<table><thead><tr><th width="204">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Oracle Router</td><td>0xe7fD05515A51509Ca373a42E81ae63A40AA4384b</td></tr></tbody></table>
 
 The following Chainlink oracles are used to protect the vault in case a backing asset loses value. They also offer slippage protection when harvesting rewards tokens.
 
