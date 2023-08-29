@@ -27,6 +27,7 @@
   * [Rocket Pool ETH (rETH)](core-concepts/supported-lsts/rocket-pool-eth-reth.md)
   * [Frax Ether (frxETH)](core-concepts/supported-lsts/frax-ether-frxeth.md)
 * [Supported Strategies](core-concepts/supported-strategies/README.md)
+  * [Compound](core-concepts/supported-strategies/compound.md)
   * [Aave](core-concepts/supported-strategies/aave.md)
   * [Curve](core-concepts/supported-strategies/curve.md)
   * [Convex](core-concepts/supported-strategies/convex.md)
