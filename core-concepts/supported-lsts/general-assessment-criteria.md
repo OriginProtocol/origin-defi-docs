@@ -40,3 +40,11 @@ _Reliability_: An oracle's reliability ensures that the data it provides is accu
 
 _Vulnerabilities_: Awareness of potential attacks, like frontrunning, helps users gauge the reliability of the oracle data.
 
+**Yield Opportunities**:
+
+The promise of returns is one of the main drivers of what makes OETH attractive in DeFi. Understanding where and how these returns are generated is crucial.
+
+_Integration_: An LST's value can rise with its utility. Integration across multiple platforms amplifies this utility and, by extension, potential yields.
+
+
+
