@@ -31,3 +31,12 @@ _Depth_: Adequate liquidity ensures that users can easily trade or transact with
 _Growth Rate_: Rapid growth can indicate a platform's popularity and community trust.
 
 _Composability_: DeFi’s strength lies in interconnectivity. A token that can be easily integrated or used across various platforms augments its utility.
+
+**Oracle**:
+
+Oracles are data bridges between off-chain and on-chain systems. They are vital for smart contracts needing external information.
+
+_Reliability_: An oracle's reliability ensures that the data it provides is accurate and timely.
+
+_Vulnerabilities_: Awareness of potential attacks, like frontrunning, helps users gauge the reliability of the oracle data.
+
