@@ -17,3 +17,7 @@ OUSD's Compound strategy collects and sells COMP tokens. The resulting stablecoi
 | Official site  | [https://compound.finance/](https://compound.finance/)                                                         |
 | Developer docs | [https://compound.finance/docs](https://compound.finance/docs)                                                 |
 | GitHub         | [https://github.com/compound-finance/compound-protocol](https://github.com/compound-finance/compound-protocol) |
+
+{% hint style="info" %}
+The Compound strategy is currently inactive due to [governance consensus](https://governance.ousd.com/proposals/30894412376194853647122581916496530536830189795097427662392821757029264128284). However, any veOGV holder can propose its activation anytime.
+{% endhint %}
