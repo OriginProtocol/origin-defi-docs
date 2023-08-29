@@ -30,10 +30,6 @@ The following Chainlink oracles are used to protect the vault in case a backing 
 
 <table><thead><tr><th width="204">Pair</th><th>Contract</th></tr></thead><tbody><tr><td><a href="https://data.chain.link/ethereum/mainnet/crypto-eth/steth-eth">stETH/ETH</a></td><td>0x86392dc19c0b719886221c78ab11eb8cf5c52812</td></tr><tr><td><a href="https://data.chain.link/ethereum/mainnet/crypto-eth/reth-eth">rETH/ETH</a></td><td>0x536218f9e9eb48863970252233c8f271f554c2d0</td></tr><tr><td><a href="https://data.chain.link/ethereum/mainnet/crypto-eth/crv-eth">CRV/ETH</a></td><td>0x8a12be339b0cd1829b91adc01977caa5e9ac121e</td></tr><tr><td><a href="https://data.chain.link/ethereum/mainnet/crypto-eth/cvx-eth">CVX/ETH</a></td><td>0xC9CbF687f43176B302F03f5e58470b77D07c61c6</td></tr></tbody></table>
 
-**Swapper**
-
-<table><thead><tr><th width="204">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Swapper 1Inch V5</td><td>0xcD0fcF8a31Bc78ec07752e9CCD3960E936D18366</td></tr></tbody></table>
-
 **Deprecated**
 
 <table><thead><tr><th width="206">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Original governor / timelock</td><td>0x72426BA137DEC62657306b12B1E869d43FeC6eC7</td></tr></tbody></table>

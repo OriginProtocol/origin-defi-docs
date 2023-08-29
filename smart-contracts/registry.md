@@ -27,3 +27,9 @@ Origin DeFi smart contracts deployed to Ethereum Mainnet
 Used to automate regularly scheduled tasks in a decentralized way
 
 <table><thead><tr><th width="207.33333333333331">Keeper</th><th>Address</th><th>Purpose</th></tr></thead><tbody><tr><td><a href="https://automation.chain.link/mainnet/80310800131671020338601273445439145162738398695605141883575959303659215247238">OUSD Keeper 5</a></td><td>0x9c979C2687B2E64293c45B2D122d688e2d7fD8ec</td><td>Executing a daily rebase for both OUSD and OETH</td></tr></tbody></table>
+
+**Swapper**
+
+| Contract         | Address                                    |
+| ---------------- | ------------------------------------------ |
+| Swapper 1Inch V5 | 0xcD0fcF8a31Bc78ec07752e9CCD3960E936D18366 |
