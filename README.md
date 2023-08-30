@@ -22,6 +22,6 @@ While the code powering OUSD and OETH is almost identical, there are a number of
 | VaultBuffer           | 0                    | 0                    |
 | RebaseThreshold       | 1,000 USD            | 1 ETH                |
 | MaxSupplyDiff         | 5%                   | 3%                   |
-| TrusteeAddress        | Strategist multi-sig | Strategist multi-sig |
+| TrusteeAddress        | Buyback Proxy        | Strategist multi-sig |
 | TrusteeFee            | 20%                  | 20%                  |
 
