@@ -1,6 +1,6 @@
 # General Assessment Criteria
 
-As OETH consists of a basket of LSTs there is a need for a set of benchmarks to determine the reliability and security of the underlying collateral that consists of decentralized LSTs. To this end, several critical assessment criteria have been developed to evaluate the strength and efficiency of these systems.
+As OETH consists of a basket of LSTs there is a need for a set of benchmarks to determine the reliability and security of the underlying collateral. To this end, several critical assessment criteria have been developed to evaluate the strength and efficiency of these systems.
 
 **Audits**:
 
