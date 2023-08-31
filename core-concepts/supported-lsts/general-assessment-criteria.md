@@ -46,5 +46,27 @@ The promise of returns is one of the main drivers of what makes OETH attractive 
 
 _Integration_: An LST's value can rise with its utility. Integration across multiple platforms amplifies this utility and, by extension, potential yields.
 
+**Team**:
 
+Behind every DeFi platform is a team of developers and strategists. Trust in the platform often translates to trust in this team.
+
+_Transparency_: Public profiles and histories of key team members foster trust and transparency.
+
+_Track Record_: A history free from dubious activities points to a reliable and ethical team.
+
+**Documentation**:
+
+Thorough, clear documentation makes a platform accessible to both novices and experts.
+
+_Clarity & Accessibility_: Comprehensive yet digestible documentation aids in understanding a protocol's nuances.
+
+**Admin Controls**:
+
+Control mechanisms can be double-edged. They might offer security or introduce vulnerabilities.
+
+_Transparency_: Understanding who holds the reins and their level of control is key to gauging potential risks.
+
+
+
+In conclusion, OETH presents an innovative way to access LST yield. Ensuring the trust and confidence of our holders is paramount. By rigorously adhering to the benchmarks laid out in this assessment criteria, we aim to equip our users with the insights they need, fostering unwavering confidence in their decision to hold OETH.
 
