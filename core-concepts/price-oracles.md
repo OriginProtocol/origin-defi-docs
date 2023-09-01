@@ -23,11 +23,26 @@ In order to mint and redeem the appropriate number of OUSD on entry and exit, th
 
 As an added precaution, OUSD never pays more than a dollar for a stablecoin, nor sells a stablecoin for less than a dollar. In situations where DAI, USDC or USDT fall below the $1 peg, [OIP-4 disables minting](https://github.com/OriginProtocol/origin-dollar/issues/1000) of additional OUSD tokens using the de-pegged asset. Oracles giving wrong prices will not result in a reduction of the number of stablecoins held. Gains that are collected as a result of stablecoins slipping from their peg are redistributed to the remaining holders of OUSD in the form of additional yield.
 
-As a decentralized protocol, OUSD must rely on non-centralized sources for these prices. OUSD uses Chainlink oracles for pricing data for DAI, USDC and USDT. You can read more about [our decision to work with Chainlink](https://blog.originprotocol.com/how-origin-uses-chainlink-oracles-to-secure-ousd-bff5601e840e) on our blog. The specific Chainlink oracles being utilized are listed in the [Registry](../smart-contracts/registry.md).
+As a decentralized protocol, OUSD must rely on non-centralized sources for these prices. OUSD uses Chainlink oracles for pricing data for DAI, USDC, and USDT. You can read more about [our decision to work with Chainlink](https://blog.originprotocol.com/how-origin-uses-chainlink-oracles-to-secure-ousd-bff5601e840e) on our blog. The specific Chainlink oracles being utilized are listed in the [Registry](../smart-contracts/registry.md).
 
 ### Liquid Staking Token Pricing
 
-In a similar manner, OETH uses available Chainlink oracles to make sure that the protocol is not overpaying for LSTs that may be trading at a lower value. As of April 2023, Chainlink offered pricing oracles for stETH and rETH, but not frxETH. For Frax, the protocol plans to utilize Curve's time-weighted price oracle instead. As of June 2023, this had not yet been implemented and the price ratio for frxETH was hard coded as 1:1. The oracles are just one of multiple security features protecting the vault, so the hard-coded value is not a major cause for concern. You are, however, relying on the Strategists multisig to manually pause deposits in the case of a major depegging of frxETH.
+Similar to the rebasing function in OUSD that treats 1 stablecoin as 1 OUSD for clarity, OETH employs the accessible Chainlink oracles to ensure that the protocol doesn’t overcompensate for LSTs which might be traded at a diminished rate. In order to accurately price stETH and rETH as they interface with the system, Chainlink's pricing oracles come into play. For the specifics of frxETH, OETH leans on the [Frax Oracle](https://docs.frax.finance/frax-oracle/frax-oracle-overview). This oracle integrates data from dual on-chain sources: the EMA oracle stemming from the frxETH/ETH liquidity pool on Curve and the TWAP oracle from the Uniswap frxETH/FRAX pool.
+
+The oracles are just one of multiple security features protecting the vault. You are, however, relying on the Strategists multisig to manually pause deposits in the case of a major depegging of the underlying assets.
+
+
+
+| Coin   | Low                                | High                             | Delta       | Source                                                                         |
+| ------ | ---------------------------------- | -------------------------------- | ----------- | ------------------------------------------------------------------------------ |
+| stETH  | <p>Ξ0.3356<br>Dec 24, 2020</p>     | <p>Ξ3.0304<br>Nov 16, 2021</p>   | Ξ2.6948     | [Coinmarketcap](https://coinmarketcap.com/currencies/steth/)                   |
+| stETH  | <p>Ξ0.72793330<br>Dec 22, 2020</p> | <p>Ξ1.272594<br>Nov 10, 2021</p> | Ξ0.5446496  | [Coingecko](https://www.coingecko.com/en/coins/lido-staked-ether)              |
+| rETH   | <p>Ξ0.5411<br>Jun 18, 2022</p>     | <p>Ξ2.9001<br>Dec 1, 2021</p>    | Ξ2.359      | [Coinmarketcap](https://coinmarketcap.com/currencies/rocket-pool-eth/)         |
+| rETH   | <p>Ξ0.69870372<br>Jun 18, 2022</p> | <p>Ξ3.002089<br>Dec 01, 2021</p> | Ξ2.30338528 | [Coingecko](https://www.coingecko.com/en/coins/rocket-pool-eth)                |
+| frxETH | <p>Ξ0.8363<br>Mar 10, 2023</p>     | <p>Ξ1.3420<br>Apr 17, 2023</p>   | Ξ0.5057     | [Coinmarketcap](https://coinmarketcap.com/currencies/frax-finance-frax-ether/) |
+| frxETH | <p>Ξ0.98370559<br>Nov 23, 2022</p> | <p>Ξ1.015148<br>Apr 16, 2023</p> | Ξ0.03144241 | [Coingecko](https://www.coingecko.com/en/coins/frax-ether)                     |
+
+Oracles that produce inaccurate valuations will not necessarily lead to a diminished number of tokens preserved. Surpluses obtained as a consequence of tokens deviating from their peg are reallocated to the ongoing holders of OETH in the form of supplementary yield.
 
 ### Reward Token Oracles & Front Running Protection
 
