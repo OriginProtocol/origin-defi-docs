@@ -2,7 +2,7 @@
 
 Most of Origin's contracts are upgradable via a well-known proxy wrapper and an implementation contract. The Vault is split into VaultAdmin and VaultCore to work around the maximum contract size limit on Ethereum.
 
-<figure><img src="../../.gitbook/assets/oethContracts (2).png" alt=""><figcaption><p>OETH Contract Dependencies</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/oethContracts.png" alt=""><figcaption><p>OETH Contract Dependencies</p></figcaption></figure>
 
 **OETH Core**
 
@@ -24,11 +24,15 @@ OETH is backed by WETH and the following liquid staking tokens:
 
 **Oracles**
 
-<table><thead><tr><th width="204">Contract</th><th>Address</th></tr></thead><tbody><tr><td>OETH Oracle Router</td><td>0x3cCD26E82F7305B12742fBb36708B42f82B61dBa</td></tr></tbody></table>
+<table><thead><tr><th width="204">Contract</th><th>Address</th></tr></thead><tbody><tr><td>OETH Oracle Router</td><td>0xbE19cC5654e30dAF04AD3B5E06213D70F4e882eE</td></tr></tbody></table>
 
 The following Chainlink oracles are used to protect the vault in case a backing asset loses value. They also offer slippage protection when harvesting rewards tokens.
 
 <table><thead><tr><th width="204">Pair</th><th>Contract</th></tr></thead><tbody><tr><td><a href="https://data.chain.link/ethereum/mainnet/crypto-eth/steth-eth">stETH/ETH</a></td><td>0x86392dc19c0b719886221c78ab11eb8cf5c52812</td></tr><tr><td><a href="https://data.chain.link/ethereum/mainnet/crypto-eth/reth-eth">rETH/ETH</a></td><td>0x536218f9e9eb48863970252233c8f271f554c2d0</td></tr><tr><td><a href="https://data.chain.link/ethereum/mainnet/crypto-eth/crv-eth">CRV/ETH</a></td><td>0x8a12be339b0cd1829b91adc01977caa5e9ac121e</td></tr><tr><td><a href="https://data.chain.link/ethereum/mainnet/crypto-eth/cvx-eth">CVX/ETH</a></td><td>0xC9CbF687f43176B302F03f5e58470b77D07c61c6</td></tr></tbody></table>
+
+Frax's [frxETH/ETH Oracle](https://docs.frax.finance/frax-oracle/frax-oracle-overview#major-components) is used for frxETH pricing as there is no Chainlink Oracle for the frxETH/ETH pair. This sources prices from Curve's frxETH/ETH pool and Uniswap's frxETH/FRAX pool. Chainlink FRAX/USD and ETH/USD Oracles are then used to convert frxETH/FRAX back to a frxETH/ETH price.
+
+<table><thead><tr><th width="204">Pair</th><th>Contract</th></tr></thead><tbody><tr><td>frxETH/ETH</td><td>0xc58f3385fbc1c8ad2c0c9a061d7c13b141d7a5df</td></tr><tr><td><a href="https://data.chain.link/ethereum/mainnet/stablecoins/frax-usd">FRAX/USD</a></td><td>0xb9e1e3a9feff48998e45fa90847ed4d467e8bcfd</td></tr><tr><td><a href="https://data.chain.link/ethereum/mainnet/crypto-usd/eth-usd">ETH/USD</a></td><td>0x5f4ec3df9cbd43714fe2740f5e3616155c5b8419</td></tr></tbody></table>
 
 **Deprecated**
 
