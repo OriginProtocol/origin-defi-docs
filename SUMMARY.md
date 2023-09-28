@@ -35,6 +35,7 @@
   * [Flux](core-concepts/supported-strategies/flux.md)
   * [MakerDAO](core-concepts/supported-strategies/makerdao.md)
   * [Morpho](core-concepts/supported-strategies/morpho.md)
+  * [Balancer & Aura](core-concepts/supported-strategies/balancer-and-aura.md)
 * [The Dripper](core-concepts/the-dripper.md)
 * [The Zapper](core-concepts/the-zapper.md)
 * [Funds Management](core-concepts/fund-management.md)

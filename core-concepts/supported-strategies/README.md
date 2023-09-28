@@ -32,6 +32,10 @@ Both OUSD and OETH earn yield using the following DeFi protocols:
 [curve-metapools.md](curve-metapools.md)
 {% endcontent-ref %}
 
+{% content-ref url="balancer-and-aura.md" %}
+[balancer-and-aura.md](balancer-and-aura.md)
+{% endcontent-ref %}
+
 Although DeFi has grown very quickly and there are now billions of dollars worth of value deposited on these platforms, several of these projects are still in beta and are highly experimental. There may be hidden vulnerabilities in the smart contracts that power these platforms, and there have been multi-million dollar losses caused by vulnerabilities in Ethereum applications in the past.
 
 The community closely monitors security events on the supported platforms and the Strategists can immediately secure funds if any threats are identified.
