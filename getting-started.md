@@ -1,6 +1,6 @@
 # Getting Started
 
-**Meet Origin's DeFi Coins**
+**Meet Origin's DeFi Tokens**
 
 These docs are intended to explain how Origin DeFi's OTokens work and introduce you to the value of the governance token, OGV. Besides communicating both the potential risks and benefits, these docs seek to provide a guide for developers who wish to contribute to our codebase or integrate these coins into their products. Here are a few ways for you to dive in and get started.
 
@@ -51,7 +51,7 @@ Origin DeFi's coins are currently available on the following centralized exchang
 
 We're continuing to work on making all of our tokens available on additional centralized exchanges.
 
-**Adding Origin's Coins to Your Wallet**
+**Adding Origin's Tokens to Your Wallet**
 
 If your OTokens do not automatically show up in your wallet, you should be able to add it manually using the addresses above. If you plan to store[ your OUSD or OETH in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have our coins supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
 

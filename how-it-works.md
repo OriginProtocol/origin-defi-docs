@@ -6,7 +6,7 @@ Origin DeFi's OTokens are ERC-20 tokens for the Ethereum network.
 
 **OUSD** is a stable currency that is backed 1:1 by USDT, USDC and DAI. As a result, 1 OUSD should always be very close to 1 USD in value.&#x20;
 
-**OETH** is a stable currency that is backed 1:1 by Ether and liquid staking tokens like stETH, rETH, and sfrxETH. As a result, 1 OETH should always be very close to 1 ETH in value.
+**OETH** is a stable currency that is backed 1:1 by ether and liquid staking tokens like stETH, rETH, and sfrxETH. As a result, 1 OETH should always be very close to 1 ETH in value.
 
 {% hint style="success" %}
 1 OUSD = 1 USD
@@ -36,7 +36,7 @@ Redemptions incur an **exit fee** and the user doesn't get to pick which coins t
 
 #### A**utomated Yield Farming**
 
-The smart contracts generate yield by deploying the deposited collateral into trusted DeFi protocols such as Compound, Aave, Curve, Convex and Morpho. There may be new diversified strategies added to the vault in the future as approved by governance. Earned interest, trading fees, and rewards tokens are swapped and reinvested to produce yield on OTokens. Over time, the protocol will rebalance assets between different earning strategies in order to maximize yields. Users are able to benefit from faster compounding and rebalancing of assets as the farming costs are shared across the entire pool.
+The smart contracts generate yield by deploying the deposited collateral into trusted DeFi protocols such as Curve, Convex, Balancer, Compound, Aave, and Morpho. There may be new diversified strategies added to the vault in the future as approved by governance. Earned interest, trading fees, and rewards tokens are swapped and reinvested to produce yield on OTokens. Over time, the protocol will rebalance assets between different earning strategies in order to maximize yields. Users are able to benefit from faster compounding and rebalancing of assets as the farming costs are shared across the entire pool.
 
 #### **Elastic Supply**
 

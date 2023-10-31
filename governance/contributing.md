@@ -6,7 +6,7 @@ Origin DeFi is an entirely open-source project and we welcome contributions of a
 
 We work in public and our company Discord is open to all. If you have questions or need help getting started, our [Discord OUSD channels](https://discord.gg/jyxpUSe) are the best place to get assistance from our team and community.
 
-{% embed url="https://github.com/originprotocol/origin-dollar" %}
+{% @github-files/github-code-block %}
 
 **Developer Analytics**
 

@@ -7,7 +7,7 @@ Existing protocols like Compound and Aave are inefficient when utlitization is l
 Morpho's total value locked (TVL) quickly grew to over $100 million prior to the release of its governance token, MORPHO. Multiple security audits have been conducted by respected auditors including Trail of Bits, Certora, ChainSecurity, and others. Morpho also maintains a bug bounty program.
 
 {% hint style="info" %}
-The OUSD vault is currently one of the largest holders of MORPHO tokens, but they are currently locked and unable to be transferred or sold.&#x20;
+The OUSD vault is currently holds one of the largest MORPHO allocations, but the token has yet to launch. Once transferrable, this allocation will be sent to the Origin DeFi DAO.
 {% endhint %}
 
 OUSD's Morpho strategy collects MORPHO tokens and collects and sells pass-thru COMP and AAVE. The resulting stablecoins are added to the OUSD vault and distributed as yield. The OUSD vault is currently one of the largest holders of MORPHO tokens, but they are currently locked and unable to be transferred or sold. OGV stakers will determine what to do with these tokens once they are eventually unlocked and transferrable.&#x20;
