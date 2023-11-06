@@ -14,7 +14,7 @@ Most of Origin's contracts are upgradable via a well-known proxy wrapper and an 
 
 **OETH Yield Harvesting & Rewards Distribution**
 
-<table><thead><tr><th width="204">Contract</th><th>Address</th></tr></thead><tbody><tr><td>OETH Harvester</td><td>0x0D017aFA83EAce9F10A8EC5B6E13941664A6785C</td></tr><tr><td>OETH Dripper</td><td>0xc0F42F73b8f01849a2DD99753524d4ba14317EB3</td></tr><tr><td>OETH Buyback</td><td>Not yet live</td></tr></tbody></table>
+<table><thead><tr><th width="204">Contract</th><th>Address</th></tr></thead><tbody><tr><td>OETH Harvester</td><td>0x0D017aFA83EAce9F10A8EC5B6E13941664A6785C</td></tr><tr><td>OETH Dripper</td><td>0xc0F42F73b8f01849a2DD99753524d4ba14317EB3</td></tr><tr><td>OETH Buyback</td><td>0xfd6c58850cacf9ccf6e8aee479bfb4df14a362d2</td></tr></tbody></table>
 
 **OETH Assets**
 
