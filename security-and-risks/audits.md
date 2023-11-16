@@ -2,7 +2,7 @@
 
 **Continuously audited**
 
-Origin currently has a continuous auditing agreement with [OpenZeppelin](https://openzeppelin.com) to constantly review 100% of our smart contract changes. OpenZeppelin has audited Coinbase, Ethereum, Aave, Compound, and other leading projects. They are one of the most trusted auditing firms in the industry and we are thrilled to count them as part of our extended team.
+Origin currently has a continuous auditing agreement with [OpenZeppelin](https://openzeppelin.com) to review 100% of our smart contract changes. OpenZeppelin has audited Coinbase, Ethereum, Aave, Compound, and other leading projects. They are one of the most trusted auditing firms in the industry and we are thrilled to count them as part of our extended team.
 
 {% hint style="info" %}
 OETH utilizes 95% of the same code as OUSD. The new changes were audited by OpenZeppelin and Narya prior to launch.
