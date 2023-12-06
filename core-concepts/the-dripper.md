@@ -9,4 +9,15 @@ Below you can see how daily APYs changed after the Dripper was implemented:
 |      | Dripper configuration |
 | ---- | --------------------- |
 | OUSD | 604800 (7 days)       |
-| OETH | 259200 (3 days)       |
+| OETH | 1209600 (14 days)     |
+
+### How it works
+
+Here's a demonstration of the flow of funds for OETH:
+
+* Reward tokens (e.g. CRV) are earned by a strategy
+* [Someone calls the harvest function](https://docs.oeth.com/guides/incentivized-harvesting-guide) to swap reward tokens for ETH
+* ETH proceeds from the harvest are added to the Dripper's balance
+* The Dripper gradually allows ETH to be available for distribution to the Vault
+* The Vault collects available ETH from the Dripper once per day via Chainlink automation
+* The drip rate is updated each time funds are _collected_ (not when they are harvested/added)
