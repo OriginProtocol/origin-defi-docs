@@ -24,15 +24,21 @@ OETH is backed by WETH and the following liquid staking tokens:
 
 **Oracles**
 
-<table><thead><tr><th width="204">Contract</th><th>Address</th></tr></thead><tbody><tr><td>OETH Oracle Router</td><td>0xbE19cC5654e30dAF04AD3B5E06213D70F4e882eE</td></tr></tbody></table>
+<figure><img src="../../.gitbook/assets/oethOracles.png" alt=""><figcaption><p>OETH Oracle contracts</p></figcaption></figure>
+
+<table><thead><tr><th width="204">Contract</th><th>Address</th></tr></thead><tbody><tr><td>OETH Oracle Router</td><td>0x468a68da3cefcdd644ce0ea9b9564b246218aeec</td></tr></tbody></table>
 
 The following Chainlink oracles are used to protect the vault in case a backing asset loses value. They also offer slippage protection when harvesting rewards tokens.
 
-<table><thead><tr><th width="204">Pair</th><th>Contract</th></tr></thead><tbody><tr><td><a href="https://data.chain.link/ethereum/mainnet/crypto-eth/steth-eth">stETH/ETH</a></td><td>0x86392dc19c0b719886221c78ab11eb8cf5c52812</td></tr><tr><td><a href="https://data.chain.link/ethereum/mainnet/crypto-eth/reth-eth">rETH/ETH</a></td><td>0x536218f9e9eb48863970252233c8f271f554c2d0</td></tr><tr><td><a href="https://data.chain.link/ethereum/mainnet/crypto-eth/crv-eth">CRV/ETH</a></td><td>0x8a12be339b0cd1829b91adc01977caa5e9ac121e</td></tr><tr><td><a href="https://data.chain.link/ethereum/mainnet/crypto-eth/cvx-eth">CVX/ETH</a></td><td>0xC9CbF687f43176B302F03f5e58470b77D07c61c6</td></tr></tbody></table>
+<table><thead><tr><th width="204">Pair</th><th>Contract</th></tr></thead><tbody><tr><td><a href="https://data.chain.link/ethereum/mainnet/crypto-eth/steth-eth">stETH/ETH</a></td><td>0x86392dc19c0b719886221c78ab11eb8cf5c52812</td></tr><tr><td><a href="https://data.chain.link/ethereum/mainnet/crypto-eth/reth-eth">rETH/ETH</a></td><td>0x536218f9e9eb48863970252233c8f271f554c2d0</td></tr><tr><td><a href="https://data.chain.link/ethereum/mainnet/crypto-eth/crv-eth">CRV/ETH</a></td><td>0x8a12be339b0cd1829b91adc01977caa5e9ac121e</td></tr><tr><td><a href="https://data.chain.link/ethereum/mainnet/crypto-eth/cvx-eth">CVX/ETH</a></td><td>0xC9CbF687f43176B302F03f5e58470b77D07c61c6</td></tr><tr><td><a href="https://data.chain.link/ethereum/mainnet/crypto-eth/bal-eth">BAL/ETH</a></td><td>0xC1438AA3823A6Ba0C159CfA8D98dF5A994bA120b</td></tr></tbody></table>
 
 Frax's [frxETH/ETH Oracle](https://docs.frax.finance/frax-oracle/frax-oracle-overview#major-components) is used for frxETH pricing as there is no Chainlink Oracle for the frxETH/ETH pair. This sources prices from Curve's frxETH/ETH pool and Uniswap's frxETH/FRAX pool. Chainlink FRAX/USD and ETH/USD Oracles are then used to convert frxETH/FRAX back to a frxETH/ETH price.
 
 <table><thead><tr><th width="204">Pair</th><th>Contract</th></tr></thead><tbody><tr><td>frxETH/ETH</td><td>0xc58f3385fbc1c8ad2c0c9a061d7c13b141d7a5df</td></tr><tr><td><a href="https://data.chain.link/ethereum/mainnet/stablecoins/frax-usd">FRAX/USD</a></td><td>0xb9e1e3a9feff48998e45fa90847ed4d467e8bcfd</td></tr><tr><td><a href="https://data.chain.link/ethereum/mainnet/crypto-usd/eth-usd">ETH/USD</a></td><td>0x5f4ec3df9cbd43714fe2740f5e3616155c5b8419</td></tr></tbody></table>
+
+The AURA/ETH price comes from Origin's `AuraWETHPriceFeed` contract that uses the Balancer 80 AURA, 20 WETH pool to get a time weighted average price (TWAP). The TWAP used is the latest AURA/WETH price with a five minute interval. This is cross checked with the one hour interval price from five minutes ago. If the two TWAPs are more than 2% out the price is rejected.
+
+<table><thead><tr><th width="220">Contract</th><th>Address</th></tr></thead><tbody><tr><td>AuraWETHPriceFeed</td><td>0x94e16bC08d7CCd7f2999Eb5eA3f35DD1EDCBd15B</td></tr><tr><td><p>Balancer</p><p>80 Aura 20 WETH Pool</p></td><td>0xc29562b045D80fD77c69Bec09541F5c16fe20d9d</td></tr></tbody></table>
 
 **Deprecated**
 
