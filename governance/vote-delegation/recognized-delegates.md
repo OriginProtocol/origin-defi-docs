@@ -21,4 +21,5 @@ University blockchain clubs participating in the [University Governance Program]
 * [0xb55...f0FF](https://etherscan.io/address/0xb554605bf6b6C2fC3602F5351Eca02468C68f0FF) — NYU
 * [0x253...C5EA](https://etherscan.io/address/0x2535Aa0d1058dd9336a7B22b60Eb7c0881EAC5EA) — Tulane University&#x20;
 * [0x123...3b9DE](https://etherscan.io/address/0x1237B1b6EDC76b1aBC3614e6c9b5f75C4e13b9DE) — UC Santa Barbara
+* [0x7e7...04b8d](https://etherscan.io/address/0x7e741BeDfafeabdb174730ECa9ceD735d6004b8d) — UTA/LonghornDAO
 
