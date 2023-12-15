@@ -1,26 +1,61 @@
 # Funds Management
 
-The OUSD and OETH smart contracts aggregate all users' deposits into a single pool of assets that are then deployed into earning strategies based on preset allocations. In contrast to Yearn Vaults, TokenSets, or Zapper opportunities, users do not select individual strategies. All deposited stablecoins and consequently all OUSD tokens are fungible. The same goes for all LSTs that are deposited into OETH.
+The OUSD and OETH smart contracts each aggregate users' deposits into pools of assets that are then deployed into earning strategies based on preset allocations.
 
-The weighting of how assets are distributed between the supported strategies is decided by veOGV holders using Snapshot voting. These votes happen off-chain and do not cost any gas. The results of any successful reallocation proposals are executed on-chain by members of the [Strategist multi-sig](https://etherscan.io/address/0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC) (known as "Strategists") subject to their review and discretion.
+## OUSD Funds Allocation
 
-Ultimately, we believe it should be up to the community to decide what the right balance of risk/reward is appropriate for OUSD and OETH. We encourage the community to favor high-yield strategies while still maintaining diversification across multiple strategies to remove single points of failure and minimize risk.
+veOGV holders decide how OUSD assets are distributed between the supported strategies using Snapshot voting. These votes happen off-chain and do not cost any gas. The results of any successful reallocation proposals are executed on-chain by members of the [Strategist multi-sig](https://etherscan.io/address/0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC) (known as "Strategists") subject to their review and discretion.
+
+We encourage the community to favor high-yield strategies to ensure OUSD provides the highest risk-adjusted stablecoin yield in DeFi.&#x20;
+
+## **OETH Funds Allocation**
+
+OETH funds are managed according to parameters developed and agreed upon by the Origin DeFi DAO. These parameters establish a framework for maximizing OETH’s risk-adjusted yield while ensuring transparency in the allocation of funds.
+
+* Allocate a minimum of 5% of OETH collateral and no more than 66% to any individual LST (stETH, rETH, frxETH) in order to diversify funds while safeguarding against major losses from slashing or de-peg events. (Note: In extraordinary circumstances, strategists may convert all LSTs into WETH.)
+* Maintain a minimum allocation of 15% to WETH or ETH (combined) across vault and all strategies.
+* Holding of LSTs stETH and rETH should stay below 50% of their individual supply-side exit liquidity to ensure easy exits of LST collateral. If this 50% threshold is exceeded by 500bps the strategists will take action to exit a portion of the position.
+* Prior to this framework being proposed, frxETH was already above the on-chain liquidity threshold. As we already have been given indications that direct withdrawals will be available soon, we should aim to avoid selling below the peg at a loss. Thus, an exception of 60% exit liquidity cap is placed on frxETH.
+* Maintain our share of our Convex AMO pool between 80-90%. Make adjustments if our share falls to 75% or exceeds 95%.
+* Any individual non-AMO strategy should not exceed 50% of total OETH funds in order to prevent over-reliance on one strategy and manage risk. If a pool goes 100 bps over this cap, start de-risking.
+* For non-AMO strategies, OETH funds should account for no more than 50% of a pool's total TVL. This helps avoid major slippage and liquidity issues when exiting.
+* Ensure that a sufficient portion of each collateral type is held either in default strategies or directly in the vault, guaranteeing that 1% of OETH circulating supply can be redeemed at any time without requiring Strategist intervention.
+* For new strategies, start with a test allocation of no more than 50 ETH.
+* If the initial test allocation proves successful, ramp up allocation in a geometric sequence over a two-week period at the discretion of the Strategists.
+* Minimize costly reallocations by limiting them to a maximum of twice per week.
+* Only reallocate when doing so will boost OETH yield by at least 5 bps.
+* Consider the breakeven point for any reallocation, aiming for a threshold of 7 days.
+
+| Parameter                                                               | Value     | Intervention Threshold |
+| ----------------------------------------------------------------------- | --------- | ---------------------- |
+| Allocation to stETH                                                     | 5% - 66%  | - -                    |
+| Allocation to rETH                                                      | 5% - 66%  | - -                    |
+| Allocation to frxETH                                                    | 5% - 66%  | --                     |
+| Minimum allocation to WETH & ETH (combined)                             | 15%       | - -                    |
+| Maximum share of stETH supply-side exit liquidity                       | 50%       | 500 bps                |
+| Maximum share of rETH supply-side exit liquidity                        | 50%       | 500 bps                |
+| Maximum share of frxETH supply-side exit liquidity                      | 60%       | 500 bps                |
+| OETH share of Convex AMO                                                | 80% - 90% | 500 bps                |
+| Maximum share of OETH funds allocated to any non-AMO strategy           | 50%       | 100 bps                |
+| OETH maximum share of any non-AMO strategy                              | 50%       | 100 bps                |
+| Minimum OETH circulating supply held in default strategies or the vault | 1%        | - -                    |
+| Maximum test allocation for net-new strategies                          | 50 ETH    | N/A                    |
+| Funding ramp-up period for net-new strategies                           | 2 weeks   | N/A                    |
+| Maximum reallocations per week                                          | 2         | N/A                    |
+| Minimum OETH yield boost for reallocation                               | ≥ 5 bps   | N/A                    |
+| Minimum breakeven threshold for reallocation                            | 7 days    | N/A                    |
+
+**Strategist Role and Discretion:**
+
+Strategists are tasked with implementing these rules, monitoring market conditions, and making informed decisions to reallocate funds within the set guidelines.
+
+Reallocation suggestions are permissionless and can be posted in the **Strategy allocations** topic on the **#defi-governance-forum** in [Origin's Discord](https://discord.com/channels/404673842007506945/1080502855720513557) provided they meet the established criteria and are subject to review by Strategists. Use the [OETH Math](https://docs.google.com/spreadsheets/d/1SwV9FagWOCw1hkv5l6Uqf6iWOn51-SONWcw2ODqBxfo/edit#gid=1917942072) sheet for reference.
+
+Any amendments to these rules require approval through a governance vote conducted in the [Origin DeFi Snapshot Space](https://vote.ousd.com/).
 
 {% hint style="info" %}
-Note that regularly scheduled, [weekly allocation votes have been paused](https://vote.ousd.com/#/proposal/0x81f1fec0d7d057ccdc4224ee310b1e3df090dd15033814804b5e696a34421206). Any veOGV holder may propose a reallocation at any time.
+From a security standpoint, it is important to know that while Strategists have the ability to move funds between approved strategies or instantly pause rebasing in the case of an emergency, Strategists do not have the power to add new strategies or withdraw funds from the protocol.
 {% endhint %}
-
-**How OUSD strategy allocation voting works (paused):**
-
-* New allocation proposals are open for voting on [the Origin DeFi Snapshot Space](https://vote.ousd.com) sometime before every Monday at 12:00 PT. The voting period is open for at least 48 hours, ending on Wednesday at 12:00 PT.
-* During this time, interested stakeholders can discuss allocation changes in the **Strategy allocations** post on the **#defi-governance-forum** in [Origin's Discord server](https://discord.com/channels/404673842007506945/1080502855720513557).
-* Each proposal will use "weighted voting", with options for each coin/strategy combination and an option to keep the existing allocation unchanged. veOGV holders can spread their votes among different listed strategies or the existing allocation.
-* After the voting period has ended, Strategists will submit, verify, and execute transactions to change OUSD to the determined allocation percentages for the week. If more than 50% of the weighted votes are cast for the existing allocation, Strategists may choose to take no action.
-* Allocations will be executed for strategies that use all stablecoins first (like Convex), then each stablecoin will be allocated to the remaining strategies according to the ratio of votes for that stablecoin / strategy combination.
-* If the Strategists deem any of the allocations unsafe or too costly, they may choose to not execute those. In addition, Strategists may decline to execute minor adjustments where the gas costs would be greater than the expected benefits.
-* Like all governance proposals, Strategist allocations must meet the minimum quorum requirement (currently 10M OGV) to be considered valid.
-* From a security standpoint, it is important to know that while Strategists have the ability to move funds between approved strategies or instantly pause rebasing in the case of an emergency, Strategists do not have the power to add new strategies or withdraw funds from the protocol. Community members can use the Strategy Validator tools to more easily [create](https://analytics.ousd.com/strategist/creator) and [decode](https://analytics.ousd.com/strategist) which actions are being performed by the Strategists.
-* When voting, please remember it is inefficient to move in and out of Convex strategies frequently and some funds need to always remain outside of Convex in order to accommodate withdrawals.
 
 ***
 
