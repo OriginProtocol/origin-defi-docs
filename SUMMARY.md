@@ -38,7 +38,6 @@
   * [Balancer & Aura](core-concepts/supported-strategies/balancer-and-aura.md)
 * [The Dripper](core-concepts/the-dripper.md)
 * [The Zapper](core-concepts/the-zapper.md)
-* [Funds Management](core-concepts/fund-management.md)
 * [Wrapping](core-concepts/wrapping.md)
 * [Price Oracles](core-concepts/price-oracles.md)
 
@@ -46,6 +45,7 @@
 
 * [Overview](governance/overview.md)
 * [Governance](governance/admin-privileges.md)
+* [Funds Management](governance/fund-management.md)
 * [Timelock](governance/timelock.md)
 * [OGV Staking](governance/ogv-staking.md)
 * [Contributing](governance/contributing.md)

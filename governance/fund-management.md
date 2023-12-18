@@ -1,5 +1,7 @@
 # Funds Management
 
+***
+
 The OUSD and OETH smart contracts each aggregate users' deposits into pools of assets that are then deployed into earning strategies based on preset allocations.
 
 ## OUSD Funds Allocation
