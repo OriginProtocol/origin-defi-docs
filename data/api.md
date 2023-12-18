@@ -4,6 +4,8 @@ Several data endpoints are used internally and by our partners. These have been 
 
 The are two separate hostnames where different endpoints are hosted. The source code can be found in the [ousd-analytics](https://github.com/OriginProtocol/ousd-analytics/blob/2b16b3af85e90ed85c6375f2a6c0b41848dd8bd8/eagleproject/eagleproject/urls.py#L51-L64) and [origin-website](https://github.com/OriginProtocol/origin-website/blob/master/views/web\_views.py#L291-L324) GitHub repositories.
 
+Some dates are displayed as timestamps or epochs, which can be converted to human-readable dates [here](https://www.epochconverter.com/).
+
 ### OUSD/OETH Analytics
 
 {% swagger method="get" path="/api/v2/{symbol}/apr/trailing/{days}" baseUrl="https://analytics.ousd.com" summary="Trailing yield" %}
@@ -354,3 +356,4 @@ The total number of Origin Ether (OETH) tokens in existence
 
 {% endswagger-response %}
 {% endswagger %}
+
