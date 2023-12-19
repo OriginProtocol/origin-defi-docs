@@ -357,3 +357,13 @@ The total number of Origin Ether (OETH) tokens in existence
 {% endswagger-response %}
 {% endswagger %}
 
+{% swagger method="get" path="" baseUrl="https://api.originprotocol.com/api/v2/protocol-fees" summary="OGV protocol revenue " %}
+{% swagger-description %}
+Protocol revenue derived from OETH and OUSD performance fees
+{% endswagger-description %}
+
+{% swagger-response status="200: OK" description="" %}
+
+{% endswagger-response %}
+{% endswagger %}
+
