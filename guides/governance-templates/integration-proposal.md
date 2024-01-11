@@ -33,7 +33,7 @@ _Add links to:_
 * _docs/Gitbook_
 * _source code/Github_
 * _Ethereum addresses_
-* _ChainLink Oracle_
+* _oracle(s)_
 * _audits_
 
 **Socials**
