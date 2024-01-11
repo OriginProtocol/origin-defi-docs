@@ -122,7 +122,7 @@ _Can users exit the stablecoin/LST with sufficient liquidity in dire situations?
 
 ## APY&#x20;
 
-What kind of validator rewards can the LST generate **(likely OETH only)** ? _Feel free to use this format, with X as base APY, Y as bonus APY, and Z as the bonus tokens:_
+**(Likely OETH only)** What kind of validator rewards can the LST generate? _Feel free to use this format, with X as base APY, Y as bonus APY, and Z as the bonus tokens:_
 
 _stETH: XXX% + YYY% in ZZZ_
 
