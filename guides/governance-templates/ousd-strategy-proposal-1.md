@@ -34,7 +34,7 @@ _Add links to:_
 * _source code/Github_
 * _Ethereum addresses_
 * _number of holders_
-* _oracle(s)_
+* _price oracle(s)_
 * _audits_
 
 **Socials**
