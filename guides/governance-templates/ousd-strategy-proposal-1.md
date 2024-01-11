@@ -56,7 +56,7 @@ _Fill in each if possible_
 * Miniumum accepted collateral&#x20;
 * Number of node operators&#x20;
 * Performance/management fee
-* APR (as of June 2023)
+* APY (as of June 2023)
 
 ## History
 
@@ -119,6 +119,16 @@ _When was the last major de-peg?_
 ## Liquidity & Composability&#x20;
 
 _Can users exit the stablecoin/LST with sufficient liquidity in dire situations? There should be at least $100M liquidity available to be considered an option - if there is not, explain why._
+
+## APY&#x20;
+
+**(OETH only)** What kind of validator rewards can the LST generate? _Feel free to use this format, with X as base APY, Y as bonus APY, and Z as the bonus tokens:_
+
+_stETH: XXX% + YYY% in ZZZ_
+
+## Defi Integrations&#x20;
+
+_Where is the stablecoin/LST currently supported in Defi? List out any lending markets, CDPs, Balancer pools, and other integrations._
 
 ## Team&#x20;
 
