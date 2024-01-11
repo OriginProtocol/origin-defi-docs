@@ -50,6 +50,8 @@ Add links, with number of followers/members:
 
 **Key LST Fact (OETH only)**
 
+_Fill in each if possible_
+
 * Issuer of the LST
 * Miniumum accepted collateral&#x20;
 * Number of node operators&#x20;
