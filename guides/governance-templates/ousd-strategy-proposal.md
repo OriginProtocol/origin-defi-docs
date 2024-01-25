@@ -129,7 +129,7 @@ _Does the project maintain an active bug bounty? Please share any relevant links
 
 #### Vote
 
-_Can be binary, or have multiple options with a "No" option._
+_Can be binary, or have multiple options with a "No" option. Please also add an abstain option._
 
 * **Yes** - Approve \[strategy proposal name]
 * **No** - Do not approve \[strategy proposal name]

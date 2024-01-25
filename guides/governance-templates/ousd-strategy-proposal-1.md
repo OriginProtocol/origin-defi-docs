@@ -160,7 +160,7 @@ _Will the stablecoin/LST provide some liquidity to OUSD/OETH to bootstrap the TV
 
 #### Vote
 
-_Can be binary, or have multiple options with a "No" option._
+_Can be binary, or have multiple options with a "No" option. Please also add an abstain option._
 
 * **Yes** - Approve \[collateral name]
 * **No** - Do not approve \[collateral name]

@@ -71,13 +71,17 @@ _What monetary or budgetary costs are involved in this proposal? Which core team
 
 _The “How?” of the proposal. How will this proposal be carried out to completion? What level of technical work is required to execute this proposal?_
 
+### _Monetary Benefit_
+
+_The “Why?” of the proposal. What kind of monetary benefit does this proposal bring to Origin and the Origin DAO? What other benefits does this proposal bring? Please be specific!_
+
 ### _Risks_
 
 _What are the risks to Origin if this proposal were to pass? How is each risk mitigated?_
 
 #### Vote
 
-_Can be binary, or have multiple options with a "No" option._
+_Can be binary, or have multiple options with a "No" option. Please also add an abstain option._
 
 * **Yes** - Approve \[proposal name]
 * **No** - Do not approve \[proposal name]
