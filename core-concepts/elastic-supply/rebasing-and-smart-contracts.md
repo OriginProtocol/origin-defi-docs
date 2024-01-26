@@ -35,3 +35,7 @@ This function returns [an integer](https://github.com/OriginProtocol/origin-doll
 | 0 - NotSet  | **Does not** receive yield | Receives yield             |
 | 1 - OptOut  | **Does not** receive yield | **Does not** receive yield |
 | 2 - OptIn   | Receives yield             | Receives yield             |
+
+
+
+Per the on-chain [proposal](https://governance.ousd.com/#/71383011691589635543710677825410966722324428905533481831290224502800746995692) executed on 12/26/23, OGV governance now has the ability to remotely opt-in 3rd party smart contracts for integration purposes, with a [proposal to the DAO.](../../guides/governance-templates/) More information can be found on the proposal [Snapshot](https://snapshot.org/#/ousdgov.eth/proposal/0x90d94adfcdd5f2dd5ba4e694cf1a215874f39bc867394e25a292c11dd3356fcb) and Discord [discussion](https://discord.com/channels/404673842007506945/1187525253740646441/1187525528211701770).&#x20;
