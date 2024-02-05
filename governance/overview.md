@@ -18,7 +18,7 @@ Two high-level criteria are required to vote and make proposals:
 
 1. Hold sufficient veOGV tokens (Vote-Escrowed Origin DeFi Governance)
    * No minimum to vote on existing proposals
-   * 10,000 veOGV to create a Snapshot proposal
+   * 300,000 veOGV to create a Snapshot proposal
    * 10,000,000 veOGV to create an on-chain proposal
 2. If you staked OGV prior to March 2023, you will need to [self-delegate](https://governance.ousd.com/register-vote) as a separate transaction. All new first-time stakers will have their voting power self-delegated going forward.
    * Can also be delegated to another Ethereum account
