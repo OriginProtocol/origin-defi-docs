@@ -10,7 +10,7 @@ Changes to the Origin Dollar and Origin Ether contracts and the movement of fund
 
 Initiating this type of formal, binding proposal requires technical skills and knowledge of the protocol’s code. On-chain proposals also involve transaction costs (Ethereum gas) necessary to update the state of the blockchain. As a result, most proposals go through an informal, off-chain process occurring on the [Origin DeFi Governance Snapshot Space](https://vote.ousd.com). Snapshot enables any eligible governance token holder to create a proposal or vote at no cost. This also reduces the complexity and expense required to make a proposal and allows for the community to signal its approval or opposition to a given change. We encourage everyone to propose improvements at any time.
 
-It’s natural for proposals to be accompanied by healthy debate or discussion regarding implementation, reasoning, methodology, etc. Rather than host these discussions on a separate forum, they currently live in the [Origin Protocol Discord server](https://originprotocol.com/discord) under the defi-governance-forum channel.
+It’s natural for proposals to be accompanied by healthy debate or discussion regarding implementation, reasoning, methodology, etc. Rather than host these discussions on a separate forum, they currently live in the [Origin Protocol Discord server](https://originprotocol.com/discord) under the #defi-governance-forum channel.
 
 **Participating**
 
@@ -22,14 +22,18 @@ Two high-level criteria are required to vote and make proposals:
    * 10,000,000 veOGV to create an on-chain proposal
 2. If you staked OGV prior to March 2023, you will need to [self-delegate](https://governance.ousd.com/register-vote) as a separate transaction. All new first-time stakers will have their voting power self-delegated going forward.
    * Can also be delegated to another Ethereum account
-   * Partial delegation is not supported
+   * Partial delegation is not yet supported
 
 Here are the step-by-step instructions to vote and create a proposal:
 
-1. Buy OGV from [Curve](https://curve.fi/#/ethereum/pools/factory-crypto-205/swap), [Uniswap](https://app.uniswap.org/#/swap?outputCurrency=0x9c354503C38481a7A7a51629142963F98eCC12D0\&chain=mainnet) or an exchange such as [Huobi](https://www.huobi.com/en-in/exchange/ogv\_usdt), [KuCoin](https://www.kucoin.com/trade/OGV-USDT), [Gate](https://gate.io/trade/OGV\_USDT), [Bitget](https://www.bitget.com/en/spot/OGVUSDT\_SPBL), or [MEXC Global](https://www.mexc.com/exchange/OGV\_USDT?inviteCode=1498J)
+1. Obtain OGV from [Curve](https://curve.fi/#/ethereum/pools/factory-crypto-205/swap), [Uniswap](https://app.uniswap.org/#/swap?outputCurrency=0x9c354503C38481a7A7a51629142963F98eCC12D0\&chain=mainnet) or an exchange such as [Huobi](https://www.huobi.com/en-in/exchange/ogv\_usdt), [KuCoin](https://www.kucoin.com/trade/OGV-USDT), [Gate](https://gate.io/trade/OGV\_USDT), [Bitget](https://www.bitget.com/en/spot/OGVUSDT\_SPBL), or [MEXC Global](https://www.mexc.com/exchange/OGV\_USDT?inviteCode=1498J)
 2. Stake OGV at [governance.ousd.com/stake](https://governance.ousd.com/stake)
-3. Discuss the proposal in the [Origin Protocol Discord server](https://originprotocol.com/discord)
-4. Submit the proposal to [vote.ousd.com](https://vote.ousd.com) for a signaling vote
+3.  Discuss the proposal in the [Origin Protocol Discord server](https://originprotocol.com/discord)&#x20;
+
+    _(1-4 weeks of discussion recommended)_
+4.  Submit the proposal to [vote.ousd.com](https://vote.ousd.com) for a signaling vote
+
+    _(Set the voting period for 1 week for new yield strategies, or 2 weeks for new collateral)_
 5. Vote for the implementation to be executed at [governance.ousd.com/proposals](http://governance.ousd.com/proposals)
 
 Feel free to use one of the [templates](../guides/governance-templates/) as a guide for writing governance proposals

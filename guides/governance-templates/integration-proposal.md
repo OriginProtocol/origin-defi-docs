@@ -81,10 +81,11 @@ _What is the expected timeline for development and implementation? How will we m
 
 _What are the potential risks to Origin if this integration proposal were to pass? How will the integration partner address these risks?_
 
-#### Vote
+### Vote
 
 _Can be binary, or have multiple options with a "No" option. Please also add an abstain option._
 
 * **Yes** - Approve \[integration proposal name]
 * **No** - Do not approve \[integration proposal name]
+* **Abstain**
 

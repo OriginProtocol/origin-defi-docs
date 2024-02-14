@@ -158,10 +158,11 @@ _How intuitive is it for the average user?_
 
 _Will the stablecoin/LST provide some liquidity to OUSD/OETH to bootstrap the TVL? If so, how much?_
 
-#### Vote
+### Vote
 
 _Can be binary, or have multiple options with a "No" option. Please also add an abstain option._
 
 * **Yes** - Approve \[collateral name]
 * **No** - Do not approve \[collateral name]
+* **Abstain**
 

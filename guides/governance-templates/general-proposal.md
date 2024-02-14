@@ -1,10 +1,11 @@
 ---
 description: >-
-  Use this template as a guide for writing any other kind of proposal for OUSD,
-  OGV, or OETH that does not involve yield strategies or integration
+  Use this template as a guide for writing a proposal for opting-in a smart
+  contract for OUSD or OETH yield generation. Keep in mind wOUSD and wOETH are
+  an alternate solutions for receiving yield.
 ---
 
-# General Proposal
+# Rebase Opt-in Proposal
 
 ## _**Title:**_
 
@@ -51,38 +52,33 @@ Add links, with number of followers/members:
 
 _Enter a short 1-3 sentence summary of the proposal, tl;dr version of what follows_
 
-### Abstract
-
-_The “What?” of the proposal. What are you trying to achieve?_
-
 ### Motivation
 
-_The “Why?” of the proposal or the reasoning behind the proposal. Why is this useful or important to Origin or the Origin community?_
-
-### Goals
-
-_What are the main goals of the proposal?_
+_The “Why?” of the proposal or the reasoning behind the proposal. Why do you need to opt-in this specific contract for OUSD/OETH yield? Why are you unable to call the opt-in function? (_[_instructions here_](https://docs.oeth.com/core-concepts/elastic-supply/rebasing-and-smart-contracts)_)_
 
 ### _Specification_
 
-_What monetary or budgetary costs are involved in this proposal? Which core teams or resources need to be involved?_
+_Is the contract is capable of receiving yield? How can you confirm?_
 
-### _Implementation_
+_Does the contract properly account for yield (rebases)?_
 
-_The “How?” of the proposal. How will this proposal be carried out to completion? What level of technical work is required to execute this proposal?_
+_Did you deploy the contract? If not, who did?_
 
-### _Monetary Benefit_
+_Are you the owner of the contract? If not, who is?_
 
-_The “Why?” of the proposal. What kind of monetary benefit does this proposal bring to Origin and the Origin DAO? What other benefits does this proposal bring? Please be specific!_
+### Expected Benefits
+
+_How will Origin benefit from opting-in this contract for yield?_
 
 ### _Risks_
 
-_What are the risks to Origin if this proposal were to pass? How is each risk mitigated?_
+_What are the risks to Origin if this contract were opted-in for yield?_
 
-#### Vote
+### Vote
 
 _Can be binary, or have multiple options with a "No" option. Please also add an abstain option._
 
 * **Yes** - Approve \[proposal name]
 * **No** - Do not approve \[proposal name]
+* **Abstain**
 
