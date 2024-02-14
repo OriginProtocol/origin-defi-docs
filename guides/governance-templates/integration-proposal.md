@@ -89,3 +89,4 @@ _Can be binary, or have multiple options with a "No" option. Please also add an 
 * **No** - Do not approve \[integration proposal name]
 * **Abstain**
 
+Unsure of the voting type to use? Check out this handy [Snapshot guide](https://docs.snapshot.org/user-guides/proposals/voting-types).

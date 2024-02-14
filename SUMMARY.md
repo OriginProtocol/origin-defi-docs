@@ -84,7 +84,7 @@
   * [Collateral Proposal](guides/governance-templates/ousd-strategy-proposal-1.md)
   * [Integration Proposal](guides/governance-templates/integration-proposal.md)
   * [Rebase Opt-in Proposal](guides/governance-templates/general-proposal.md)
-  * [General Proposal](guides/governance-templates/general-proposal-1.md)
+  * [General Proposal](<guides/governance-templates/general-proposal (1).md>)
 * [Analytics Terminology](guides/analytics-dashboard.md)
 
 ## Data

@@ -8,4 +8,6 @@ Use these guides as a reference for writing governance proposals for OUSD, OETH,
 
 [**Integration Proposal**](integration-proposal.md)
 
-[**General Proposal**](general-proposal-1.md)
+[**Rebase Opt-in Proposal**](general-proposal.md)
+
+[**General Proposal**](<general-proposal (1).md>)
