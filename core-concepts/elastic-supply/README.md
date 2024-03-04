@@ -18,4 +18,4 @@ This mechanism was inspired by the novel approach taken by [Ampleforth](https://
 
 **Manually triggering a rebase**
 
-Anyone can trigger a rebase at any time by [calling the rebase function on the vault](https://etherscan.io/address/originvault.eth#writeProxyContract). You can do this on Etherscan by connecting a web3 wallet.
+Anyone can trigger a rebase at any time by [calling the rebase function on the vault](https://etherscan.io/address/0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70#writeProxyContract). You can do this on Etherscan by connecting a web3 wallet.
