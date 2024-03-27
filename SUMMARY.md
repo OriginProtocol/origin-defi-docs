@@ -40,6 +40,7 @@
 * [The Zapper](core-concepts/the-zapper.md)
 * [Wrapping](core-concepts/wrapping.md)
 * [Price Oracles](core-concepts/price-oracles.md)
+* [CCIP Bridge](core-concepts/ccip-bridge.md)
 
 ## Governance
 
