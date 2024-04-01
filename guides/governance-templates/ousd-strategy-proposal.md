@@ -1,7 +1,8 @@
 ---
 description: >-
   Use this template as a guide for writing a proposal for new yield generating
-  strategies for OUSD or OETH
+  strategies for OUSD (new OETH strategies are currently paused due to the SOETH
+  proposal)
 ---
 
 # Yield Strategy Proposal

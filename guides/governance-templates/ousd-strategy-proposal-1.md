@@ -1,7 +1,8 @@
 ---
 description: >-
   Use this template as a guide for writing a proposal for new collateral assets
-  for OUSD or OETH:
+  for OUSD (new OETH collateral options are currently paused due to the SOETH
+  proposal)
 ---
 
 # Collateral Proposal
