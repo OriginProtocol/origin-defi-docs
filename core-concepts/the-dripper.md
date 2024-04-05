@@ -9,7 +9,7 @@ Below you can see how daily APYs changed after the Dripper was implemented:
 | Token | Dripper configuration |
 | ----- | --------------------- |
 | OUSD  | 604800 (7 days)       |
-| OETH  | 1209600 (14 days)     |
+| OETH  | 604800 (7 days)       |
 
 ### How it works
 
