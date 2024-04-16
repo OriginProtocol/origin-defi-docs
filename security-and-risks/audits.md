@@ -8,7 +8,7 @@ Origin currently has a continuous auditing agreement with [OpenZeppelin](https:/
 OETH utilizes 95% of the same code as OUSD. The new changes were audited by OpenZeppelin and Narya prior to launch.
 {% endhint %}
 
-OUSD has also been thoroughly audited by multiple other top security firms including [Trail of Bits](https://www.trailofbits.com/), [Solidified](https://solidified.io/), [Certora](https://www.certora.com/) and [Narya](https://narya.ai/) (previously PwnedNoMore). Their findings are available below:
+OUSD has also been thoroughly audited by multiple other top security firms including [Trail of Bits](https://www.trailofbits.com/), [Solidified](https://solidified.io/), and [Narya](https://narya.ai/) (previously PwnedNoMore). Their findings are available below:
 
 * [Trail of Bits, OUSD Audit, December 2020](https://github.com/OriginProtocol/security/blob/master/audits/Trail%20of%20Bits%20-%20Origin%20Dollar%20-%20Dec%202020.pdf)
 * [Solidified, OUSD Audit, December 2020](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20Origin%20Dollar%20-%20Dec%202020.pdf)
