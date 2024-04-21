@@ -4,25 +4,27 @@ Most of Origin's contracts are upgradable via a well-known proxy wrapper and an 
 
 <figure><img src="../../.gitbook/assets/oethContracts.png" alt=""><figcaption><p>OETH Contract Dependencies</p></figcaption></figure>
 
-**OETH Core**
+### **Core (Mainnet)**
 
 <table><thead><tr><th width="305">Contract</th><th width="633">Address</th></tr></thead><tbody><tr><td>OETH Token</td><td>0x856c4Efb76C1D1AE02e20CEB03A2A6a08b0b8dC3</td></tr><tr><td>OETH Implementation</td><td>0x7c1F8b1824f2758060CfC9Dd964C590710367A1E</td></tr><tr><td>wOETH Token</td><td>0xDcEe70654261AF21C44c093C300eD3Bb97b78192</td></tr><tr><td>wOETH Implementation</td><td>0x9C5a92AaA2A4373D6bd20F7b45cdEb7A13f9AA79</td></tr><tr><td>OETH Vault</td><td> 0x39254033945AA2E4809Cc2977E7087BEE48bd7Ab</td></tr><tr><td>OETH VaultAdmin Implementation</td><td>0x31a91336414d3B955E494E7d485a6B06b55FC8fB</td></tr><tr><td>OETH VaultCore Implementation</td><td>0xEA24e9Bac006DE9635Ac7fA4D767fFb64FB5645c</td></tr><tr><td>OETH Zapper</td><td>0x9858e47BCbBe6fBAC040519B02d7cd4B2C470C66</td></tr></tbody></table>
 
-**OETH Strategies**
+### Bridged (Arbitrum)
+
+<table><thead><tr><th width="307">Contract</th><th>Address</th></tr></thead><tbody><tr><td>wOETH Token</td><td>0xd8724322f44e5c58d7a815f542036fb17dbbf839</td></tr><tr><td>wOETH / OETH Exchange Rate</td><td>0x03a1f4b19aaeA6e68f0f104dc4346dA3E942cC45</td></tr></tbody></table>
+
+### **Strategies**
 
 <table><thead><tr><th width="305">Contract</th><th>Address</th></tr></thead><tbody><tr><td>OETH Convex ETH+OETH (AMO)</td><td>0x1827F9eA98E0bf96550b2FC20F7233277FcD7E63</td></tr><tr><td>OETH Frax Staking</td><td>0x3fF8654D633D4Ea0faE24c52Aec73B4A20D0d0e5</td></tr><tr><td>OETH Frax Redemption</td><td>0x95A8e45afCfBfEDd4A1d41836ED1897f3Ef40A9e</td></tr><tr><td>OETH Morpho Aave V2</td><td>0xc1fc9E5eC3058921eA5025D703CBE31764756319</td></tr><tr><td>OETH Aura rETH/WETH </td><td>0x49109629aC1deB03F2e9b2fe2aC4a623E0e7dfDC</td></tr></tbody></table>
 
-**OETH Yield Harvesting & Rewards Distribution**
+### **Yield Harvesting & Rewards Distribution**
 
 <table><thead><tr><th width="204">Contract</th><th>Address</th></tr></thead><tbody><tr><td>OETH Harvester</td><td>0x0D017aFA83EAce9F10A8EC5B6E13941664A6785C</td></tr><tr><td>OETH Dripper</td><td>0xc0F42F73b8f01849a2DD99753524d4ba14317EB3</td></tr><tr><td>OETH Buyback</td><td>0xfd6c58850cacf9ccf6e8aee479bfb4df14a362d2</td></tr></tbody></table>
 
-**OETH Assets**
-
-OETH is backed by WETH and the following liquid staking tokens:
+### **Assets**
 
 <table><thead><tr><th width="205">Token</th><th>Address</th></tr></thead><tbody><tr><td>WETH</td><td>0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2</td></tr><tr><td>Lido stETH</td><td>0xae7ab96520de3a18e5e111b5eaab095312d7fe84</td></tr><tr><td>Rocketpool rETH</td><td>0xae78736cd615f374d3085123a210448e74fc6393</td></tr><tr><td>FRAX frxETH</td><td>0x5e8422345238f34275888049021821e8e08caa1f</td></tr></tbody></table>
 
-**Oracles**
+### **Oracles**
 
 <figure><img src="../../.gitbook/assets/oethOracles.png" alt=""><figcaption><p>OETH Oracle contracts</p></figcaption></figure>
 
