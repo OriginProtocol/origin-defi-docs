@@ -8,41 +8,46 @@ Some dates are displayed as timestamps or epochs, which can be converted to huma
 
 ### OUSD/OETH Analytics
 
-{% swagger method="get" path="/api/v2/{symbol}/apr/trailing/{days}" baseUrl="https://analytics.ousd.com" summary="Trailing yield" %}
-{% swagger-description %}
+## Trailing yield
+
+<mark style="color:blue;">`GET`</mark> `https://analytics.ousd.com/api/v2/{symbol}/apr/trailing/{days}`
+
 The annualized trailing yield for OUSD or OETH over a given number of days
 
 Numbers greater than 365 may produce unexpected results
-{% endswagger-description %}
 
-{% swagger-parameter in="path" name="symbol" type="String" required="true" %}
-ousd or oeth
-{% endswagger-parameter %}
+#### Path Parameters
 
-{% swagger-parameter in="path" required="false" type="Number" name="days" %}
-Number of days
-{% endswagger-parameter %}
+| Name                                     | Type   | Description    |
+| ---------------------------------------- | ------ | -------------- |
+| days                                     | Number | Number of days |
+| symbol<mark style="color:red;">\*</mark> | String | ousd or oeth   |
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```javascript
 {
   "apr": "8.124428550334684695499731787",
   "apy": "8.43"
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="get" path="/api/v2/{symbol}/apr/history" baseUrl="https://analytics.ousd.com" summary="Yield history" %}
-{% swagger-description %}
+## Yield history
+
+<mark style="color:blue;">`GET`</mark> `https://analytics.ousd.com/api/v2/{symbol}/apr/history`
+
 The recent annualized historical yield for OUSD or OETH
-{% endswagger-description %}
 
-{% swagger-parameter in="path" name="symbol" type="String" required="true" %}
-ousd or oeth
-{% endswagger-parameter %}
+#### Path Parameters
 
-{% swagger-response status="200: OK" description="" %}
+| Name                                     | Type   | Description  |
+| ---------------------------------------- | ------ | ------------ |
+| symbol<mark style="color:red;">\*</mark> | String | ousd or oeth |
+
+{% tabs %}
+{% tab title="200: OK " %}
 ```javascript
 {
   // 30-day apr
@@ -90,19 +95,23 @@ ousd or oeth
   ]
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="get" path="/api/v2/{symbol}/collateral" baseUrl="https://analytics.ousd.com" summary="Collateral" %}
-{% swagger-description %}
+## Collateral
+
+<mark style="color:blue;">`GET`</mark> `https://analytics.ousd.com/api/v2/{symbol}/collateral`
+
 A list of backing assets and their balances held by OUSD or OETH
-{% endswagger-description %}
 
-{% swagger-parameter in="path" name="symbol" type="String" required="true" %}
-ousd or oeth
-{% endswagger-parameter %}
+#### Path Parameters
 
-{% swagger-response status="200: OK" description="" %}
+| Name                                     | Type   | Description  |
+| ---------------------------------------- | ------ | ------------ |
+| symbol<mark style="color:red;">\*</mark> | String | ousd or oeth |
+
+{% tabs %}
+{% tab title="200: OK " %}
 ```javascript
 {
   "collateral": [
@@ -125,23 +134,29 @@ ousd or oeth
   ]
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="get" path="/api/v2/{symbol}/strategies{?structured}" baseUrl="https://analytics.ousd.com" summary="Strategies" %}
-{% swagger-description %}
+## Strategies
+
+<mark style="color:blue;">`GET`</mark> `https://analytics.ousd.com/api/v2/{symbol}/strategies{?structured}`
+
 A list of OUSD's or OETH's yield-earning strategies and their token balances
-{% endswagger-description %}
 
-{% swagger-parameter in="query" name="structured" required="false" %}
+#### Path Parameters
 
-{% endswagger-parameter %}
+| Name                                     | Type   | Description  |
+| ---------------------------------------- | ------ | ------------ |
+| symbol<mark style="color:red;">\*</mark> | String | ousd or oeth |
 
-{% swagger-parameter in="path" name="symbol" type="String" required="true" %}
-ousd or oeth
-{% endswagger-parameter %}
+#### Query Parameters
 
-{% swagger-response status="200: OK" description="unstructured" %}
+| Name       | Type   | Description |
+| ---------- | ------ | ----------- |
+| structured | String |             |
+
+{% tabs %}
+{% tab title="200: OK unstructured" %}
 ```javascript
 {
   "strategies": [
@@ -202,9 +217,9 @@ ousd or oeth
   ]
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="200: OK" description="structured" %}
+{% tab title="200: OK structured" %}
 ```javascript
 {
   "strategies": {
@@ -282,88 +297,102 @@ ousd or oeth
   }
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 ### Origin Protocol
 
-{% swagger method="get" path="/circulating-ogn" baseUrl="https://api.originprotocol.com" summary="OGN circulating supply" %}
-{% swagger-description %}
-The number of Origin Tokens (OGN) in circulation
-{% endswagger-description %}
+## OGN circulating supply
 
-{% swagger-response status="200: OK" description="" %}
+<mark style="color:blue;">`GET`</mark> `https://api.originprotocol.com/circulating-ogn`
+
+The number of Origin Tokens (OGN) in circulation
+
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 503712464
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="get" path="/circulating-ogv" baseUrl="https://api.originprotocol.com" summary="OGV circulating supply" %}
-{% swagger-description %}
+## OGV circulating supply
+
+<mark style="color:blue;">`GET`</mark> `https://api.originprotocol.com/circulating-ogv`
+
 The number of Origin Dollar Governance (OGV) tokens in circulation
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 420803708
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="get" path="/total-ogn" baseUrl="https://api.originprotocol.com" summary="OGN total supply" %}
-{% swagger-description %}
+## OGN total supply
+
+<mark style="color:blue;">`GET`</mark> `https://api.originprotocol.com/total-ogn`
+
 The total number of Origin Tokens (OGN) in existence
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="OK" %}
+{% tabs %}
+{% tab title="200: OK OK" %}
 ```
 1000000000
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="get" path="/total-ogv" baseUrl="https://api.originprotocol.com" summary="OGV total supply" %}
-{% swagger-description %}
+## OGV total supply
+
+<mark style="color:blue;">`GET`</mark> `https://api.originprotocol.com/total-ogv`
+
 The total number of Origin Dollar Governance (OGV) tokens in existence
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="OK" %}
+{% tabs %}
+{% tab title="200: OK OK" %}
 ```
 3975600118
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="get" path="/total-ousd" baseUrl="https://api.originprotocol.com" summary="OUSD total supply" %}
-{% swagger-description %}
+## OUSD total supply
+
+<mark style="color:blue;">`GET`</mark> `https://api.originprotocol.com/total-ousd`
+
 The total number of Origin Dollar (OUSD) tokens in existence
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 44555185
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="get" path="/total-oeth" baseUrl="https://api.originprotocol.com" summary="OETH total supply" %}
-{% swagger-description %}
+## OETH total supply
+
+<mark style="color:blue;">`GET`</mark> `https://api.originprotocol.com/total-oeth`
+
 The total number of Origin Ether (OETH) tokens in existence
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="get" path="" baseUrl="https://api.originprotocol.com/api/v2/protocol-fees" summary="OGV protocol revenue " %}
-{% swagger-description %}
+## OGV protocol revenue&#x20;
+
+<mark style="color:blue;">`GET`</mark> `https://api.originprotocol.com/api/v2/protocol-fees`
+
 Protocol revenue derived from OETH and OUSD performance fees
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
