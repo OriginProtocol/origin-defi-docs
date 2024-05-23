@@ -38,6 +38,16 @@ The AURA/ETH price comes from Origin's `AuraWETHPriceFeed` contract that uses th
 
 <table><thead><tr><th width="220">Contract</th><th>Address</th></tr></thead><tbody><tr><td>AuraWETHPriceFeed</td><td>0x94e16bC08d7CCd7f2999Eb5eA3f35DD1EDCBd15B</td></tr><tr><td><p>Balancer</p><p>80 Aura 20 WETH Pool</p></td><td>0xc29562b045D80fD77c69Bec09541F5c16fe20d9d</td></tr></tbody></table>
 
-**Deprecated**
+
+
+### Automated Redemption Manager (ARM)
+
+Read the latest ARM announcement [here](https://www.originprotocol.com/arm-announcement).
+
+<table><thead><tr><th width="220">Contract</th><th>Address</th></tr></thead><tbody><tr><td><a href="https://app.1inch.io/#/1/advanced/swap/stETH/ETH">stETH/ETH</a></td><td>0x85B78AcA6Deae198fBF201c82DAF6Ca21942acc6</td></tr></tbody></table>
+
+
+
+### **Deprecated**
 
 <table><thead><tr><th width="305">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Original governor / timelock</td><td>0x72426BA137DEC62657306b12B1E869d43FeC6eC7</td></tr><tr><td>OETH Frax Staking Strategy</td><td>0x3fF8654D633D4Ea0faE24c52Aec73B4A20D0d0e5</td></tr><tr><td>OETH Frax Redemption Strategy</td><td>0x95A8e45afCfBfEDd4A1d41836ED1897f3Ef40A9e</td></tr></tbody></table>
