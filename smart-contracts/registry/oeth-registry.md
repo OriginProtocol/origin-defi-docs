@@ -2,7 +2,7 @@
 
 Most of Origin's contracts are upgradable via a well-known proxy wrapper and an implementation contract. The Vault is split into VaultAdmin and VaultCore to work around the maximum contract size limit on Ethereum.
 
-<figure><img src="../../.gitbook/assets/oethContracts (1).png" alt=""><figcaption><p>OETH Contract Dependencies</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/oethContracts (5).png" alt=""><figcaption><p>OETH Contract Dependencies</p></figcaption></figure>
 
 ### **Core (Mainnet)**
 
@@ -14,11 +14,11 @@ Most of Origin's contracts are upgradable via a well-known proxy wrapper and an 
 
 ### **Strategies**
 
-<table><thead><tr><th width="305">Contract</th><th>Address</th></tr></thead><tbody><tr><td>OETH Convex ETH+OETH (AMO)</td><td>0x1827F9eA98E0bf96550b2FC20F7233277FcD7E63</td></tr><tr><td>OETH Morpho Aave V2</td><td>0xc1fc9E5eC3058921eA5025D703CBE31764756319</td></tr><tr><td>OETH Aura rETH/WETH </td><td>0x49109629aC1deB03F2e9b2fe2aC4a623E0e7dfDC</td></tr></tbody></table>
+<table><thead><tr><th width="305">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Native Staking SSV Strategy</td><td>0x34edb2ee25751ee67f68a45813b22811687c0238</td></tr><tr><td>OETH Convex ETH+OETH (AMO)</td><td>0x1827F9eA98E0bf96550b2FC20F7233277FcD7E63</td></tr><tr><td>OETH Morpho Aave V2</td><td>0xc1fc9E5eC3058921eA5025D703CBE31764756319</td></tr><tr><td>OETH Aura rETH/WETH </td><td>0x49109629aC1deB03F2e9b2fe2aC4a623E0e7dfDC</td></tr></tbody></table>
 
 ### **Yield Harvesting & Rewards Distribution**
 
-<table><thead><tr><th width="204">Contract</th><th>Address</th></tr></thead><tbody><tr><td>OETH Harvester</td><td>0x0D017aFA83EAce9F10A8EC5B6E13941664A6785C</td></tr><tr><td>OETH Dripper</td><td>0xc0F42F73b8f01849a2DD99753524d4ba14317EB3</td></tr><tr><td>OETH Buyback</td><td>0xfd6c58850cacf9ccf6e8aee479bfb4df14a362d2</td></tr></tbody></table>
+<table><thead><tr><th width="204">Contract</th><th>Address</th></tr></thead><tbody><tr><td>OETH Harvester</td><td>0x0D017aFA83EAce9F10A8EC5B6E13941664A6785C</td></tr><tr><td>OETH Dripper</td><td>0xc0F42F73b8f01849a2DD99753524d4ba14317EB3</td></tr><tr><td>OETH Buyback</td><td>0xfd6c58850cacf9ccf6e8aee479bfb4df14a362d2</td></tr><tr><td>Native Staking Fee Accumulator</td><td>0x7eD4ccb74A1eE903Af5fBd9be00CA8616F23D627</td></tr></tbody></table>
 
 ### **Assets**
 
