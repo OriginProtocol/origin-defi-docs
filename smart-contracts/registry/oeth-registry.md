@@ -14,7 +14,7 @@ Most of Origin's contracts are upgradable via a well-known proxy wrapper and an 
 
 ### **Strategies**
 
-<table><thead><tr><th width="305">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Native Staking SSV Strategy</td><td>0x34edb2ee25751ee67f68a45813b22811687c0238</td></tr><tr><td>OETH Convex ETH+OETH (AMO)</td><td>0x1827F9eA98E0bf96550b2FC20F7233277FcD7E63</td></tr><tr><td>OETH Morpho Aave V2</td><td>0xc1fc9E5eC3058921eA5025D703CBE31764756319</td></tr></tbody></table>
+<table><thead><tr><th width="305">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Native Staking SSV Strategy</td><td>0x34edb2ee25751ee67f68a45813b22811687c0238</td></tr><tr><td>OETH Convex ETH+OETH (AMO)</td><td>0x1827F9eA98E0bf96550b2FC20F7233277FcD7E63</td></tr><tr><td>OETH Morpho Aave V2</td><td>0xc1fc9E5eC3058921eA5025D703CBE31764756319</td></tr><tr><td>Lido Withdrawal Strategy</td><td>0xD9B488280d723338Dd32d56b3900f379Eb7A7aF1</td></tr></tbody></table>
 
 ### **Yield Harvesting & Rewards Distribution**
 
