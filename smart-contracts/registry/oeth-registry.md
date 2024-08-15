@@ -1,16 +1,20 @@
 # OETH Registry
 
-Most of Origin's contracts are upgradable via a well-known proxy wrapper and an implementation contract. The Vault is split into VaultAdmin and VaultCore to work around the maximum contract size limit on Ethereum.
+0xDBFeFD2e8460a6Ee4955A68582F85708BAEA60A30xDBFeFD2e8460a6Ee4955A68582F85708BAEA60A3of Origin's contracts are upgradable via a well-known proxy wrapper and an implementation contract. The Vault is split into VaultAdmin and VaultCore to work around the maximum contract size limit on Ethereum.
 
 <figure><img src="../../.gitbook/assets/oethContracts (5).png" alt=""><figcaption><p>OETH Contract Dependencies</p></figcaption></figure>
 
-### **Core (Mainnet)**
+### **Core (Ethereum)**
 
 <table><thead><tr><th width="305">Contract</th><th width="633">Address</th></tr></thead><tbody><tr><td>OETH Token</td><td>0x856c4Efb76C1D1AE02e20CEB03A2A6a08b0b8dC3</td></tr><tr><td>OETH Implementation</td><td>0x7c1F8b1824f2758060CfC9Dd964C590710367A1E</td></tr><tr><td>wOETH Token</td><td>0xDcEe70654261AF21C44c093C300eD3Bb97b78192</td></tr><tr><td>wOETH Implementation</td><td>0x9C5a92AaA2A4373D6bd20F7b45cdEb7A13f9AA79</td></tr><tr><td>OETH Vault</td><td> 0x39254033945AA2E4809Cc2977E7087BEE48bd7Ab</td></tr><tr><td>OETH VaultAdmin Implementation</td><td>0x0Bb9C9496e2294A89efF3c8A25ba9730BdED4B8C</td></tr><tr><td>OETH VaultCore Implementation</td><td>0x8f371d8e65F35914CDb8Dd58B997411871dABb37</td></tr><tr><td>OETH Zapper</td><td>0x9858e47BCbBe6fBAC040519B02d7cd4B2C470C66</td></tr></tbody></table>
 
-### Bridged (Arbitrum)
+### Bridged (L2)
 
-<table><thead><tr><th width="307">Contract</th><th>Address</th></tr></thead><tbody><tr><td>wOETH Token</td><td>0xd8724322f44e5c58d7a815f542036fb17dbbf839</td></tr><tr><td>wOETH / OETH Exchange Rate</td><td>0x03a1f4b19aaeA6e68f0f104dc4346dA3E942cC45</td></tr></tbody></table>
+<table><thead><tr><th width="301">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Arbitrum: wOETH Token</td><td>0xd8724322f44e5c58d7a815f542036fb17dbbf839</td></tr><tr><td>Arbitrum: wOETH / OETH Exchange Rate</td><td>0x03a1f4b19aaeA6e68f0f104dc4346dA3E942cC45</td></tr><tr><td>Base: wOETH / OETH Exchange Rate</td><td>0xe96EB1EDa83d18cbac224233319FA5071464e1b9</td></tr><tr><td>Optimism: wOETH / OETH Exchange Rate</td><td>0x70843CE8E54d2b87Ee02B1911c06EA5632cd07d3</td></tr></tbody></table>
+
+### Super (L2)
+
+<table><thead><tr><th width="302">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Base: Super OETH</td><td>0xDBFeFD2e8460a6Ee4955A68582F85708BAEA60A3</td></tr><tr><td>Base: Wrapped Super OETH</td><td>0x7FcD174E80f264448ebeE8c88a7C4476AAF58Ea6</td></tr></tbody></table>
 
 ### **Strategies**
 
