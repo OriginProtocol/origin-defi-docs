@@ -6,7 +6,7 @@
 
 ### **Core (Ethereum)**
 
-<table><thead><tr><th width="305">Contract</th><th width="633">Address</th></tr></thead><tbody><tr><td>OETH Token</td><td>0x856c4Efb76C1D1AE02e20CEB03A2A6a08b0b8dC3</td></tr><tr><td>OETH Implementation</td><td>0x7c1F8b1824f2758060CfC9Dd964C590710367A1E</td></tr><tr><td>wOETH Token</td><td>0xDcEe70654261AF21C44c093C300eD3Bb97b78192</td></tr><tr><td>wOETH Implementation</td><td>0x9C5a92AaA2A4373D6bd20F7b45cdEb7A13f9AA79</td></tr><tr><td>OETH Vault</td><td> 0x39254033945AA2E4809Cc2977E7087BEE48bd7Ab</td></tr><tr><td>OETH VaultAdmin Implementation</td><td>0x0Bb9C9496e2294A89efF3c8A25ba9730BdED4B8C</td></tr><tr><td>OETH VaultCore Implementation</td><td>0x8f371d8e65F35914CDb8Dd58B997411871dABb37</td></tr><tr><td>OETH Zapper</td><td>0x9858e47BCbBe6fBAC040519B02d7cd4B2C470C66</td></tr></tbody></table>
+<table><thead><tr><th width="305">Contract</th><th width="633">Address</th></tr></thead><tbody><tr><td>OETH Token</td><td>0x856c4Efb76C1D1AE02e20CEB03A2A6a08b0b8dC3</td></tr><tr><td>OETH Implementation</td><td>0x7c1F8b1824f2758060CfC9Dd964C590710367A1E</td></tr><tr><td>wOETH Token</td><td>0xDcEe70654261AF21C44c093C300eD3Bb97b78192</td></tr><tr><td>wOETH Implementation</td><td>0x9C5a92AaA2A4373D6bd20F7b45cdEb7A13f9AA79</td></tr><tr><td>OETH Vault</td><td> 0x39254033945AA2E4809Cc2977E7087BEE48bd7Ab</td></tr><tr><td>OETH VaultAdmin Implementation</td><td>0x0Bb9C9496e2294A89efF3c8A25ba9730BdED4B8C</td></tr><tr><td>OETH VaultCore Implementation</td><td>0x8f371d8e65F35914CDb8Dd58B997411871dABb37</td></tr><tr><td>OETH Zapper</td><td>0x9858e47BCbBe6fBAC040519B02d7cd4B2C470C66</td></tr><tr><td>OETH Vault Lens</td><td>0xad2b1657E2c3243750B32Cb9A51169575945b05B</td></tr></tbody></table>
 
 ### Bridged (L2)
 
